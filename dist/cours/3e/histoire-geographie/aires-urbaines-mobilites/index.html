@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Aires urbaines : espaces et mobilités · Histoire-géographie 3e · Les petits déclics</title><meta name="description" content="Distinguer centre, banlieue et couronne périurbaine, puis expliquer les liens entre ces espaces."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Aires urbaines : espaces et mobilités · Histoire-géographie 3e · Les petits déclics"><meta property="og:description" content="Distinguer centre, banlieue et couronne périurbaine, puis expliquer les liens entre ces espaces."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/3e/histoire-geographie">← Histoire-géographie · 3e</a><div class="lesson-heading"><span class="category-label">3e · HISTOIRE-GÉOGRAPHIE · GÉOGRAPHIE · TERRITOIRES FRANÇAIS</span><h1 tabindex="-1">Habiter autour des villes,<br><span>comprendre les déplacements.</span></h1><p>Objectifs : Lire un schéma d’aire urbaine, définir la périurbanisation et justifier une réponse à partir d’un document sur les mobilités quotidiennes.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><p><b>Géographie · 3e</b> — Thème : dynamiques territoriales de la France contemporaine. Cette introduction travaille les espaces sous influence urbaine et leurs liens quotidiens.</p>
+ <h2>1. La ville influence un espace plus large</h2>
+ <p>Pour comprendre une aire urbaine, on étudie les lieux où les habitants <b>résident, travaillent, étudient et utilisent des services</b>, ainsi que les déplacements qui les relient.</p>
+ <p>Le modèle scolaire distingue une <b>ville-centre</b>, les communes de <b>banlieue</b> en continuité du bâti avec elle, et une <b>couronne périurbaine</b>. Celle-ci comporte des espaces bâtis discontinus, des bourgs et des espaces agricoles ou naturels, en relation avec le pôle urbain. La ville-centre et sa banlieue forment le pôle urbain dans ce modèle simplifié.</p>
+ <figure class="urban-figure"><svg viewBox="0 0 340 300" role="img" aria-labelledby="urban-title urban-desc" xmlns="http://www.w3.org/2000/svg"><title id="urban-title">Modèle simplifié d’une aire urbaine</title><desc id="urban-desc">La ville-centre au milieu est entourée de la banlieue, puis de la couronne périurbaine. Une double flèche représente les déplacements quotidiens entre la couronne et le centre.</desc><ellipse cx="170" cy="150" rx="160" ry="140" fill="#edf1e1" stroke="#778664" stroke-dasharray="5 5"/><ellipse cx="170" cy="150" rx="114" ry="90" fill="#d2e3dd" stroke="#577d70"/><ellipse cx="170" cy="150" rx="65" ry="39" fill="#315e60"/><g font-family="sans-serif" font-size="16" text-anchor="middle"><text x="170" y="44" fill="#314635">Couronne périurbaine</text><text x="170" y="91" fill="#223b3c">Banlieue</text><text x="170" y="146" fill="white">Ville-centre</text><text x="170" y="168" fill="white" font-size="13">emplois, services</text><text x="170" y="274" fill="#314635">Mobilités quotidiennes</text></g><path d="M170 195 V246 M164 202 L170 195 L176 202 M164 239 L170 246 L176 239" stroke="#ac633f" stroke-width="3" fill="none"/></svg><figcaption>Schéma de principe, sans échelle. Les formes réelles sont irrégulières ; emplois et services existent aussi hors du centre.</figcaption></figure>
+ <aside class="lesson-callout">Une banlieue n’est pas forcément composée de grands immeubles : elle peut aussi avoir des maisons, des commerces et des entreprises. Le paysage et les liens avec la ville comptent davantage qu’un stéréotype.</aside>
+ <h2>2. Comprendre la périurbanisation</h2>
+ <p>La <b>périurbanisation</b> correspond au développement de l’habitat et des activités dans les espaces proches des villes, au-delà de l’agglomération bâtie en continu. Des ménages peuvent y rechercher un logement plus grand ou un cadre de vie différent, tout en gardant un emploi dans le pôle urbain.</p>
+ <p>Ce développement peut consommer des terres agricoles ou naturelles et allonger certains trajets. Les situations varient selon les logements, les emplois et les transports disponibles.</p>
+ <h2>3. Relier les espaces par les mobilités</h2>
+ <p>Les <b>mobilités quotidiennes</b> sont les déplacements réguliers pour travailler, étudier, faire des achats ou pratiquer des loisirs. Les allers-retours réguliers entre domicile et travail sont des <b>mobilités pendulaires</b>.</p>
+ <p>Les flux ne vont pas tous vers le centre : un habitant peut travailler dans une zone d’activités de banlieue ou se déplacer d’une commune périphérique à une autre. La dépendance à la voiture peut être plus forte là où les transports collectifs sont peu accessibles.</p>
+ <h2>4. Analyser un document : le cas fictif de Clairville</h2>
+ <p>Document pédagogique original, <b>entièrement fictif</b>. Il décrit le trajet habituel de trois personnes ; ces trois exemples ne sont pas une enquête représentative de la France.</p>
+ <div class="course-table-wrap"><table class="course-table"><caption>Trois trajets domicile-travail dans l’aire urbaine fictive de Clairville</caption><thead><tr><th scope="col">Personne et domicile</th><th scope="col">Lieu de travail</th><th scope="col">Transport</th></tr></thead><tbody><tr><th scope="row">Lina · ville-centre</th><td>Ville-centre</td><td>Marche</td></tr><tr><th scope="row">Sami · banlieue</th><td>Ville-centre</td><td>Tramway</td></tr><tr><th scope="row">Zoé · couronne périurbaine</th><td>Banlieue</td><td>Voiture</td></tr></tbody></table></div>
+ <p><b>Exemple de réponse justifiée :</b> « Zoé effectue une mobilité pendulaire : elle se déplace régulièrement entre son domicile périurbain et son travail en banlieue. Son trajet montre qu’un déplacement ne mène pas nécessairement à la ville-centre. »</p>
+ <h2>5. Expliquer un enjeu avec nuance</h2>
+ <p>Une collectivité peut développer une ligne de bus ou un itinéraire cyclable pour faciliter les déplacements. L’efficacité dépend notamment du tracé, des horaires, de la fréquence et des besoins des habitants. Un bus qui ne dessert pas le lieu de travail ne constitue pas automatiquement une solution pour ce trajet.</p>
+ <aside class="lesson-callout"><b>Pour justifier :</b> nomme la notion → cite un fait du document → explique le lien. Distingue ce que le document montre et ce qu’il ne permet pas de conclure.</aside>
+ <details class="lesson-sources"><summary>Références du programme</summary><p>Géographie, 3e, thème 1 : aires urbaines et dynamiques territoriales. Cette fiche pose le vocabulaire et entraîne à la lecture de document. Une étude de cas réelle, les repères nationaux et la mondialisation restent à approfondir.</p><p><a href="https://www.education.gouv.fr/les-programmes-du-college-470408" target="_blank" rel="noopener">Ministère : programme de géographie de 3e</a> · <a href="https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4" target="_blank" rel="noopener">Programmes applicables en 2026-2027</a> · <a href="https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4" target="_blank" rel="noopener">Ressources Éduscol</a></p><small>Programme de 2020 en vigueur en 3e. Références vérifiées le 2 novembre 2026. Schéma, document et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Quel élément caractérise la banlieue dans le modèle présenté ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="" >Des communes dont le bâti est en continuité avec la ville-centre.</button><button disabled data-question="0" data-choice="1" class="" >Uniquement des immeubles de grande hauteur.</button><button disabled data-question="0" data-choice="2" class="" >Un territoire sans emplois ni commerces.</button></div></article><article class="lesson-question"><h3>2. Quel exemple illustre la périurbanisation ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="" >La fermeture d’une école dans une ville-centre.</button><button disabled data-question="1" data-choice="1" class="" >La construction de nouveaux logements dans des communes proches d’une ville, au-delà du bâti continu.</button><button disabled data-question="1" data-choice="2" class="" >Un voyage touristique entre deux pays.</button></div></article><article class="lesson-question"><h3>3. D’après le tableau de Clairville, quel trajet Zoé effectue-t-elle pour travailler ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="" >De la ville-centre à la banlieue, à pied.</button><button disabled data-question="2" data-choice="1" class="" >De la couronne périurbaine à la ville-centre, en tramway.</button><button disabled data-question="2" data-choice="2" class="" >De la couronne périurbaine à la banlieue, en voiture.</button></div></article><article class="lesson-question"><h3>4. Pourquoi le trajet habituel domicile-travail de Sami est-il une mobilité pendulaire ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="" >Parce qu’il se répète entre son domicile et son lieu de travail.</button><button disabled data-question="3" data-choice="1" class="" >Parce qu’il change définitivement de domicile.</button><button disabled data-question="3" data-choice="2" class="" >Parce qu’il part en vacances.</button></div></article><article class="lesson-question"><h3>5. Une nouvelle ligne de bus dessert le domicile de Zoé, mais pas sa zone de travail. Quelle conclusion est justifiée ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="" >Zoé peut forcément abandonner sa voiture immédiatement.</button><button disabled data-question="4" data-choice="1" class="" >Cette ligne seule ne garantit pas une solution adaptée à son trajet.</button><button disabled data-question="4" data-choice="2" class="" >Les bus sont toujours inutiles en périphérie.</button></div></article><article class="lesson-question"><h3>6. Peut-on déduire des trois trajets fictifs que tous les habitants périurbains de France utilisent une voiture ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="" >Oui, car Zoé utilise une voiture.</button><button disabled data-question="5" data-choice="1" class="" >Oui, car le tableau contient trois personnes.</button><button disabled data-question="5" data-choice="2" class="" >Non, ces exemples fictifs ne représentent pas toute la population.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : Des communes dont le bâti est en continuité avec la ville-centre.</p><p>La banlieue appartient à l’agglomération bâtie en continu autour de la ville-centre. Elle peut comporter des maisons, des immeubles, des commerces et des emplois : sa définition ne repose pas sur un seul type de paysage.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : La construction de nouveaux logements dans des communes proches d’une ville, au-delà du bâti continu.</p><p>La périurbanisation transforme les espaces proches des villes par le développement de l’habitat et d’activités. Elle étend l’influence urbaine au-delà de l’agglomération bâtie en continu. Un voyage international relève d’une autre forme de mobilité.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : De la couronne périurbaine à la banlieue, en voiture.</p><p>La ligne de Zoé indique un domicile dans la couronne périurbaine, un travail en banlieue et un trajet en voiture. Il faut lire les trois colonnes de la même ligne. Son trajet ne passe pas nécessairement par le centre.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : Parce qu’il se répète entre son domicile et son lieu de travail.</p><p>Une mobilité pendulaire est un déplacement régulier entre le domicile et le travail, avec un retour. Le trajet de Sami en tramway correspond à cette définition. Un déménagement serait un changement de résidence.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : Cette ligne seule ne garantit pas une solution adaptée à son trajet.</p><p>Il faut relier les lieux utiles et tenir compte des horaires et des correspondances possibles. Une desserte près du domicile est un élément favorable, mais elle ne suffit pas à prouver que tout le trajet est réalisable. Le document ne justifie pas une conclusion générale contre les bus.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : Non, ces exemples fictifs ne représentent pas toute la population.</p><p>Le tableau sert à comprendre des relations spatiales, pas à mesurer les pratiques en France. Le seul cas de Zoé ne permet pas de généraliser. Il faudrait des données réelles, un échantillon pertinent et des informations sur les transports disponibles.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>

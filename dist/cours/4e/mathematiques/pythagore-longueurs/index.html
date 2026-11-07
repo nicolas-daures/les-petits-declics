@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Pythagore : calculer une longueur · Mathématiques 4e · Les petits déclics</title><meta name="description" content="Identifier l’hypoténuse, écrire la bonne égalité et calculer un côté d’un triangle rectangle."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Pythagore : calculer une longueur · Mathématiques 4e · Les petits déclics"><meta property="og:description" content="Identifier l’hypoténuse, écrire la bonne égalité et calculer un côté d’un triangle rectangle."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/4e/mathematiques">← Mathématiques · 4e</a><div class="lesson-heading"><span class="category-label">4e · MATHÉMATIQUES · ESPACE ET GÉOMÉTRIE</span><h1 tabindex="-1">Un angle droit,<br><span>une longueur à trouver.</span></h1><p>Objectifs : Utiliser le théorème de Pythagore pour calculer l’hypoténuse ou un côté de l’angle droit, puis vérifier le résultat.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><p><b>Mathématiques · 4e</b> — Prérequis : calculer un carré et comprendre une racine carrée. Une calculatrice peut aider pour le dernier exemple.</p>
+ <h2>1. Partir d’un angle droit connu</h2>
+ <p>Le théorème de Pythagore s’applique à un <b>triangle rectangle</b>. Le côté opposé à l’angle droit est l’<b>hypoténuse</b> : c’est le plus long des trois côtés.</p>
+ <figure class="pythagore-figure"><svg viewBox="0 0 340 245" role="img" aria-labelledby="pythagore-title pythagore-desc" xmlns="http://www.w3.org/2000/svg"><title id="pythagore-title">Triangle ABC rectangle en A</title><desc id="pythagore-desc">AB mesure 3 centimètres, AC mesure 4 centimètres. BC, opposé à l’angle droit A, est l’hypoténuse à calculer.</desc><path d="M70 40 V190 H270 Z" fill="#e8efea" stroke="#315e60" stroke-width="3"/><path d="M70 170 H90 V190" fill="none" stroke="#315e60" stroke-width="2"/><path d="M70 40 L270 190" stroke="#ac633f" stroke-width="4"/><g fill="#223b3c" font-family="sans-serif" font-size="18"><text x="48" y="214">A</text><text x="50" y="30">B</text><text x="279" y="204">C</text><text x="8" y="121">3 cm</text><text x="142" y="221">4 cm</text><text x="177" y="90">BC = ?</text></g></svg><figcaption>ABC est rectangle en A. Le petit carré code l’angle droit. BC est l’hypoténuse.</figcaption></figure>
+ <aside class="lesson-callout">L’énoncé ou un codage doit donner l’angle droit. L’apparence du dessin ne suffit pas à le prouver. Cette fiche utilise un angle droit déjà connu ; prouver qu’un triangle est rectangle relève de la réciproque, à étudier séparément.</aside>
+ <h2>2. Écrire l’égalité avant les nombres</h2>
+ <p>Dans un triangle rectangle, <b>le carré de l’hypoténuse est égal à la somme des carrés des deux autres côtés</b>. Pour ABC rectangle en A :</p>
+ <div class="lesson-formula">BC² = AB² + AC²</div>
+ <p>Le symbole ² signifie « au carré » : <b>3² = 3 × 3 = 9</b>. Il ne signifie pas « multiplier par 2 ». Attention : le théorème porte sur les carrés des longueurs ; on n’écrit pas BC = AB + AC.</p>
+ <h2>3. Calculer l’hypoténuse</h2>
+ <p>Dans le triangle dessiné, AB = 3 cm et AC = 4 cm. Puisque ABC est rectangle en A, on peut écrire :</p>
+ <div class="lesson-formula">BC² = 3² + 4² = 9 + 16 = 25<br>BC = √25 = 5 cm</div>
+ <p>La <b>racine carrée</b> de 25, notée √25, est le nombre positif dont le carré vaut 25. Ici, 5 × 5 = 25. BC est une longueur : elle est positive. Vérifie : 5 cm dépasse bien 3 cm et 4 cm.</p>
+ <h2>4. Calculer un côté de l’angle droit</h2>
+ <p>DEF est rectangle en D. Son hypoténuse EF mesure 13 cm et DE mesure 5 cm. On cherche DF. L’égalité commence toujours par le carré de l’hypoténuse :</p>
+ <div class="lesson-formula">EF² = DE² + DF²<br>13² = 5² + DF²<br>DF² = 169 − 25 = 144<br>DF = √144 = 12 cm</div>
+ <p>Pour trouver un côté de l’angle droit, on <b>soustrait</b> les carrés. Le résultat 12 cm est bien inférieur à l’hypoténuse de 13 cm. Toutes les longueurs doivent être exprimées dans la même unité avant le calcul.</p>
+ <h2>5. Résoudre un problème et arrondir</h2>
+ <p>Un jardin rectangulaire mesure 2 m sur 3 m. Sa diagonale forme un triangle rectangle avec deux côtés du jardin. Si d est la longueur de la diagonale :</p>
+ <div class="lesson-formula">d² = 2² + 3² = 13<br>d = √13 m ≈ 3,61 m</div>
+ <p><b>√13 m</b> est la valeur exacte. <b>3,61 m</b> est une valeur approchée au centième de mètre : on utilise le signe ≈. On garde la racine carrée jusqu’à la dernière étape pour éviter les arrondis successifs.</p>
+ <aside class="lesson-callout"><b>Ta méthode :</b> repérer l’angle droit → nommer l’hypoténuse → écrire l’égalité → remplacer par les longueurs dans une même unité → calculer le carré, puis sa racine → conclure avec l’unité et vérifier l’ordre de grandeur.</aside>
+ <details class="lesson-sources"><summary>Références du programme</summary><p>Mathématiques, 4e : calcul de longueurs dans un triangle rectangle et usage des racines carrées. Cette fiche introduit le théorème direct ; elle ne couvre pas sa démonstration, la réciproque ni tout le chapitre.</p><p><a href="https://eduscol.education.gouv.fr/6910/reperes-annuels-de-progression-et-attendus-de-fin-d-annee-du-cp-la-troisieme" target="_blank" rel="noopener">Éduscol : attendus applicables en 4e</a> · <a href="https://eduscol.education.gouv.fr/sites/default/files/document/16-maths-4e-attendus-eduscol1114746pdf-74682.pdf" target="_blank" rel="noopener">Attendus de mathématiques en 4e (PDF)</a> · <a href="https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A" target="_blank" rel="noopener">BO : calendrier des nouveaux programmes</a></p><small>Références vérifiées le 1er novembre 2026. En 4e, programme de 2020 encore applicable en 2026-2027 ; nouveau programme à la rentrée 2027. Exemples et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. ABC est rectangle en A. Quel côté est l’hypoténuse ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="" >AB</button><button disabled data-question="0" data-choice="1" class="" >BC</button><button disabled data-question="0" data-choice="2" class="" >AC</button></div></article><article class="lesson-question"><h3>2. MNP est rectangle en N. Quelle égalité traduit le théorème de Pythagore ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="" >MP² = MN² + NP²</button><button disabled data-question="1" data-choice="1" class="" >MN² = MP² + NP²</button><button disabled data-question="1" data-choice="2" class="" >MP = MN + NP</button></div></article><article class="lesson-question"><h3>3. RST est rectangle en R. RS = 6 cm et RT = 8 cm. Quelle est la longueur ST ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="" >14 cm</button><button disabled data-question="2" data-choice="1" class="" >100 cm</button><button disabled data-question="2" data-choice="2" class="" >10 cm</button></div></article><article class="lesson-question"><h3>4. UVW est rectangle en U. VW = 10 cm et UV = 6 cm. Quelle est la longueur UW ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="" >8 cm</button><button disabled data-question="3" data-choice="1" class="" >4 cm</button><button disabled data-question="3" data-choice="2" class="" >√136 cm</button></div></article><article class="lesson-question"><h3>5. Un rectangle mesure 5 m sur 12 m. Quelle est la longueur de sa diagonale ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="" >17 m</button><button disabled data-question="4" data-choice="1" class="" >13 m</button><button disabled data-question="4" data-choice="2" class="" >√119 m</button></div></article><article class="lesson-question"><h3>6. Un triangle paraît rectangle sur un dessin sans codage. L’énoncé ne précise aucun angle. Peut-on appliquer directement Pythagore pour calculer un côté ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="" >Oui, si le dessin est assez grand.</button><button disabled data-question="5" data-choice="1" class="" >Oui, dans tous les triangles.</button><button disabled data-question="5" data-choice="2" class="" >Non, il faut d’abord savoir que le triangle est rectangle.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : BC</p><p>L’hypoténuse est opposée à l’angle droit A : c’est BC, le côté qui ne passe pas par A. AB et AC sont les deux côtés de l’angle droit.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : MP² = MN² + NP²</p><p>L’angle droit est en N, donc MP est l’hypoténuse. Son carré est égal à la somme des carrés de MN et NP. On additionne les carrés, pas directement les longueurs.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : 10 cm</p><p>ST est l’hypoténuse : ST² = RS² + RT² = 36 + 64 = 100. On prend ensuite la racine carrée : ST = √100 = 10 cm. 100 est le carré obtenu, pas la longueur demandée.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : 8 cm</p><p>VW est l’hypoténuse. VW² = UV² + UW², donc UW² = 100 − 36 = 64. Ainsi UW = 8 cm. Soustraire directement 10 − 6 ne respecte pas l’égalité des carrés.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : 13 m</p><p>Deux côtés consécutifs et la diagonale forment un triangle rectangle. La diagonale est l’hypoténuse : d² = 5² + 12² = 25 + 144 = 169. Donc d = √169 = 13 m.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : Non, il faut d’abord savoir que le triangle est rectangle.</p><p>Le théorème direct suppose un triangle rectangle. Un dessin sans codage ne prouve pas l’existence d’un angle droit. Il faut une donnée de l’énoncé ou une justification avant d’utiliser cette égalité pour calculer une longueur.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "les-petits-declics",
+  "version": "1.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:public": "node scripts/build.mjs --public",
+    "check:release": "node scripts/build.mjs --check-public",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/dev.mjs",
+    "preview": "node scripts/dev.mjs"
+  }
+}

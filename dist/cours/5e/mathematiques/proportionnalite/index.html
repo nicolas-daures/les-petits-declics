@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Proportionnalité : reconnaître et calculer · Mathématiques 5e · Les petits déclics</title><meta name="description" content="Lire un tableau, trouver un coefficient et choisir une méthode pour résoudre un problème concret."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Proportionnalité : reconnaître et calculer · Mathématiques 5e · Les petits déclics"><meta property="og:description" content="Lire un tableau, trouver un coefficient et choisir une méthode pour résoudre un problème concret."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/5e/mathematiques">← Mathématiques · 5e</a><div class="lesson-heading"><span class="category-label">5e · MATHÉMATIQUES · PROPORTIONNALITÉ ET FONCTIONS</span><h1 tabindex="-1">La proportionnalité,<br><span>une même règle de calcul.</span></h1><p>Objectifs : Reconnaître une situation de proportionnalité, utiliser un coefficient et calculer une quantité par retour à l’unité ou par linéarité.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><h2>1. Reconnaître la même règle</h2><p>Deux grandeurs sont proportionnelles quand on passe de l’une à l’autre en multipliant toujours par <b>un même nombre</b>. Ce nombre est le <b>coefficient de proportionnalité</b>.</p><p>Par exemple, des pommes sont vendues à un prix constant de <b>3 € par kilogramme</b>, sans frais fixes ni réduction. Le prix est alors proportionnel à la masse achetée.</p><div class="course-table-wrap"><table class="course-table"><caption>Pommes au prix constant de 3 €/kg</caption><tbody><tr><th scope="row">Masse (kg)</th><td>2</td><td>5</td><td>7</td></tr><tr><th scope="row">Prix (€)</th><td>6</td><td>15</td><td>21</td></tr></tbody></table></div><div class="lesson-formula">Masse en kg × 3 = prix en euros</div><p>Dans ce sens de lecture, le coefficient est <b>3</b>. Il représente le prix d’un kilogramme. Pour passer du prix à la masse, on divise par 3.</p><h2>2. Vérifier un tableau</h2><p>Pour chaque colonne dont la masse est non nulle, on divise le prix par la masse : <b>6 ÷ 2 = 3</b>, <b>15 ÷ 5 = 3</b> et <b>21 ÷ 7 = 3</b>. Les quotients sont identiques : les données du tableau sont proportionnelles.</p><aside class="lesson-callout">Le simple fait que les deux grandeurs augmentent ne suffit pas. Pour 1, 2 et 3 cahiers vendus respectivement 2 €, 4 € et 7 €, les quotients sont 2, 2 et 7/3 : ce tableau n’est pas proportionnel.</aside><h2>3. Revenir à l’unité</h2><p>Une recette pour <b>6 personnes</b> utilise <b>300 g de farine</b>. On garde la même quantité de farine par personne. Pour adapter cette recette à 10 personnes :</p><div class="lesson-formula">Pour 1 personne : 300 ÷ 6 = 50 g<br>Pour 10 personnes : 50 × 10 = 500 g</div><p>Le retour à l’unité consiste à calculer la quantité pour un seul élément, puis à multiplier par le nombre d’éléments souhaité. Pense à préciser l’unité du résultat.</p><h2>4. Utiliser les colonnes déjà connues</h2><p>Dans le tableau des pommes, 7 kg correspondent à <b>2 kg + 5 kg</b>. On peut additionner les prix associés : <b>6 € + 15 € = 21 €</b>. C’est une propriété de linéarité.</p><p>On peut aussi multiplier une colonne entière : si 2 kg coûtent 6 €, alors 4 kg coûtent 12 €. On multiplie <b>les deux valeurs</b> par 2.</p><aside class="lesson-callout">Ces méthodes s’utilisent une fois la proportionnalité établie. Choisis la plus simple selon les nombres : coefficient, retour à l’unité, addition ou multiplication de colonnes.</aside><h2>5. Repérer les frais fixes</h2><p>Un service facture <b>3 € par carnet</b> et ajoute <b>2 € de livraison par commande</b>. Un carnet coûte au total 5 € ; deux carnets coûtent 8 €. Doubler le nombre de carnets ne double pas le total.</p><div class="lesson-formula">Pour 4 carnets : 4 × 3 + 2 = 14 €</div><p>Le prix des carnets seuls est proportionnel à leur nombre, mais le total avec les frais fixes ne l’est pas.</p><details class="lesson-sources"><summary>Références du programme</summary><p>Mathématiques, 5e : reconnaître la proportionnalité, utiliser un coefficient, représenter une situation par un tableau et mobiliser la linéarité ou le retour à l’unité. Cette fiche introduit ces méthodes ; elle ne couvre pas les graphiques, pourcentages ni tout le chapitre.</p><p><a href="https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A" target="_blank" rel="noopener">Programme du cycle 4, BO du 5 mars 2026</a> · <a href="https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4" target="_blank" rel="noopener">Accompagnement Éduscol</a></p><small>Programme applicable en 5e depuis la rentrée 2026-2027. Références vérifiées le 30 octobre 2026. Exemples et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Des pommes sont vendues au même prix par kilogramme, sans frais ni réduction. Si 2 kg coûtent 6 €, combien coûtent 5 kg ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="" >9 €</button><button disabled data-question="0" data-choice="1" class="" >15 €</button><button disabled data-question="0" data-choice="2" class="" >30 €</button></div></article><article class="lesson-question"><h3>2. Dans le tableau des pommes, quel coefficient permet de passer de la masse en kilogrammes au prix en euros ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="" >3</button><button disabled data-question="1" data-choice="1" class="" >1/3</button><button disabled data-question="1" data-choice="2" class="" >6</button></div></article><article class="lesson-question"><h3>3. Pour 6 personnes, une recette demande 300 g de farine. En conservant les mêmes proportions, quelle quantité faut-il pour 10 personnes ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="" >304 g</button><button disabled data-question="2" data-choice="1" class="" >600 g</button><button disabled data-question="2" data-choice="2" class="" >500 g</button></div></article><article class="lesson-question"><h3>4. Un tableau indique : 1 cahier → 2 €, 2 cahiers → 4 €, 3 cahiers → 7 €. Les données sont-elles proportionnelles ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="" >Oui, car les prix augmentent.</button><button disabled data-question="3" data-choice="1" class="" >Non, car le prix par cahier change.</button><button disabled data-question="3" data-choice="2" class="" >Oui, car 4 est le double de 2.</button></div></article><article class="lesson-question"><h3>5. Un carnet coûte 3 €. Une commande ajoute 2 € de livraison, quel que soit le nombre de carnets. Combien paie-t-on pour une commande de 4 carnets ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="" >14 €</button><button disabled data-question="4" data-choice="1" class="" >20 €</button><button disabled data-question="4" data-choice="2" class="" >12 €</button></div></article><article class="lesson-question"><h3>6. Le prix du riz est proportionnel à la masse achetée. On sait que 2 kg coûtent 5 € et que 5 kg coûtent 12,50 €. Quel est le prix de 7 kg ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="" >12,50 €</button><button disabled data-question="5" data-choice="1" class="" >25 €</button><button disabled data-question="5" data-choice="2" class="" >17,50 €</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : 15 €</p><p>On revient à l’unité : 6 ÷ 2 = 3 € pour 1 kg. Pour 5 kg, on calcule 5 × 3 = 15 €. Les grandeurs sont proportionnelles car le prix par kilogramme est constant.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : 3</p><p>On multiplie la masse par 3 pour obtenir le prix : 2 × 3 = 6 et 5 × 3 = 15. Le coefficient dans le sens masse → prix est 3. Le nombre 1/3 correspond au sens inverse.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : 500 g</p><p>Pour une personne, il faut 300 ÷ 6 = 50 g de farine. Pour dix personnes, il faut donc 50 × 10 = 500 g. Ajouter quatre personnes ne signifie pas ajouter quatre grammes.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : Non, car le prix par cahier change.</p><p>Il faut vérifier toutes les colonnes : 2 ÷ 1 = 2, 4 ÷ 2 = 2, mais 7 ÷ 3 ne vaut pas 2. Les deux premières colonnes seules ne suffisent pas à valider tout le tableau.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : 14 €</p><p>Les quatre carnets coûtent 4 × 3 = 12 €. On ajoute une seule fois les 2 € de livraison : 12 + 2 = 14 €. Multiplier 5 € par 4 compterait la livraison quatre fois.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : 17,50 €</p><p>On peut additionner les deux colonnes connues : 2 kg + 5 kg = 7 kg et 5 € + 12,50 € = 17,50 €. La proportionnalité autorise ce raisonnement. On retrouve aussi 7 × 2,50 = 17,50 €.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>

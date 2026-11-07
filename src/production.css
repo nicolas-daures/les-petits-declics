@@ -1,0 +1,87 @@
+.info-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+.info-shell h1 {
+  font-size: clamp(28px, 5vw, 42px);
+  margin: 25px 0;
+}
+.info-shell h2 {
+  font-size: 23px;
+  margin-top: 30px;
+}
+.info-shell p,
+.info-shell li {
+  font-size: 15px;
+  line-height: 1.85;
+}
+.info-shell a {
+  color: #315e60;
+}
+.info-shell .notice {
+  padding: 16px;
+  background: #edf2ee;
+  border-left: 4px solid #ac633f;
+  border-radius: 6px;
+}
+.info-shell button,
+.info-shell input {
+  font: inherit;
+  max-width: 100%;
+  min-height: 44px;
+}
+.info-shell label {
+  display: block;
+  margin: 20px 0 10px;
+}
+.info-shell input[type="file"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.info-shell .actions {
+  justify-content: flex-start;
+}
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 16px;
+}
+.footer {
+  flex-wrap: wrap;
+}
+.legal-links a {
+  color: #315e60;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  padding: 12px;
+  background: white;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 12px;
+}
+.backup-preview {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.info-shell :focus-visible {
+  outline: 3px solid #ac633f;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}

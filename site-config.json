@@ -1,0 +1,25 @@
+{
+  "mode": "private",
+  "publicUrl": "",
+  "editor": {
+    "status": "",
+    "publicName": "",
+    "address": "",
+    "phone": "",
+    "publicationDirector": "",
+    "registration": "",
+    "contactEmail": "",
+    "identityProvidedToHost": false
+  },
+  "hosting": {
+    "name": "Cloudflare, Inc.",
+    "address": "",
+    "phone": "",
+    "privacyUrl": "https://www.cloudflare.com/privacypolicy/",
+    "technicalDataRetention": "",
+    "processingAndTransfers": "",
+    "reviewed": false
+  },
+  "redirectHosts": [],
+  "updated": "2026-11-03"
+}

@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Masse et volume : mesurer sans confondre · Sciences 5e · Les petits déclics</title><meta name="description" content="Choisir le bon instrument, lire une éprouvette graduée et mesurer la masse d’un liquide."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Masse et volume : mesurer sans confondre · Sciences 5e · Les petits déclics"><meta property="og:description" content="Choisir le bon instrument, lire une éprouvette graduée et mesurer la masse d’un liquide."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/5e/sciences">← Sciences · 5e</a><div class="lesson-heading"><span class="category-label">5e · SCIENCES · PHYSIQUE-CHIMIE · MATIÈRE</span><h1 tabindex="-1">Masse et volume,<br><span>deux grandeurs à distinguer.</span></h1><p>Objectifs : Distinguer masse et volume, utiliser une tare, lire un ménisque et calculer le volume d’un solide par déplacement d’eau.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><p><b>Physique-chimie · 5e · Cycle 4</b> — Une introduction aux mesures de matière. Prérequis : soustraire des nombres et convertir des unités usuelles.</p>
+ <h2>1. Deux questions différentes</h2>
+ <p>La <b>masse</b> caractérise un échantillon de matière. Elle se mesure avec une <b>balance</b> et s’exprime notamment en kilogrammes (kg) ou en grammes (g). Le <b>volume</b> est l’espace occupé par cet échantillon ; pour un liquide, on peut le mesurer avec une <b>éprouvette graduée</b>, en litres (L) ou en millilitres (mL).</p>
+ <div class="lesson-formula">Masse → balance → g ou kg<br>Volume → éprouvette graduée → mL ou L</div>
+ <p>Un objet très volumineux n’a pas forcément une grande masse : une grosse éponge peut avoir une masse plus faible qu’une petite pièce métallique. La nature de la matière compte aussi.</p>
+ <h2>2. Garder la bonne unité</h2>
+ <div class="lesson-formula">1 kg = 1 000 g<br>1 L = 1 000 mL<br>1 mL = 1 cm³</div>
+ <p>Par exemple, <b>250 mL = 0,250 L</b> : on divise par 1 000. La masse et le volume ne sont pas interchangeables : on ne transforme pas des millilitres en grammes avec une simple conversion d’unité.</p>
+ <aside class="lesson-callout">À température usuelle, 1 L d’eau liquide a une masse d’environ 1 kg. Ce repère concerne l’eau : 1 L d’un autre liquide peut avoir une masse différente. La relation entre masse et volume sera approfondie avec la masse volumique.</aside>
+ <h2>3. Mesurer la masse d’un liquide</h2>
+ <p>Le récipient a lui aussi une masse. Pose un récipient vide sur la balance, puis utilise la fonction <b>tare</b> : l’affichage revient à zéro. Ajoute ensuite le liquide ; l’affichage donne la masse du liquide seul.</p>
+ <p>Sans tare, on peut mesurer séparément le récipient vide et le récipient rempli, puis soustraire :</p>
+ <div class="lesson-formula">Récipient rempli : 186 g<br>Récipient vide : 36 g<br>Masse du liquide : 186 − 36 = 150 g</div>
+ <p>La tare met l’affichage à zéro ; elle ne fait pas disparaître la masse physique du récipient. Pense à vérifier l’unité affichée par la balance.</p>
+ <h2>4. Lire le volume d’un liquide</h2>
+ <p>Pose l’éprouvette verticalement sur une surface horizontale. Repère son unité et la valeur d’un intervalle entre deux traits. Pour l’eau, la surface est légèrement courbée : c’est le <b>ménisque</b>. Place les yeux à sa hauteur et lis le <b>bas du ménisque</b>.</p>
+ <figure class="measure-figure"><svg viewBox="0 0 320 260" role="img" aria-labelledby="measure-title measure-desc" xmlns="http://www.w3.org/2000/svg"><title id="measure-title">Lecture de 60 mL dans une éprouvette</title><desc id="measure-desc">Les graduations vont de 40 à 80 millilitres, par intervalles de 10 millilitres. Le bas du ménisque est aligné avec 60 millilitres.</desc><path d="M70 30 V220 H150 V30" fill="#f7faf8" stroke="#315e60" stroke-width="3"/><path d="M71 95 Q110 105 149 95 V219 H71 Z" fill="#b4d8d5"/><path d="M70 95 Q110 105 150 95" fill="none" stroke="#315e60" stroke-width="2"/><path d="M60 230 H160 M130 140 H150 M130 120 H150 M125 100 H150 M130 80 H150 M130 60 H150" fill="none" stroke="#315e60" stroke-width="2"/><path d="M110 100 H260" fill="none" stroke="#ac633f" stroke-dasharray="4 4" stroke-width="2"/><g font-family="sans-serif" font-size="17" fill="#223b3c"><text x="165" y="146">40</text><text x="165" y="126">50</text><text x="165" y="106">60</text><text x="165" y="86">70</text><text x="165" y="66">80</text><text x="165" y="42">mL</text><text x="24" y="254">Lecture au bas du ménisque : 60 mL</text></g></svg><figcaption>Schéma de lecture pour l’eau : les yeux sont à la hauteur du bas du ménisque. Ici, un intervalle vaut 10 mL.</figcaption></figure>
+ <p>Sur une autre éprouvette, si 40 mL et 60 mL sont séparés par <b>quatre intervalles égaux</b>, chaque intervalle vaut (60 − 40) ÷ 4 = <b>5 mL</b>. On compte les espaces entre les traits, pas le nombre de traits.</p>
+ <h2>5. Mesurer le volume d’un solide irrégulier</h2>
+ <p>On peut utiliser le déplacement d’eau si le solide <b>ne se dissout pas</b>, est <b>complètement immergé</b> et ne retient pas de bulles d’air. On relève le volume initial, puis le volume après immersion, sans perte d’eau.</p>
+ <div class="lesson-formula">Avant : 40 mL · Après : 55 mL<br>Volume du solide : 55 − 40 = 15 mL<br>Soit 15 cm³</div>
+ <p>55 mL est la lecture totale après immersion. Le volume du solide correspond à <b>l’augmentation</b> du volume lu : 15 mL.</p>
+ <aside class="lesson-callout"><b>Ta méthode :</b> identifier la grandeur → choisir l’instrument → vérifier l’unité et les graduations → lire correctement → calculer si nécessaire → écrire le résultat avec son unité.</aside>
+ <details class="lesson-sources"><summary>Références du programme</summary><p>Physique-chimie, cycle 4 : mesures de masse et de volume dans le thème « Organisation et transformations de la matière ». Cette fiche est une introduction de 5e ; l’organisation de la progression sur le cycle peut varier. La masse volumique et sa relation de calcul ne sont pas traitées ici.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme du cycle 4, BO du 30 juillet 2020</a> · <a href="https://eduscol.education.gouv.fr/5739/ressources-d-accompagnement-du-programme-de-physique-chimie-au-cycle-4" target="_blank" rel="noopener">Programme en vigueur et accompagnement Éduscol</a> · <a href="https://eduscol.education.gouv.fr/sites/default/files/document/ra16c4phchmatiereprogression680433pdf-78105.pdf" target="_blank" rel="noopener">Exemple de progression sur la matière (PDF)</a></p><small>Références vérifiées le 3 novembre 2026. Programme de 2020 applicable en 2026-2027. Exemples, schéma et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Quel instrument permet de mesurer la masse d’un liquide ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="" >Une éprouvette seule, en mL.</button><button disabled data-question="0" data-choice="1" class="" >Une balance, avec un récipient et une tare.</button><button disabled data-question="0" data-choice="2" class="" >Une règle, en cm.</button></div></article><article class="lesson-question"><h3>2. À quel volume correspondent 250 mL ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="" >0,250 L</button><button disabled data-question="1" data-choice="1" class="" >250 L</button><button disabled data-question="1" data-choice="2" class="" >2,50 L</button></div></article><article class="lesson-question"><h3>3. Un récipient vide a une masse de 40 g. Rempli de liquide, il a une masse de 164 g. Quelle est la masse du liquide seul ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="" >204 g</button><button disabled data-question="2" data-choice="1" class="" >164 g</button><button disabled data-question="2" data-choice="2" class="" >124 g</button></div></article><article class="lesson-question"><h3>4. Deux graduations de 40 mL et 60 mL sont séparées par quatre intervalles égaux. Combien vaut un intervalle ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="" >4 mL</button><button disabled data-question="3" data-choice="1" class="" >5 mL</button><button disabled data-question="3" data-choice="2" class="" >20 mL</button></div></article><article class="lesson-question"><h3>5. Une éprouvette contient 35 mL d’eau. Après immersion complète d’un solide insoluble, sans bulles ni perte d’eau, elle indique 50 mL. Quel est le volume du solide ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="" >15 cm³</button><button disabled data-question="4" data-choice="1" class="" >50 cm³</button><button disabled data-question="4" data-choice="2" class="" >85 cm³</button></div></article><article class="lesson-question"><h3>6. Deux liquides différents occupent chacun 100 mL. Peut-on affirmer qu’ils ont forcément la même masse ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="" >Oui, un même volume impose toujours une même masse.</button><button disabled data-question="5" data-choice="1" class="" >Oui, 100 mL signifie toujours 100 g.</button><button disabled data-question="5" data-choice="2" class="" >Non, la masse dépend aussi de la nature du liquide.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : Une balance, avec un récipient et une tare.</p><p>La balance mesure la masse. On place le récipient vide, puis on effectue la tare avant d’ajouter le liquide : l’affichage donne alors la masse du liquide seul. L’éprouvette mesure un volume.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : 0,250 L</p><p>Un litre contient 1 000 millilitres. Pour passer des mL aux L, on divise par 1 000 : 250 ÷ 1 000 = 0,250 L. La grandeur reste un volume, seule son unité change.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : 124 g</p><p>La masse totale comprend le récipient et le liquide. On enlève la masse du récipient : 164 − 40 = 124 g. Additionner les deux masses compterait le récipient une seconde fois.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : 5 mL</p><p>L’écart entre les valeurs est de 60 − 40 = 20 mL. Il est partagé en quatre intervalles : 20 ÷ 4 = 5 mL par intervalle. On compte les espaces entre les traits.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : 15 cm³</p><p>Le volume du solide est la différence des deux lectures : 50 − 35 = 15 mL. Comme 1 mL = 1 cm³, cela correspond à 15 cm³. La lecture finale inclut aussi l’eau déjà présente.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : Non, la masse dépend aussi de la nature du liquide.</p><p>Un même volume de deux liquides différents peut avoir des masses différentes. Le repère d’environ 1 g pour 1 mL concerne l’eau liquide à température usuelle ; ce n’est pas une conversion valable pour toute matière.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>

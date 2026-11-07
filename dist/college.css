@@ -1,0 +1,671 @@
+:root {
+  --paper: #f5f6f4;
+  --ink: #223b3c;
+  --green: #315e60;
+  --orange: #ac633f;
+  --line: #dce2de;
+}
+body {
+  background: var(--paper);
+}
+header {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.brand-icon {
+  background: #d8e7e2;
+  color: #335d5e;
+  border-radius: 10px;
+  transform: none;
+}
+.brand-name {
+  font-size: 20px;
+}
+.brand-sub {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+}
+.header-motto {
+  color: #586b68;
+}
+.college-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: center;
+  gap: 60px;
+  padding: 48px 0;
+}
+.college-hero h1 {
+  font-size: clamp(34px, 4vw, 49px);
+  letter-spacing: -1.5px;
+}
+.college-hero p {
+  font-size: 15px;
+  color: #536b67;
+  line-height: 1.9;
+  margin: 22px 0;
+}
+.college-hero .primary {
+  margin-top: 4px;
+}
+.hero-notebook {
+  padding: 28px 33px;
+  border: 1px solid #cddbd4;
+  background: #e8efea;
+  border-radius: 15px;
+  transform: rotate(2deg);
+  box-shadow: 7px 9px 0 #dce5de;
+}
+.hero-notebook > span {
+  font-size: 10px;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  color: #45645a;
+}
+.notebook-equation {
+  font: 800 34px var(--font);
+  margin: 25px 0;
+  color: #476461;
+}
+.hero-notebook p {
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 20px 0 0;
+}
+.fraction-bar {
+  display: flex;
+  gap: 3px;
+  height: 32px;
+  margin: 17px 0;
+  max-width: 420px;
+}
+.fraction-bar i {
+  background: #4c7975;
+  border: 1px solid #426e6a;
+  flex: 1;
+  min-width: 0;
+}
+.fraction-bar .unfilled {
+  background: #f5f8f3;
+  border-color: #b1c8be;
+}
+.catalogue {
+  border-top: 1px solid var(--line);
+  padding-top: 17px;
+}
+.catalogue-filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 28px;
+  margin: 24px 0;
+}
+.catalogue fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.catalogue legend,
+.subject-filter {
+  font-size: 12px;
+  color: #536b67;
+  font-weight: 700;
+}
+.filter-row {
+  display: flex;
+  gap: 9px;
+  margin-top: 10px;
+}
+.grade-filter {
+  border: 1px solid #ccd7d0;
+  border-radius: 9px;
+  min-height: 47px;
+  width: 62px;
+  background: #fff;
+  font: 800 21px var(--font);
+}
+.grade-filter[aria-pressed="true"] {
+  background: #315e60;
+  color: white;
+  border-color: #315e60;
+}
+.grade-filter sup {
+  font-size: 12px;
+}
+.subject-filter select {
+  display: block;
+  margin-top: 10px;
+  min-height: 47px;
+  padding: 10px 38px 10px 14px;
+  border: 1px solid #ccd7d0;
+  border-radius: 9px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  max-width: 100%;
+}
+.course-card {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  background: white;
+  border: 1px solid #d1dfd7;
+  border-radius: 14px;
+  padding: 24px;
+  transition: box-shadow 0.2s;
+}
+.course-card:hover {
+  box-shadow: 0 5px 20px #284b3c10;
+}
+.course-card h3 {
+  font: 900 23px var(--font);
+  margin: 7px 0;
+}
+.course-card p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #5d7068;
+  margin: 0 0 10px;
+}
+.course-card > span:last-child {
+  margin-left: auto;
+  font-size: 25px;
+}
+.course-icon {
+  background: #e3ece6;
+  border-radius: 12px;
+  padding: 16px;
+  font: 800 39px var(--font);
+  color: #376763;
+}
+.course-status {
+  font-size: 11px;
+  color: #40655c;
+  font-weight: 700;
+}
+.catalogue-empty {
+  background: #fff;
+  border: 1px dashed #c6d4ca;
+  padding: 24px;
+  border-radius: 12px;
+}
+.catalogue-empty h3 {
+  font: 800 20px var(--font);
+  margin: 0 0 12px;
+}
+.catalogue-empty p,
+.catalogue-empty a {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #526b62;
+}
+.bases-section {
+  margin: 43px 0 35px;
+}
+.bases-intro {
+  font-size: 13px;
+  color: #627467;
+  line-height: 1.8;
+  max-width: 750px;
+}
+.universe-art {
+  display: none;
+}
+.universe-body {
+  padding: 22px;
+}
+.universe-body h3 {
+  font-size: 19px;
+}
+.universe-grid {
+  gap: 16px;
+}
+.universe-card {
+  border-radius: 12px;
+}
+.universe-heading-icon {
+  transform: none;
+  border-radius: 13px;
+}
+.universe-heading {
+  padding-top: 25px;
+}
+.round-arrow {
+  border-radius: 8px;
+}
+.footer {
+  color: #64766c;
+}
+.lesson-heading {
+  max-width: 850px;
+  margin-bottom: 30px;
+}
+.lesson-heading h1 {
+  font-size: 42px;
+}
+.lesson-heading p {
+  line-height: 1.8;
+  color: #5a716a;
+  font-size: 14px;
+}
+.lesson-progress {
+  display: inline-block;
+  background: #e4ede6;
+  color: #375c51;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+.lesson-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 35px;
+}
+.lesson-course,
+.lesson-practice {
+  background: white;
+  border: 1px solid #d9e2dc;
+  border-radius: 14px;
+  padding: 28px;
+  min-width: 0;
+}
+.lesson-course h2,
+.lesson-practice h2 {
+  font: 900 22px var(--font);
+  margin: 28px 0 15px;
+  letter-spacing: -0.4px;
+}
+.lesson-course h2:first-child {
+  margin-top: 0;
+}
+.lesson-course p,
+.lesson-practice > p {
+  font-size: 14px;
+  color: #4e6760;
+  line-height: 1.9;
+}
+.lesson-callout {
+  background: #f2f3e8;
+  border-left: 3px solid #a8b394;
+  padding: 13px 16px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #53644b;
+}
+.lesson-formula {
+  padding: 18px 8px;
+  border-radius: 8px;
+  background: #edf2ee;
+  color: #355b54;
+  font: 800 20px var(--font);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.double-bars {
+  display: flex;
+  gap: 10px;
+}
+.double-bars > .fraction-bar {
+  flex: 1;
+}
+.lesson-sources {
+  font-size: 11px;
+  line-height: 1.8;
+  margin-top: 27px;
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+}
+.lesson-sources summary {
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 32px;
+}
+.lesson-sources p {
+  font-size: 11px;
+}
+.lesson-sources a {
+  color: #315e60;
+}
+.lesson-question {
+  padding: 23px 0;
+  border-top: 1px solid var(--line);
+}
+.lesson-question h3 {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0 0 15px;
+  font-weight: 600;
+}
+.lesson-choices {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.lesson-choices button {
+  background: #f6f8f4;
+  border: 1px solid #d4e0d8;
+  border-radius: 8px;
+  min-height: 44px;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.lesson-choices button.right {
+  background: #e3eee2;
+  border-color: #7c9e75;
+  color: #365d35;
+}
+.lesson-choices button.incorrect {
+  background: #fbf0e4;
+  border-color: #d4af8d;
+  color: #84562c;
+}
+.lesson-correction {
+  font-size: 13px;
+  line-height: 1.9;
+  padding: 14px;
+  background: #eef3ed;
+  margin-top: 14px;
+  border-radius: 9px;
+}
+.lesson-summary {
+  font-size: 13px;
+  line-height: 1.9;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+.lesson-summary h3 {
+  font: 800 22px var(--font);
+}
+#college-page {
+  padding: 28px 0;
+}
+.back-link {
+  margin-bottom: 22px;
+  color: #526b62;
+}
+.category-label {
+  color: #536f65;
+}
+button:disabled {
+  opacity: 1;
+}
+.math-step[aria-selected="true"] {
+  background: #e5efea;
+  border-color: #668c7c;
+}
+a:focus-visible,
+select:focus-visible {
+  outline: 3px solid #ac633f;
+  outline-offset: 4px;
+}
+@media (max-width: 800px) {
+  .college-hero {
+    gap: 30px;
+  }
+  .hero-notebook {
+    padding: 23px;
+  }
+  .notebook-equation {
+    font-size: 28px;
+  }
+  .lesson-layout {
+    grid-template-columns: 1fr;
+  }
+  .lesson-heading h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 590px) {
+  .brand-name {
+    font-size: 17px;
+  }
+  .brand-sub {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .college-hero {
+    grid-template-columns: 1fr;
+    padding: 30px 0;
+    gap: 23px;
+  }
+  .college-hero h1 {
+    font-size: 35px;
+  }
+  .college-hero p {
+    font-size: 13px;
+    margin: 16px 0;
+  }
+  .college-hero p br {
+    display: none;
+  }
+  .hero-notebook {
+    transform: none;
+    padding: 20px;
+    box-shadow: none;
+  }
+  .hero-notebook p {
+    margin: 12px 0 0;
+    font-size: 12px;
+  }
+  .notebook-equation {
+    margin: 15px 0;
+    font-size: 29px;
+  }
+  .hero-notebook .fraction-bar {
+    max-width: none;
+  }
+  .catalogue-filters {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 19px;
+  }
+  .filter-row {
+    justify-content: space-between;
+  }
+  .grade-filter {
+    flex: 1;
+    width: auto;
+  }
+  .subject-filter select {
+    width: 100%;
+  }
+  .course-card {
+    padding: 19px;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .course-icon {
+    display: none;
+  }
+  .course-card h3 {
+    font-size: 21px;
+  }
+  .course-card p {
+    font-size: 12px;
+  }
+  .course-status {
+    font-size: 10px;
+  }
+  .course-card .category-label {
+    font-size: 8px;
+    line-height: 1.8;
+  }
+  .bases-section {
+    margin-top: 31px;
+  }
+  .universe-card {
+    min-height: 0;
+  }
+  .universe-body {
+    padding: 20px;
+  }
+  .universe-body h3 {
+    font-size: 20px;
+  }
+  .universe-grid {
+    gap: 12px;
+  }
+  .bases-intro {
+    font-size: 12px;
+  }
+  .lesson-course,
+  .lesson-practice {
+    padding: 20px 17px;
+  }
+  .lesson-heading h1 {
+    font-size: 33px;
+  }
+  .lesson-heading p {
+    font-size: 13px;
+  }
+  .lesson-progress {
+    font-size: 10px;
+    line-height: 1.7;
+  }
+  .lesson-course p,
+  .lesson-practice > p {
+    font-size: 13px;
+  }
+  .lesson-layout {
+    gap: 19px;
+  }
+  .lesson-formula {
+    font-size: 18px;
+  }
+  .home-nav {
+    max-width: 65px;
+  }
+  .college-hero .primary {
+    font-size: 12px;
+  }
+  .subject-filter {
+    width: 100%;
+  }
+}
+#course-results {
+  display: grid;
+  gap: 14px;
+}
+.lesson-reading {
+  padding: 4px 18px;
+  background: #edf2ee;
+  border-left: 3px solid #4c7975;
+  border-radius: 0 10px 10px 0;
+  margin: 18px 0;
+}
+.lesson-reading p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #284e48;
+}
+.lesson-choices button {
+  text-align: left;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.course-table-wrap {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  color: #355b54;
+}
+.course-table caption {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.course-table th,
+.course-table td {
+  padding: 12px 10px;
+  border: 1px solid #cfded4;
+  text-align: center;
+}
+.course-table th {
+  text-align: left;
+  background: #e9f0e9;
+}
+.course-table td {
+  background: #f8faf7;
+  font-weight: 600;
+}
+@media (max-width: 590px) {
+  .course-table {
+    font-size: 12px;
+  }
+  .course-table th,
+  .course-table td {
+    padding: 11px 7px;
+  }
+}
+
+.pythagore-figure {
+  margin: 20px 0;
+  padding: 12px;
+  background: #f5f8f4;
+  border-radius: 10px;
+}
+.pythagore-figure svg {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: auto;
+}
+.pythagore-figure figcaption {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #4e6760;
+  margin-top: 8px;
+}
+
+.urban-figure {
+  margin: 20px 0;
+  padding: 12px;
+  background: #f7f8f3;
+  border-radius: 10px;
+}
+.urban-figure svg {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: auto;
+}
+.urban-figure figcaption {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #4e6760;
+  margin-top: 8px;
+}
+.course-table thead th {
+  font-size: 12px;
+}
+
+.measure-figure {
+  margin: 20px 0;
+  padding: 12px;
+  background: #f5f8f4;
+  border-radius: 10px;
+}
+.measure-figure svg {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: auto;
+}
+.measure-figure figcaption {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #4e6760;
+  margin-top: 8px;
+}

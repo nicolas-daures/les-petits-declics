@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Accorder le verbe avec son sujet · Français 6e · Les petits déclics</title><meta name="description" content="Une méthode pour repérer le sujet, éviter les mots pièges et choisir la bonne terminaison."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Accorder le verbe avec son sujet · Français 6e · Les petits déclics"><meta property="og:description" content="Une méthode pour repérer le sujet, éviter les mots pièges et choisir la bonne terminaison."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/6e/francais">← Français · 6e</a><div class="lesson-heading"><span class="category-label">6e · FRANÇAIS · GRAMMAIRE ET ORTHOGRAPHE</span><h1 tabindex="-1">Sujet et verbe :<br><span>trouver le bon accord.</span></h1><p>Objectifs : Identifier le sujet d’un verbe conjugué et justifier un accord au présent, y compris avec un sujet éloigné ou inversé.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><h2>1. Repérer le verbe conjugué</h2><p>Le verbe change quand on modifie le temps ou la personne. Dans « Lina <b>observe</b> la carte », on peut dire « Hier, Lina <b>observait</b> la carte ». Le mot qui change est le verbe.</p><aside class="lesson-callout">Un verbe n’exprime pas toujours une action : dans « Lina <b>semble</b> inquiète », « semble » est aussi un verbe conjugué.</aside><h2>2. Trouver le groupe sujet</h2><p>Le sujet commande l’accord du verbe en personne et en nombre. Pour le repérer, essaie l’encadrement <b>c’est… qui</b> ou <b>ce sont… qui</b>, puis remplace-le par un pronom.</p><div class="lesson-formula">Les deux amies observent la carte.<br>Ce sont les deux amies qui observent la carte.<br>Elles observent la carte.</div><p>Le groupe sujet complet est « les deux amies ». Il peut être remplacé par <b>elles</b> : le verbe est à la troisième personne du pluriel.</p><h2>3. Se méfier du nom le plus proche</h2><p>Dans « <b>Le carnet des explorateurs reste</b> ouvert », le sujet complet est « le carnet des explorateurs ». Son nom principal est <b>carnet</b>, au singulier. On remplace le groupe par <b>il</b> : « il reste ouvert ».</p><aside class="lesson-callout">On écrit « reste », et non « restent ». Le pluriel « des explorateurs » complète le nom « carnet » ; il ne commande pas l’accord.</aside><h2>4. Chercher aussi après le verbe</h2><p>Le sujet peut être placé après le verbe : « Au loin <b>apparaissent deux silhouettes</b> ». En remettant les mots dans l’ordre habituel, on obtient : « Deux silhouettes apparaissent au loin ».</p><div class="lesson-formula">Deux silhouettes → elles → apparaissent</div><p>Ce déplacement du sujet ne change pas l’accord. « Au loin » indique le lieu, pas le sujet.</p><h2>5. Accorder avec plusieurs sujets</h2><p>Dans « <b>Maya et son frère préparent</b> leur sac », les deux groupes coordonnés par « et » forment ensemble le sujet. On peut les remplacer par <b>ils</b> : « ils préparent leur sac ».</p><aside class="lesson-callout"><b>La méthode :</b> repérer le verbe → identifier son sujet complet → remplacer le sujet par un pronom → choisir la terminaison → relire. Le son ne suffit pas : « prépare » et « préparent » se prononcent de la même manière.</aside><details class="lesson-sources"><summary>Références du programme</summary><p>Français, 6e, cycle 3 : identification du groupe sujet et raisonnement sur l’accord sujet-verbe. Cette fiche travaille l’accord au présent ; elle ne couvre pas tous les temps ni tous les cas particuliers.</p><p><a href="https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A" target="_blank" rel="noopener">Programme du cycle 3, BO du 17 avril 2025</a> · <a href="https://eduscol.education.gouv.fr/6525/banque-de-ressources-pour-travailler-les-fondamentaux-au-college" target="_blank" rel="noopener">Ressources Éduscol sur les fondamentaux</a></p><small>Références vérifiées le 29 octobre 2026. Exemples et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Dans « Les élèves de sixième visitent le musée », quel est le groupe sujet complet du verbe « visitent » ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="" >Les élèves de sixième</button><button disabled data-question="0" data-choice="1" class="" >de sixième</button><button disabled data-question="0" data-choice="2" class="" >le musée</button></div></article><article class="lesson-question"><h3>2. Choisis la bonne forme : « Le bruit des vagues … les voyageurs. » (bercer, au présent)</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="" >bercent</button><button disabled data-question="1" data-choice="1" class="" >berce</button><button disabled data-question="1" data-choice="2" class="" >berces</button></div></article><article class="lesson-question"><h3>3. Complète : « Dans le ciel … deux montgolfières. » (flotter, au présent)</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="" >flotte</button><button disabled data-question="2" data-choice="1" class="" >flottes</button><button disabled data-question="2" data-choice="2" class="" >flottent</button></div></article><article class="lesson-question"><h3>4. Complète : « Nora et son cousin … un refuge. » (chercher, au présent)</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="" >cherche</button><button disabled data-question="3" data-choice="1" class="" >cherchent</button><button disabled data-question="3" data-choice="2" class="" >cherches</button></div></article><article class="lesson-question"><h3>5. Quel mot est le verbe conjugué dans « La salle semble silencieuse » ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="" >salle</button><button disabled data-question="4" data-choice="1" class="" >silencieuse</button><button disabled data-question="4" data-choice="2" class="" >semble</button></div></article><article class="lesson-question"><h3>6. Choisis la phrase correctement accordée au présent.</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="" >On préparent le matériel.</button><button disabled data-question="5" data-choice="1" class="" >On prépares le matériel.</button><button disabled data-question="5" data-choice="2" class="" >On prépare le matériel.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : Les élèves de sixième</p><p>Ce sont les élèves de sixième qui visitent le musée. Tout le groupe « les élèves de sixième » est sujet. On peut le remplacer par « ils ».</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : berce</p><p>Le sujet est « le bruit des vagues », dont le nom principal « bruit » est singulier. On remplace ce groupe par « il » : il berce les voyageurs. Le nom « vagues » ne commande pas l’accord.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : flottent</p><p>Le sujet est placé après le verbe : « deux montgolfières ». On peut dire « Deux montgolfières flottent dans le ciel ». Elles flottent : troisième personne du pluriel, terminaison -ent.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : cherchent</p><p>Nora et son cousin forment ensemble le sujet. Ils cherchent un refuge : le verbe est à la troisième personne du pluriel, même si « cousin », juste avant le verbe, est au singulier.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : semble</p><p>On peut changer le temps : « La salle semblait silencieuse ». Le mot qui change est « semble ». Ce verbe exprime ici un état, et non une action.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : On prépare le matériel.</p><p>Le pronom « on » commande un verbe à la troisième personne du singulier : on prépare. C’est le cas même quand « on » désigne plusieurs personnes.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>

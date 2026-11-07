@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Présent simple : parler de ses habitudes · Anglais 6e · Les petits déclics</title><meta name="description" content="Comprendre une journée d’école et construire des phrases affirmatives, négatives et des questions simples."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Présent simple : parler de ses habitudes · Anglais 6e · Les petits déclics"><meta property="og:description" content="Comprendre une journée d’école et construire des phrases affirmatives, négatives et des questions simples."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/6e/anglais">← Anglais · 6e</a><div class="lesson-heading"><span class="category-label">6e · ANGLAIS · VIE QUOTIDIENNE · A1 VERS A1+</span><h1 tabindex="-1">Le présent simple,<br><span>pour raconter ton quotidien.</span></h1><p>Objectifs : Repérer une habitude, choisir la forme du verbe selon le sujet et utiliser do ou does dans des phrases simples.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course">
+ <p><b>6e · Anglais · A1 vers A1+</b> — Une première fiche sur les habitudes, dans le thème de la vie quotidienne et de l’école. Les questions avec <span lang="en-GB">do</span> et <span lang="en-GB">does</span> constituent l’étape vers A1+.</p>
+ <h2>1. Lire une journée d’école</h2>
+ <p>Voici Chloe, une élève fictive qui habite à York, en Angleterre. Lis son petit portrait : les mots qui indiquent un moment aident à comprendre ses habitudes.</p>
+ <div class="lesson-reading" aria-label="Portrait de Chloe, texte en anglais">
+ <p lang="en-GB">Chloe lives in York. She goes to school by bus every day. She wears a uniform at school. On Tuesdays, she plays football after school. She doesn’t watch TV in the morning.</p>
+ </div>
+ <p><b>Quelques repères :</b> <span lang="en-GB">every day</span> = tous les jours ; <span lang="en-GB">by bus</span> = en bus ; <span lang="en-GB">wear a uniform</span> = porter un uniforme ; <span lang="en-GB">on Tuesdays</span> = le mardi, de façon habituelle ; <span lang="en-GB">after school</span> = après l’école ; <span lang="en-GB">in the morning</span> = le matin.</p>
+ <p>Ce portrait est un texte original d’entraînement. Chaque école et chaque élève ont leurs habitudes.</p>
+ <h2>2. Décrire une habitude</h2>
+ <p>Le <b>présent simple</b> sert notamment à dire ce que l’on fait régulièrement. Avec <span lang="en-GB">I, you, we, they</span>, on utilise la <b>base verbale</b> : la forme du verbe sans <span lang="en-GB">to</span>, par exemple <span lang="en-GB">play</span>.</p>
+ <div class="lesson-formula" lang="en-GB">I play football on Tuesdays.<br>They play football on Tuesdays.</div>
+ <p>« Je joue au football le mardi. » / « Ils ou elles jouent au football le mardi. » On parle ici d’une habitude, pas d’une action observée en train de se dérouler.</p>
+ <h2>3. Avec he, she ou it : penser à la terminaison</h2>
+ <p>À la forme affirmative, avec <span lang="en-GB">he, she, it</span> ou un nom singulier comme Chloe, on ajoute généralement <b>-s</b> : <span lang="en-GB">I play → she plays</span>, <span lang="en-GB">I live → Chloe lives</span>.</p>
+ <div class="lesson-formula" lang="en-GB">I watch → she watches<br>I study → she studies<br>I go → she goes</div>
+ <p>Pour les verbes en <b>-ch, -sh, -s, -x, -z</b>, on ajoute généralement <b>-es</b>, comme <span lang="en-GB">watch → watches</span>. Après une consonne suivie de <b>-y</b>, le <b>y</b> devient <b>-ies</b> : <span lang="en-GB">study → studies</span>. Après une voyelle, on garde le <b>y</b> : <span lang="en-GB">play → plays</span>.</p>
+ <aside class="lesson-callout">Mémorise aussi <span lang="en-GB">go → goes</span>, <span lang="en-GB">do → does</span> et <span lang="en-GB">have → has</span>. Le verbe <span lang="en-GB">be</span> a ses propres formes (<span lang="en-GB">am, is, are</span>) ; cette fiche travaille surtout les verbes comme <span lang="en-GB">play, live, watch</span>.</aside>
+ <h2>4. Dire ce que l’on ne fait pas</h2>
+ <p>Avec ces verbes, on place <b><span lang="en-GB">don’t</span></b> (<span lang="en-GB">do not</span>) avant la base verbale pour <span lang="en-GB">I, you, we, they</span>. Avec <span lang="en-GB">he, she, it</span>, on utilise <b><span lang="en-GB">doesn’t</span></b> (<span lang="en-GB">does not</span>).</p>
+ <div class="lesson-formula" lang="en-GB">I don’t watch TV in the morning.<br>She doesn’t watch TV in the morning.</div>
+ <p>« Je ne regarde pas la télévision le matin. » / « Elle ne regarde pas la télévision le matin. » Avec <span lang="en-GB">doesn’t</span>, le verbe reste à la base : on écrit <span lang="en-GB">doesn’t watch</span>, jamais <span lang="en-GB">doesn’t watches</span>.</p>
+ <h2>5. Poser une question simple</h2>
+ <p>Pour demander si une personne a une habitude, on place <b><span lang="en-GB">Do</span></b> ou <b><span lang="en-GB">Does</span></b> devant le sujet, puis la base verbale.</p>
+ <div class="lesson-formula" lang="en-GB">Do you play football?<br>Does Chloe play football?</div>
+ <p>« Est-ce que tu joues au football ? » / « Est-ce que Chloe joue au football ? » Avec <span lang="en-GB">does</span>, on garde encore <span lang="en-GB">play</span>, sans <b>-s</b>. Une réponse courte possible est <span lang="en-GB">Yes, she does.</span> ou <span lang="en-GB">No, she doesn’t.</span></p>
+ <aside class="lesson-callout"><b>Ta méthode :</b> trouve le sujet → repère affirmation, négation ou question → choisis la forme du verbe. <span lang="en-GB">She plays. / She doesn’t play. / Does she play?</span> Ces modèles ne s’appliquent pas au verbe <span lang="en-GB">be</span> : on dit par exemple <span lang="en-GB">Is she tired?</span></aside>
+ <details class="lesson-sources"><summary>Références du programme</summary>
+ <p>Anglais, 6e : axe « Le quotidien : vivre, jouer, apprendre » ; présent simple, troisième personne du singulier et construction de phrases simples. Repères linguistiques A1 et A1+ (annexe 3, pages 12–13). Cette fiche travaille l’écrit et une partie de la notion ; elle ne valide pas à elle seule un niveau du CECRL.</p>
+ <p><a href="https://www.education.gouv.fr/bo/2025/Hebdo22/MENE2504621A" target="_blank" rel="noopener">Bulletin officiel du 29 mai 2025</a> · <a href="https://www.education.gouv.fr/sites/default/files/annexe-3-programme-d-anglais-pour-les-classes-de-coll-ge-440358.pdf" target="_blank" rel="noopener">Programme d’anglais, annexe 3 (PDF)</a> · <a href="https://eduscol.education.gouv.fr/4758/ressources-d-accompagnement-pour-les-langues-vivantes-etrangeres-et-regionales-au-college" target="_blank" rel="noopener">Accompagnement Éduscol</a></p>
+ <small>Programme applicable en 6e depuis la rentrée 2025-2026. Références vérifiées le 31 octobre 2026. Texte, exemples et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. D’après le portrait de Chloe, quand joue-t-elle au football ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="" >Le lundi après l’école.</button><button disabled data-question="0" data-choice="1" class="" >Le mardi après l’école.</button><button disabled data-question="0" data-choice="2" class="" >Tous les matins.</button></div></article><article class="lesson-question"><h3>2. Complète cette habitude : <span lang="en-GB">I … football on Tuesdays.</span> (jouer)</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="" ><span lang="en-GB">plays</span></button><button disabled data-question="1" data-choice="1" class="" ><span lang="en-GB">playing</span></button><button disabled data-question="1" data-choice="2" class="" ><span lang="en-GB">play</span></button></div></article><article class="lesson-question"><h3>3. Complète : <span lang="en-GB">She … English every day.</span> (étudier)</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="" ><span lang="en-GB">studies</span></button><button disabled data-question="2" data-choice="1" class="" ><span lang="en-GB">study</span></button><button disabled data-question="2" data-choice="2" class="" ><span lang="en-GB">studys</span></button></div></article><article class="lesson-question"><h3>4. Complète : <span lang="en-GB">Chloe … to school by bus.</span> (aller)</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="" ><span lang="en-GB">go</span></button><button disabled data-question="3" data-choice="1" class="" ><span lang="en-GB">goes</span></button><button disabled data-question="3" data-choice="2" class="" ><span lang="en-GB">going</span></button></div></article><article class="lesson-question"><h3>5. Quelle phrase signifie « Elle ne regarde pas la télévision le matin » ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="" ><span lang="en-GB">She don’t watch TV in the morning.</span></button><button disabled data-question="4" data-choice="1" class="" ><span lang="en-GB">She doesn’t watches TV in the morning.</span></button><button disabled data-question="4" data-choice="2" class="" ><span lang="en-GB">She doesn’t watch TV in the morning.</span></button></div></article><article class="lesson-question"><h3>6. Comment demander « Est-ce que Chloe joue au football ? » ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="" ><span lang="en-GB">Does Chloe play football?</span></button><button disabled data-question="5" data-choice="1" class="" ><span lang="en-GB">Does Chloe plays football?</span></button><button disabled data-question="5" data-choice="2" class="" ><span lang="en-GB">Do Chloe play football?</span></button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : Le mardi après l’école.</p><p><span lang="en-GB">On Tuesdays, she plays football after school.</span> signifie « Le mardi, elle joue au football après l’école ». <span lang="en-GB">On Tuesdays</span> indique une habitude ; <span lang="en-GB">after school</span> précise le moment de la journée.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : <span lang="en-GB">play</span></p><p>Avec <span lang="en-GB">I</span>, on utilise la base verbale <span lang="en-GB">play</span> : <span lang="en-GB">I play football on Tuesdays.</span> Le -s de <span lang="en-GB">plays</span> concerne <span lang="en-GB">he, she, it</span>. <span lang="en-GB">Playing</span> seul ne forme pas ici un verbe conjugué.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : <span lang="en-GB">studies</span></p><p>Le sujet <span lang="en-GB">she</span> est à la troisième personne du singulier. Dans <span lang="en-GB">study</span>, le y suit une consonne : on remplace -y par -ies. On écrit <span lang="en-GB">She studies English every day.</span> (« Elle étudie l’anglais tous les jours »).</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : <span lang="en-GB">goes</span></p><p>Chloe peut être remplacée par <span lang="en-GB">she</span>. À la forme affirmative, <span lang="en-GB">go</span> devient <span lang="en-GB">goes</span> : <span lang="en-GB">Chloe goes to school by bus.</span> signifie « Chloe va à l’école en bus ». On mémorise cette forme en -es.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : <span lang="en-GB">She doesn’t watch TV in the morning.</span></p><p>Avec <span lang="en-GB">she</span>, la négation se construit avec <span lang="en-GB">doesn’t</span> suivi de la base verbale <span lang="en-GB">watch</span>. Le verbe ne prend plus de -s : <span lang="en-GB">She doesn’t watch TV in the morning.</span> <span lang="en-GB">Don’t</span> s’utilise avec <span lang="en-GB">I, you, we, they</span>.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : <span lang="en-GB">Does Chloe play football?</span></p><p>Chloe est un sujet singulier, comme <span lang="en-GB">she</span>. On commence par <span lang="en-GB">Does</span>, puis on place le sujet et la base verbale sans -s : <span lang="en-GB">Does Chloe play football?</span> La marque de la troisième personne est déjà portée par <span lang="en-GB">does</span>.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>
