@@ -48,23 +48,7 @@
             "5/4 = 4/4 + 1/4 = 1 + 1/4 = 1,25. Une fraction peut dépasser 1 : le numérateur peut être plus grand que le dénominateur.",
         },
         {
-          text: "Une bande est partagée en 8 parts égales. Tu en colories 3. Quelle fraction est coloriée ?",
-          options: ["8/3", "3/8", "3/5"],
-          correct: 1,
-          explanation: "Le dénominateur indique les huit parts égales ; le numérateur compte les trois parts coloriées. La fraction est 3/8."
-        },
-        {
-          text: "Quelle affirmation est vraie ?",
-          options: ["7/9 est supérieur à 1", "7/9 est égal à 1", "7/9 est inférieur à 1"],
-          correct: 2,
-          explanation: "Le numérateur 7 est plus petit que le dénominateur 9 : 7/9 est inférieur à 9/9, donc à 1."
-        },
-        {
-          text: "Quelle décomposition de 13/5 est correcte ?",
-          options: ["1 + 3/5", "2 + 3/5", "3 + 2/5"],
-          correct: 1,
-          explanation: "13 cinquièmes contiennent 10 cinquièmes, soit 2 unités, puis 3 cinquièmes restent : 13/5 = 2 + 3/5."
-        },
+
       ],
     },
     {
@@ -591,7 +575,7 @@
           "64"
         ],
         "correct": 1,
-        "explanation": "7 × 8 = 56."
+        "explanation": "7 × 8 = 56. C’est un produit à connaître par cœur dans la table de 7."
       },
       {
         "text": "Quel nombre manque ? 9 × … = 63",
@@ -601,7 +585,7 @@
           "8"
         ],
         "correct": 1,
-        "explanation": "63 ÷ 9 = 7, donc 9 × 7 = 63."
+        "explanation": "63 ÷ 9 = 7, donc le facteur manquant est 7 et 9 × 7 redonne bien 63."
       },
       {
         "text": "Combien font 6 × 9 ?",
@@ -651,7 +635,7 @@
           "72"
         ],
         "correct": 1,
-        "explanation": "8 × 8 = 64."
+        "explanation": "8 × 8 = 64. Huit groupes de huit unités forment soixante-quatre unités."
       }
     ]
   });
@@ -896,7 +880,7 @@
           "413"
         ],
         "correct": 1,
-        "explanation": "308 + 95 = 308 + 90 + 5 = 403."
+        "explanation": "308 + 95 = 308 + 90 + 5 = 398 + 5 = 403. La somme est 403."
       },
       {
         "text": "Comment poser 12,5 + 3,72 ?",
@@ -961,7 +945,7 @@
           "24 000 g"
         ],
         "correct": 1,
-        "explanation": "2,4 × 1 000 = 2 400 g."
+        "explanation": "Pour passer des kilogrammes aux grammes, on multiplie par 1 000 : 2,4 kg = 2 400 g."
       },
       {
         "text": "Convertis 1,25 L en millilitres.",
