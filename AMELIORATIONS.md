@@ -9,9 +9,9 @@
   - C3-C4 : vocabulaire des opérations et addition posée de nombres entiers et décimaux ;
   - GM : conversions de longueurs, masses et contenances, préfixes, tonne et quintal ;
   - G1, G4-G5 : notations des droites, segments et demi-droites, appartenance, longueur, parallèles et perpendiculaires.
-- Ajoute 44 exercices aux six nouveaux cours et 3 au cours existant, tous avec trois choix et une explication de correction.
+- Ajoute 44 exercices aux six nouveaux cours ; le cours existant sur les fractions conserve ses quatre questions et gagne des explications et un schéma complémentaires.
 - Références : programme officiel de mathématiques du cycle 3 publié au BO du 17 avril 2025 (applicable en 6e depuis 2025-2026) et ressources d’accompagnement Éduscol. Le périmètre des cours suit le plan de révision transmis ; il ne prétend pas couvrir à lui seul l’ensemble du programme officiel de 6e.
-- Vérification du registre par exécution JavaScript : 7 cours de mathématiques de 6e, 47 questions ajoutées ou complétées, aucun identifiant dupliqué et aucun index de réponse invalide. Build, contrôle syntaxique et tests complets à confirmer par la CI de la PR.
+- Vérification du registre par exécution JavaScript : 7 cours de mathématiques de 6e, 44 nouveaux exercices, aucun identifiant dupliqué et aucun index de réponse invalide. Build, contrôle syntaxique et tests complets à confirmer par la CI de la PR.
 
 # Journal des améliorations
 
