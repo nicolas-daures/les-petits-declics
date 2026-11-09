@@ -47,6 +47,24 @@
           explanation:
             "5/4 = 4/4 + 1/4 = 1 + 1/4 = 1,25. Une fraction peut dépasser 1 : le numérateur peut être plus grand que le dénominateur.",
         },
+        {
+          text: "Une bande est partagée en 8 parts égales. Tu en colories 3. Quelle fraction est coloriée ?",
+          options: ["8/3", "3/8", "3/5"],
+          correct: 1,
+          explanation: "Le dénominateur indique les huit parts égales ; le numérateur compte les trois parts coloriées. La fraction est 3/8."
+        },
+        {
+          text: "Quelle affirmation est vraie ?",
+          options: ["7/9 est supérieur à 1", "7/9 est égal à 1", "7/9 est inférieur à 1"],
+          correct: 2,
+          explanation: "Le numérateur 7 est plus petit que le dénominateur 9 : 7/9 est inférieur à 9/9, donc à 1."
+        },
+        {
+          text: "Quelle décomposition de 13/5 est correcte ?",
+          options: ["1 + 3/5", "2 + 3/5", "3 + 2/5"],
+          correct: 1,
+          explanation: "13 cinquièmes contiennent 10 cinquièmes, soit 2 unités, puis 3 cinquièmes restent : 13/5 = 2 + 3/5."
+        },
       ],
     },
     {
