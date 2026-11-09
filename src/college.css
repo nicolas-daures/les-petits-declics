@@ -669,3 +669,23 @@ select:focus-visible {
   color: #4e6760;
   margin-top: 8px;
 }
+
+.plant-figure {
+  margin: 20px 0;
+  padding: 12px;
+  background: #f5f8f4;
+  border-radius: 10px;
+}
+.plant-figure svg {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin: auto;
+}
+.plant-figure figcaption {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #4e6760;
+  margin-top: 8px;
+}
