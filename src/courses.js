@@ -47,8 +47,6 @@
           explanation:
             "5/4 = 4/4 + 1/4 = 1 + 1/4 = 1,25. Une fraction peut dépasser 1 : le numérateur peut être plus grand que le dénominateur.",
         },
-        {
-
       ],
     },
     {
