@@ -16,8 +16,8 @@
       description:
         "Comprendre ce que signifie une fraction, retrouver des écritures équivalentes et dépasser l’unité.",
       objectives:
-        "Lire une fraction, l’interpréter comme une division et reconnaître des fractions égales.",
-      body: `<h2>1. Une unité, des parts égales</h2><p>Pour représenter <b>3/4</b>, on partage une unité en <b>4 parts égales</b> et on en prend <b>3</b>.</p>${fractionBar(3, 4)}<p><b>4</b> est le dénominateur : il indique en combien de parts égales l’unité est partagée. <b>3</b> est le numérateur : il indique combien de ces parts on prend.</p><aside class="lesson-callout">Les parts doivent être de même taille. Trois morceaux de tailles différentes sur quatre morceaux ne représentent pas forcément 3/4 de l’unité.</aside><h2>2. Une fraction est aussi un quotient</h2><p>Partager 3 litres entre 4 personnes, c’est calculer <b>3 ÷ 4</b>. Chaque personne reçoit <b>3/4 de litre</b>, soit <b>0,75 litre</b>.</p><div class="lesson-formula">3/4 = 3 ÷ 4 = 0,75</div><p>Plus généralement, <b>a/b est le nombre qui, multiplié par b, donne a</b>. Par exemple : (3/4) × 4 = 3. Le dénominateur ne peut jamais être zéro : diviser par zéro n’est pas défini.</p><h2>3. Changer l’écriture, garder le nombre</h2><p>Si on multiplie le numérateur et le dénominateur par un même nombre non nul, on obtient une fraction égale.</p><div class="lesson-formula">3/4 = (3 × 2)/(4 × 2) = 6/8</div>${fractionBar(6, 8)}<p>La partie coloriée occupe la même proportion de la bande. Attention : ajouter le même nombre en haut et en bas ne conserve généralement pas la fraction.</p><h2>4. Dépasser une unité</h2><p>Une fraction n’est pas toujours plus petite que 1. Avec <b>5/4</b>, on prend cinq quarts : une unité entière et encore un quart.</p><div class="double-bars">${fractionBar(4, 4)}${fractionBar(1, 4)}</div><div class="lesson-formula">5/4 = 1 + 1/4 = 1,25</div><aside class="lesson-callout">À retenir : 4/4 = 1. Le nombre 5/4 se trouve donc entre 1 et 2 sur une droite graduée.</aside><details class="lesson-sources"><summary>Référence du programme</summary><p>Mathématiques, 6e (cycle 3) : sens des fractions et sens quotient. Cette fiche aborde une partie de la notion, pas tout le chapitre.</p><p><a href="https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A" target="_blank" rel="noopener">Bulletin officiel du 17 avril 2025</a> · <a href="https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3" target="_blank" rel="noopener">Accompagnement Éduscol</a></p><small>Références vérifiées le 28 octobre 2026.</small></details>`,
+        "Lire et représenter une fraction, la comparer à 1, la décomposer en entier et fraction inférieure à 1, et reconnaître des fractions égales.",
+      body: `<h2>1. Une unité, des parts égales</h2><p>Pour représenter <b>3/4</b>, on partage une unité en <b>4 parts égales</b> et on en prend <b>3</b>.</p>${fractionBar(3, 4)}<p><b>4</b> est le dénominateur : il indique en combien de parts égales l’unité est partagée. <b>3</b> est le numérateur : il indique combien de ces parts on prend.</p><aside class="lesson-callout">Les parts doivent être de même taille. Trois morceaux de tailles différentes sur quatre morceaux ne représentent pas forcément 3/4 de l’unité.</aside><h2>2. Une fraction est aussi un quotient</h2><p>Partager 3 litres entre 4 personnes, c’est calculer <b>3 ÷ 4</b>. Chaque personne reçoit <b>3/4 de litre</b>, soit <b>0,75 litre</b>.</p><div class="lesson-formula">3/4 = 3 ÷ 4 = 0,75</div><p>Plus généralement, <b>a/b est le nombre qui, multiplié par b, donne a</b>. Par exemple : (3/4) × 4 = 3. Le dénominateur ne peut jamais être zéro : diviser par zéro n’est pas défini.</p><h2>3. Changer l’écriture, garder le nombre</h2><p>Si on multiplie le numérateur et le dénominateur par un même nombre non nul, on obtient une fraction égale.</p><div class="lesson-formula">3/4 = (3 × 2)/(4 × 2) = 6/8</div>${fractionBar(6, 8)}<p>La partie coloriée occupe la même proportion de la bande. Attention : ajouter le même nombre en haut et en bas ne conserve généralement pas la fraction.</p><h2>4. Dépasser une unité</h2><p>Une fraction n’est pas toujours plus petite que 1. Avec <b>5/4</b>, on prend cinq quarts : une unité entière et encore un quart.</p><div class="double-bars">${fractionBar(4, 4)}${fractionBar(1, 4)}</div><div class="lesson-formula">5/4 = 1 + 1/4 = 1,25</div><aside class="lesson-callout">À retenir : 4/4 = 1. Le nombre 5/4 se trouve donc entre 1 et 2 sur une droite graduée.</aside><h2>5. Comparer une fraction à 1</h2><p>On compare le numérateur au dénominateur, car 1 peut s’écrire avec le même dénominateur : 1 = 4/4 = 7/7, etc.</p><ul><li>Numérateur plus petit : fraction inférieure à 1, par exemple 3/5.</li><li>Numérateur égal : fraction égale à 1, par exemple 6/6.</li><li>Numérateur plus grand : fraction supérieure à 1, par exemple 9/6.</li></ul><h2>6. Colorier et décomposer</h2><p>Pour colorier 3/5, partage la figure en cinq parts de même aire et colorie-en trois.</p>${fractionBar(3, 5)}<p> Pour décomposer 13/5, cherche combien de groupes de cinq sont contenus dans treize.</p><div class="lesson-formula">13/5 = 10/5 + 3/5 = 2 + 3/5</div><details class="lesson-sources"><summary>Référence du programme</summary><p>Mathématiques, 6e (cycle 3) : sens des fractions et sens quotient. Cette fiche aborde une partie de la notion, pas tout le chapitre.</p><p><a href="https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A" target="_blank" rel="noopener">Bulletin officiel du 17 avril 2025</a> · <a href="https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3" target="_blank" rel="noopener">Accompagnement Éduscol</a></p><small>Références vérifiées le 28 octobre 2026.</small></details>`,
       questions: [
         {
           text: "Une bande est partagée en 5 parts égales. Tu en colories 2. Quelle fraction représente la partie coloriée ?",
@@ -549,5 +549,538 @@
           "Un même volume de deux liquides différents peut avoir des masses différentes. Le repère d’environ 1 g pour 1 mL concerne l’eau liquide à température usuelle ; ce n’est pas une conversion valable pour toute matière.",
       },
     ],
+  });
+  window.COLLEGE_COURSES.push({"id":"nutrition-vegetaux","grade":"5e","subject":"sciences","subjectName":"Sciences","domain":"SVT · Le vivant et son évolution","icon":"🌿","title":"Nutrition des végétaux : de la racine à la feuille","heading":"Comment une plante se nourrit-elle ?<br><span>De la racine à la feuille.</span>","description":"Comprendre ce que les racines prélèvent, comment les feuilles fabriquent de la matière et comment celle-ci circule dans la plante.","objectives":"Relier les besoins d’une plante chlorophyllienne, la production de matière organique dans les feuilles et le transport vers les autres organes.","body":"<p><b>SVT · 5e · Cycle 4</b> — Une première approche de la nutrition des plantes chlorophylliennes. Dans le cycle 4, les notions sont approfondies progressivement ; leur ordre peut varier selon la progression de la classe.</p>\n<h2>1. Les racines prélèvent de l’eau et des sels minéraux</h2>\n<p>Les racines absorbent l’<b>eau</b> et les <b>sels minéraux</b> dissous dans l’eau du sol. Les très fins prolongements des racines, appelés <b>poils absorbants</b>, augmentent la surface de contact avec le sol.</p>\n<p>Ce mélange d’eau et de sels minéraux circule dans des vaisseaux conducteurs sous forme de <b>sève brute</b>. Il monte des racines vers les feuilles, en passant par la tige.</p>\n<div class=\"lesson-formula\">Eau + sels minéraux<br><span aria-hidden=\"true\">↓</span><br>Racines → tige → feuilles<br><b>Sève brute</b></div>\n<h2>2. Les feuilles reçoivent aussi de la matière de l’air</h2>\n<p>Les feuilles échangent des gaz avec l’air, notamment par de petites ouvertures appelées <b>stomates</b>. Pour la photosynthèse, elles prélèvent du <b>dioxyde de carbone (CO₂)</b>. Les parties vertes contiennent de la <b>chlorophylle</b>, un pigment qui capte l’énergie lumineuse.</p>\n<aside class=\"lesson-callout\">La lumière apporte de l’énergie : ce n’est pas une matière que la plante absorbe. Le dioxyde de carbone, lui, est une matière présente dans l’air.</aside>\n<h2>3. La photosynthèse fabrique de la matière organique</h2>\n<p>Dans les organes verts éclairés, la plante utilise l’énergie lumineuse pour fabriquer de la <b>matière organique</b> à partir d’eau et de dioxyde de carbone. Cette fabrication s’appelle la <b>photosynthèse</b>. Elle s’accompagne d’un rejet de <b>dioxygène (O₂)</b> dans l’air.</p>\n<div class=\"lesson-formula\">Eau + dioxyde de carbone<br><span aria-hidden=\"true\">— énergie lumineuse →</span><br>Matière organique + dioxygène</div>\n<p>La matière organique, notamment des sucres, permet à la plante de construire ses organes et de fonctionner. Une partie peut être transformée et stockée sous forme de réserves, par exemple dans un tubercule ou une graine. Les sels minéraux sont également indispensables, mais ils ne remplacent ni l’eau ni le dioxyde de carbone dans cette fabrication.</p>\n<h2>4. La matière fabriquée est distribuée dans la plante</h2>\n<p>La matière organique produite dans les feuilles peut être transportée vers les organes qui grandissent ou qui stockent des réserves. Elle circule, dissoute dans l’eau, dans la <b>sève élaborée</b>, par d’autres vaisseaux conducteurs. Elle peut aller vers les racines, les fruits, les bourgeons ou les organes de réserve : le trajet dépend des besoins de la plante.</p>\n<figure class=\"plant-figure\"><svg viewBox=\"0 0 360 260\" role=\"img\" aria-labelledby=\"plant-title plant-desc\" xmlns=\"http://www.w3.org/2000/svg\">\n<title id=\"plant-title\">Les prélèvements et les transports dans une plante</title>\n<desc id=\"plant-desc\">Une plante avec des racines, une tige et des feuilles. L’eau et les sels minéraux montent des racines vers les feuilles dans la sève brute. Les feuilles utilisent le dioxyde de carbone et l’énergie lumineuse pour fabriquer de la matière organique et libèrent du dioxygène. La sève élaborée transporte cette matière vers les autres organes.</desc>\n<defs>\n<marker id=\"plant-arrow-green\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6 Z\" fill=\"#315e60\"/></marker>\n<marker id=\"plant-arrow-rust\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6 Z\" fill=\"#ac633f\"/></marker>\n</defs>\n<circle cx=\"42\" cy=\"35\" r=\"15\" fill=\"#f4d78e\" stroke=\"#ac633f\" stroke-width=\"2\"/>\n<g stroke=\"#ac633f\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M42 10 V3 M42 67 V60 M17 35 H9 M75 35 H67 M24 17 L18 11 M60 53 L66 59 M60 17 L66 11 M24 53 L18 59\"/></g>\n<path d=\"M180 197 V83\" stroke=\"#547b53\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<path d=\"M180 112 C143 65 112 69 115 93 C119 116 153 126 180 112Z\" fill=\"#91b58b\" stroke=\"#315e60\" stroke-width=\"2\"/>\n<path d=\"M180 100 C206 52 243 57 240 82 C236 105 205 116 180 100Z\" fill=\"#91b58b\" stroke=\"#315e60\" stroke-width=\"2\"/>\n<path d=\"M180 198 C158 211 149 227 140 244 M180 198 C199 214 211 228 222 244 M180 199 C175 220 175 237 173 250 M163 214 L151 218 M203 217 L216 213\" fill=\"none\" stroke=\"#8b7257\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<path d=\"M0 199 H360\" stroke=\"#b8a88d\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/>\n<path d=\"M168 190 V123\" stroke=\"#315e60\" stroke-width=\"2.5\" marker-end=\"url(#plant-arrow-green)\"/>\n<path d=\"M192 122 V190\" stroke=\"#ac633f\" stroke-width=\"2.5\" marker-end=\"url(#plant-arrow-rust)\"/>\n<path d=\"M64 94 C84 88 97 88 116 92\" stroke=\"#315e60\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#plant-arrow-green)\"/>\n<path d=\"M242 83 C269 72 286 72 310 75\" stroke=\"#ac633f\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#plant-arrow-rust)\"/>\n<path d=\"M54 48 L119 77\" stroke=\"#ac633f\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#plant-arrow-rust)\"/>\n<g font-family=\"sans-serif\" font-size=\"11\" fill=\"#223b3c\">\n<text x=\"8\" y=\"84\">CO₂</text><text x=\"308\" y=\"64\">O₂</text><text x=\"7\" y=\"14\">Lumière</text>\n<text x=\"8\" y=\"151\">Sève brute</text><text x=\"8\" y=\"165\">(vers les feuilles)</text>\n<text x=\"225\" y=\"157\">Sève élaborée</text><text x=\"225\" y=\"171\">(vers les organes)</text>\n<text x=\"12\" y=\"218\">Sol</text><text x=\"145\" y=\"257\">Racines</text>\n</g>\n</svg><figcaption>Schéma simplifié : les flèches montrent les principaux échanges et transports. La sève élaborée rejoint les organes qui utilisent ou stockent la matière organique.</figcaption></figure>\n<h2>5. Attention : la plante respire aussi</h2>\n<p>Comme les autres êtres vivants, une plante respire : ses cellules utilisent du dioxygène et rejettent du dioxyde de carbone. La respiration a lieu <b>jour et nuit</b>. Elle est différente de la photosynthèse, qui nécessite de la lumière. Une plante ne réalise donc pas la photosynthèse dans l’obscurité, mais elle continue à respirer.</p>\n<aside class=\"lesson-callout\"><b>À retenir :</b> les racines prélèvent de l’eau et des sels minéraux ; les feuilles utilisent aussi le CO₂ de l’air et l’énergie lumineuse pour fabriquer de la matière organique ; les sèves assurent le transport dans la plante.</aside>\n<details class=\"lesson-sources\"><summary>Références du programme</summary><p>SVT, cycle 4, thème « Le vivant et son évolution » : relier les besoins des cellules d’une plante chlorophyllienne, les lieux de production ou de prélèvement de matière et de stockage, ainsi que les systèmes de transport dans la plante. Cette fiche propose une introduction en 5e ; elle ne couvre pas tout le thème et ne fixe pas une progression nationale annuelle.</p><p><a href=\"https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel du cycle 4, BO n° 31 du 30 juillet 2020</a> · <a href=\"https://eduscol.education.gouv.fr/5742/ressources-d-accompagnement-du-programme-de-sciences-de-la-vie-et-de-la-terre-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources d’accompagnement Éduscol en SVT</a></p><small>Références vérifiées le 8 novembre 2026. Exemples et schéma originaux.</small></details>","questions":[{"text":"Que prélèvent principalement les racines dans le sol pour la nutrition de la plante ?","options":["De l’eau et des sels minéraux dissous","Du dioxygène et du sucre","De la lumière et du dioxyde de carbone"],"correct":0,"explanation":"Les racines absorbent l’eau et les sels minéraux dissous dans l’eau du sol. La lumière est une énergie captée par les parties vertes ; le dioxyde de carbone est prélevé dans l’air par les organes qui réalisent la photosynthèse."},{"text":"Quels éléments sont utilisés par une feuille verte éclairée pour réaliser la photosynthèse ?","options":["De l’eau, du dioxyde de carbone et de l’énergie lumineuse","Du dioxygène, du sucre et de la lumière","Uniquement des sels minéraux et du dioxygène"],"correct":0,"explanation":"La photosynthèse utilise de l’eau et du dioxyde de carbone grâce à l’énergie lumineuse. La lumière fournit l’énergie nécessaire : ce n’est pas une matière."},{"text":"Lorsqu’une feuille verte réalise la photosynthèse à la lumière, quel échange de gaz est associé à cette activité ?","options":["Elle prélève du CO₂ et libère du dioxygène (O₂)","Elle prélève du dioxygène et libère du CO₂ uniquement","Elle ne réalise aucun échange avec l’air"],"correct":0,"explanation":"La photosynthèse consomme du dioxyde de carbone et s’accompagne d’un rejet de dioxygène. Attention : la respiration de la plante a lieu elle aussi, y compris à la lumière."},{"text":"Que transporte la sève brute et dans quel sens circule-t-elle principalement ?","options":["De la matière organique des feuilles vers les racines","De l’eau et des sels minéraux des racines vers les feuilles","Du dioxygène des feuilles vers les racines"],"correct":1,"explanation":"La sève brute est constituée d’eau et de sels minéraux prélevés par les racines. Elle monte dans les vaisseaux conducteurs vers les parties aériennes, notamment les feuilles."},{"text":"Quel est le rôle principal de la sève élaborée ?","options":["Transporter la matière organique produite par les feuilles vers les organes qui en ont besoin ou la stockent","Faire monter uniquement l’eau du sol","Transporter la lumière jusqu’aux racines"],"correct":0,"explanation":"La sève élaborée transporte des substances organiques dissoutes, notamment des sucres, depuis les organes producteurs vers les organes consommateurs ou de réserve. Le trajet dépend des besoins de la plante."},{"text":"Quelle phrase décrit correctement la respiration d’une plante ?","options":["Elle respire seulement la nuit.","Elle respire jour et nuit : ses cellules utilisent du dioxygène et rejettent du dioxyde de carbone.","Elle ne respire pas lorsqu’elle réalise la photosynthèse."],"correct":1,"explanation":"La respiration cellulaire a lieu en permanence, de jour comme de nuit. Elle est distincte de la photosynthèse, qui nécessite de la lumière ; les deux phénomènes peuvent se dérouler en même temps dans les organes verts éclairés."}]});
+
+  // Révisions de mathématiques de 6e — Plan de travail 1.
+  window.COLLEGE_COURSES.push({
+    "id": "tables-multiplication",
+    "grade": "6e",
+    "subject": "mathematiques",
+    "subjectName": "Mathématiques",
+    "domain": "Nombres et calculs",
+    "icon": "×",
+    "title": "Tables de multiplication : mémoriser et retrouver",
+    "heading": "Tables de multiplication : mémoriser et retrouver<br><span>Comprendre et s’entraîner.</span>",
+    "description": "Mémoriser les tables et retrouver un produit ou un facteur manquant, dans les deux sens.",
+    "objectives": "Connaître les produits des tables de 2 à 10 et utiliser la multiplication à trous.",
+    "body": "<h2>1. Un produit, deux facteurs</h2><p>Dans <b>6 × 7 = 42</b>, 6 et 7 sont les facteurs ; 42 est le produit. Il faut savoir retrouver le résultat, mais aussi un facteur manquant.</p><div class=\"lesson-formula\">6 × 7 = 42<br>42 = 7 × 6<br>42 ÷ 7 = 6</div><h2>2. S’entraîner dans les deux sens</h2><p>Une table peut être interrogée à l’endroit (8 × 4 = ?) ou à l’envers (quel nombre multiplié par 8 donne 56 ?). La commutativité permet de retourner les facteurs : 4 × 8 = 8 × 4.</p><aside class=\"lesson-callout\">Astuce : si tu connais 5 × 7 = 35, alors 6 × 7 = 35 + 7 = 42. Vérifie aussi les divisions correspondantes.</aside><details class=\"lesson-sources\"><summary>Repères du programme</summary><p>Fiche de révision construite à partir des notions du plan de travail fourni. Le programme officiel de mathématiques du cycle 3, publié au Bulletin officiel du 17 avril 2025, s’applique en 6e depuis la rentrée 2025.</p><p><a href=\"https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A\" target=\"_blank\" rel=\"noopener\">Programme officiel – BO du 17 avril 2025</a> · <a href=\"https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>",
+    "questions": [
+      {
+        "text": "Combien font 7 × 8 ?",
+        "options": [
+          "54",
+          "56",
+          "64"
+        ],
+        "correct": 1,
+        "explanation": "7 × 8 = 56. C’est un produit à connaître par cœur dans la table de 7."
+      },
+      {
+        "text": "Quel nombre manque ? 9 × … = 63",
+        "options": [
+          "6",
+          "7",
+          "8"
+        ],
+        "correct": 1,
+        "explanation": "63 ÷ 9 = 7, donc le facteur manquant est 7 et 9 × 7 redonne bien 63."
+      },
+      {
+        "text": "Combien font 6 × 9 ?",
+        "options": [
+          "45",
+          "54",
+          "56"
+        ],
+        "correct": 1,
+        "explanation": "6 × 9 = 54. On peut calculer 6 × 10 − 6."
+      },
+      {
+        "text": "Complète : 72 ÷ 8 = …",
+        "options": [
+          "8",
+          "9",
+          "10"
+        ],
+        "correct": 1,
+        "explanation": "Comme 8 × 9 = 72, alors 72 ÷ 8 = 9."
+      },
+      {
+        "text": "Quelle égalité est correcte ?",
+        "options": [
+          "7 × 6 = 48",
+          "6 × 8 = 42",
+          "9 × 5 = 45"
+        ],
+        "correct": 2,
+        "explanation": "9 × 5 = 45. Les deux autres produits valent 42 et 48."
+      },
+      {
+        "text": "Quel facteur manque ? … × 4 = 36",
+        "options": [
+          "8",
+          "9",
+          "10"
+        ],
+        "correct": 1,
+        "explanation": "36 ÷ 4 = 9 : le facteur manquant est 9."
+      },
+      {
+        "text": "Combien font 8 × 8 ?",
+        "options": [
+          "56",
+          "64",
+          "72"
+        ],
+        "correct": 1,
+        "explanation": "8 × 8 = 64. Huit groupes de huit unités forment soixante-quatre unités."
+      }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    "id": "numeration-entiers-decimaux",
+    "grade": "6e",
+    "subject": "mathematiques",
+    "subjectName": "Mathématiques",
+    "domain": "Nombres et calculs",
+    "icon": "123",
+    "title": "Nombres entiers et décimaux : lire, écrire, décomposer",
+    "heading": "Nombres entiers et décimaux : lire, écrire, décomposer<br><span>Comprendre et s’entraîner.</span>",
+    "description": "Comprendre la position des chiffres, lire les grands nombres et passer entre plusieurs écritures.",
+    "objectives": "Identifier chiffre et nombre de, écrire en chiffres et en lettres, décomposer et recomposer entiers et décimaux.",
+    "body": "<h2>1. La position donne la valeur</h2><p>Dans <b>4 582,307</b>, le 5 est le chiffre des centaines et représente 500 ; le 3 est le chiffre des dixièmes et représente 0,3.</p><div class=\"course-table-wrap\"><table class=\"course-table\"><caption>Valeur des chiffres dans 4 582,307</caption><tbody><tr><th>Milliers</th><th>Centaines</th><th>Dizaines</th><th>Unités</th><th>Dixièmes</th><th>Centièmes</th><th>Millièmes</th></tr><tr><td>4</td><td>5</td><td>8</td><td>2</td><td>3</td><td>0</td><td>7</td></tr></tbody></table></div><p>Le <b>chiffre</b> des dizaines est 8 ; le <b>nombre de dizaines</b> est 458 : il y a 458 dizaines complètes dans 4 582,307.</p><h2>2. Décomposer un nombre</h2><div class=\"lesson-formula\">4 582,307 = 4 000 + 500 + 80 + 2 + 0,3 + 0,007</div><p>On peut aussi écrire 4 582 + 307/1 000. Ces écritures désignent le même nombre.</p><h2>3. Lire et écrire les grands nombres</h2><p>On regroupe les chiffres par paquets de trois en partant de la droite : millions, milliers, unités. Exemple : <b>2 045 018</b> se lit « deux millions quarante-cinq mille dix-huit ».</p><p><b>Mille</b> est invariable. <b>Million</b> est un nom : il prend un s au pluriel. Dans « quatre-vingts », vingt prend un s lorsqu’il termine le nombre ; il le perd s’il est suivi d’un autre nombre (« quatre-vingt-deux »).</p><h2>4. Les zéros utiles et inutiles</h2><p>Dans 5,40, le zéro final ne change pas la valeur : 5,40 = 5,4. En revanche, dans 5,04, le zéro marque l’absence de dixièmes : 5,04 n’est pas 5,4.</p><aside class=\"lesson-callout\">« Chiffre de » désigne un chiffre à une position donnée. « Nombre de » compte des unités complètes : 4 582 contient 45 centaines.</aside><details class=\"lesson-sources\"><summary>Repères du programme</summary><p>Fiche de révision construite à partir des notions du plan de travail fourni. Le programme officiel de mathématiques du cycle 3, publié au Bulletin officiel du 17 avril 2025, s’applique en 6e depuis la rentrée 2025.</p><p><a href=\"https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A\" target=\"_blank\" rel=\"noopener\">Programme officiel – BO du 17 avril 2025</a> · <a href=\"https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>",
+    "questions": [
+      {
+        "text": "Dans 7 352, quel est le chiffre des centaines ?",
+        "options": [
+          "7",
+          "3",
+          "5"
+        ],
+        "correct": 1,
+        "explanation": "De droite à gauche : 2 unités, 5 dizaines, 3 centaines, 7 milliers."
+      },
+      {
+        "text": "Dans 7 352, quel est le nombre de centaines ?",
+        "options": [
+          "3",
+          "35",
+          "73"
+        ],
+        "correct": 2,
+        "explanation": "7 352 contient 73 centaines complètes (73 × 100 = 7 300)."
+      },
+      {
+        "text": "Dans 8,406, quel chiffre occupe le rang des centièmes ?",
+        "options": [
+          "4",
+          "0",
+          "6"
+        ],
+        "correct": 1,
+        "explanation": "Après la virgule : 4 dixièmes, 0 centième, 6 millièmes."
+      },
+      {
+        "text": "Quelle décomposition correspond à 3 205,08 ?",
+        "options": [
+          "3 000 + 200 + 5 + 0,8",
+          "3 000 + 200 + 5 + 0,08",
+          "300 + 20 + 5 + 0,08"
+        ],
+        "correct": 1,
+        "explanation": "3 205,08 = 3 000 + 200 + 5 + 8 centièmes."
+      },
+      {
+        "text": "Comment s’écrit « deux millions quarante-cinq mille dix-huit » ?",
+        "options": [
+          "2 045 018",
+          "2 450 018",
+          "2 045 180"
+        ],
+        "correct": 0,
+        "explanation": "2 000 000 + 45 000 + 18 = 2 045 018."
+      },
+      {
+        "text": "Quelle écriture est égale à 6,5 ?",
+        "options": [
+          "6,05",
+          "6,50",
+          "6,005"
+        ],
+        "correct": 1,
+        "explanation": "Le zéro placé à droite de la partie décimale ne change pas la valeur."
+      },
+      {
+        "text": "Combien de dixièmes contient 12,7 ?",
+        "options": [
+          "7",
+          "12",
+          "127"
+        ],
+        "correct": 2,
+        "explanation": "12 unités valent 120 dixièmes, auxquels s’ajoutent 7 dixièmes : 127."
+      }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    "id": "multiplier-diviser-puissances-dix",
+    "grade": "6e",
+    "subject": "mathematiques",
+    "subjectName": "Mathématiques",
+    "domain": "Nombres et calculs",
+    "icon": "×10",
+    "title": "Multiplier et diviser par 10, 100 et 1 000",
+    "heading": "Multiplier et diviser par 10, 100 et 1 000<br><span>Comprendre et s’entraîner.</span>",
+    "description": "Déplacer la virgule en comprenant le changement de valeur des chiffres.",
+    "objectives": "Multiplier et diviser un décimal par une puissance de 10 et retrouver le facteur manquant.",
+    "body": "<h2>1. Multiplier par 10, 100 ou 1 000</h2><p>Multiplier par 10 rend chaque chiffre dix fois plus important : les chiffres se décalent d’un rang vers la gauche dans le tableau de numération.</p><div class=\"lesson-formula\">4,26 × 10 = 42,6<br>4,26 × 100 = 426<br>4,26 × 1 000 = 4 260</div><h2>2. Diviser par 10, 100 ou 1 000</h2><p>Diviser par 10, c’est partager en dix parts égales. Les chiffres se décalent d’un rang vers la droite.</p><div class=\"lesson-formula\">426 ÷ 10 = 42,6<br>426 ÷ 100 = 4,26<br>426 ÷ 1 000 = 0,426</div><h2>3. Trouver l’opération manquante</h2><p>Pour passer de 1,87 à 18 700, on multiplie par 10 000 : quatre décalages vers la gauche.</p><aside class=\"lesson-callout\">On ne déplace pas réellement la virgule : c’est la valeur de position des chiffres qui change. On ajoute des zéros si nécessaire.</aside><details class=\"lesson-sources\"><summary>Repères du programme</summary><p>Fiche de révision construite à partir des notions du plan de travail fourni. Le programme officiel de mathématiques du cycle 3, publié au Bulletin officiel du 17 avril 2025, s’applique en 6e depuis la rentrée 2025.</p><p><a href=\"https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A\" target=\"_blank\" rel=\"noopener\">Programme officiel – BO du 17 avril 2025</a> · <a href=\"https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>",
+    "questions": [
+      {
+        "text": "Calcule 3,47 × 10.",
+        "options": [
+          "0,347",
+          "34,7",
+          "347"
+        ],
+        "correct": 1,
+        "explanation": "Multiplier par 10 décale les chiffres d’un rang vers la gauche."
+      },
+      {
+        "text": "Calcule 8,2 × 100.",
+        "options": [
+          "82",
+          "820",
+          "0,082"
+        ],
+        "correct": 1,
+        "explanation": "Deux rangs vers la gauche : 8,2 × 100 = 820."
+      },
+      {
+        "text": "Calcule 625 ÷ 10.",
+        "options": [
+          "62,5",
+          "6,25",
+          "6 250"
+        ],
+        "correct": 0,
+        "explanation": "Diviser par 10 décale les chiffres d’un rang vers la droite."
+      },
+      {
+        "text": "Calcule 4,8 ÷ 1 000.",
+        "options": [
+          "0,48",
+          "0,048",
+          "0,0048"
+        ],
+        "correct": 2,
+        "explanation": "Trois rangs vers la droite : 4,8 devient 0,0048."
+      },
+      {
+        "text": "Complète : 1,87 × … = 18 700.",
+        "options": [
+          "100",
+          "1 000",
+          "10 000"
+        ],
+        "correct": 2,
+        "explanation": "Il faut multiplier par 10 000 : quatre rangs de décalage."
+      },
+      {
+        "text": "Complète : 54,3 ÷ … = 0,543.",
+        "options": [
+          "10",
+          "100",
+          "1 000"
+        ],
+        "correct": 1,
+        "explanation": "54,3 ÷ 100 = 0,543 : deux rangs vers la droite."
+      },
+      {
+        "text": "Quelle égalité est correcte ?",
+        "options": [
+          "0,56 × 100 = 5,6",
+          "0,56 × 1 000 = 560",
+          "56 ÷ 100 = 0,56"
+        ],
+        "correct": 1,
+        "explanation": "0,56 × 1 000 = 560. La première vaut 56 et la troisième 0,56."
+      }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    "id": "vocabulaire-operations-addition",
+    "grade": "6e",
+    "subject": "mathematiques",
+    "subjectName": "Mathématiques",
+    "domain": "Nombres et calculs",
+    "icon": "∑",
+    "title": "Vocabulaire des opérations et addition posée",
+    "heading": "Vocabulaire des opérations et addition posée<br><span>Comprendre et s’entraîner.</span>",
+    "description": "Identifier les termes d’une opération et poser correctement une addition entière ou décimale.",
+    "objectives": "Connaître somme, termes, différence, produit et quotient ; effectuer une addition en alignant les rangs.",
+    "body": "<h2>1. Le vocabulaire des quatre opérations</h2><div class=\"course-table-wrap\"><table class=\"course-table\"><tbody><tr><th>Opération</th><th>Vocabulaire</th><th>Exemple</th></tr><tr><td>Addition</td><td>termes, somme</td><td>12 + 5 = 17</td></tr><tr><td>Soustraction</td><td>termes, différence</td><td>12 − 5 = 7</td></tr><tr><td>Multiplication</td><td>facteurs, produit</td><td>12 × 5 = 60</td></tr><tr><td>Division</td><td>dividende, diviseur, quotient</td><td>12 ÷ 3 = 4</td></tr></tbody></table></div><h2>2. Poser une addition</h2><p>On aligne les unités sous les unités, les dizaines sous les dizaines, et surtout les virgules sous les virgules. On complète éventuellement avec des zéros à droite.</p><div class=\"lesson-formula\">  24,70<br>+  8,35<br>──────<br>  33,05</div><p>On additionne de droite à gauche, en effectuant les retenues si nécessaire. Le résultat d’une addition s’appelle la <b>somme</b>.</p><aside class=\"lesson-callout\">Vérifie l’ordre de grandeur : 24,70 + 8,35 doit être un peu supérieur à 24 + 8, soit 32.</aside><details class=\"lesson-sources\"><summary>Repères du programme</summary><p>Fiche de révision construite à partir des notions du plan de travail fourni. Le programme officiel de mathématiques du cycle 3, publié au Bulletin officiel du 17 avril 2025, s’applique en 6e depuis la rentrée 2025.</p><p><a href=\"https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A\" target=\"_blank\" rel=\"noopener\">Programme officiel – BO du 17 avril 2025</a> · <a href=\"https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>",
+    "questions": [
+      {
+        "text": "Dans 14 + 9 = 23, comment appelle-t-on 14 et 9 ?",
+        "options": [
+          "Les facteurs",
+          "Les termes",
+          "Le quotient"
+        ],
+        "correct": 1,
+        "explanation": "Dans une addition, les nombres additionnés sont les termes ; leur résultat est la somme."
+      },
+      {
+        "text": "Comment appelle-t-on le résultat d’une multiplication ?",
+        "options": [
+          "La somme",
+          "La différence",
+          "Le produit"
+        ],
+        "correct": 2,
+        "explanation": "Le résultat d’une multiplication est un produit. Les nombres multipliés sont les facteurs."
+      },
+      {
+        "text": "Quel est le résultat de 36 − 18 ?",
+        "options": [
+          "54",
+          "18",
+          "2"
+        ],
+        "correct": 1,
+        "explanation": "36 − 18 = 18. Le résultat d’une soustraction est une différence."
+      },
+      {
+        "text": "Dans 48 ÷ 6 = 8, quel est le diviseur ?",
+        "options": [
+          "48",
+          "6",
+          "8"
+        ],
+        "correct": 1,
+        "explanation": "48 est le dividende, 6 le diviseur et 8 le quotient."
+      },
+      {
+        "text": "Calcule 27,6 + 4,85.",
+        "options": [
+          "31,85",
+          "32,45",
+          "76,1"
+        ],
+        "correct": 1,
+        "explanation": "On aligne les virgules : 27,60 + 4,85 = 32,45."
+      },
+      {
+        "text": "Calcule 308 + 95.",
+        "options": [
+          "393",
+          "403",
+          "413"
+        ],
+        "correct": 1,
+        "explanation": "308 + 95 = 308 + 90 + 5 = 398 + 5 = 403. La somme est 403."
+      },
+      {
+        "text": "Comment poser 12,5 + 3,72 ?",
+        "options": [
+          "Virgules alignées",
+          "Chiffres de droite alignés sans regarder les virgules",
+          "12,5 sous les centièmes"
+        ],
+        "correct": 0,
+        "explanation": "On écrit 12,50 + 3,72 : les virgules et les rangs de même valeur sont alignés."
+      }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    "id": "conversions-grandeurs",
+    "grade": "6e",
+    "subject": "mathematiques",
+    "subjectName": "Mathématiques",
+    "domain": "Grandeurs et mesures",
+    "icon": "m·g·L",
+    "title": "Conversions de longueurs, masses et contenances",
+    "heading": "Conversions de longueurs, masses et contenances<br><span>Comprendre et s’entraîner.</span>",
+    "description": "Utiliser le tableau des unités pour convertir sans confondre les grandeurs.",
+    "objectives": "Connaître les préfixes de kilo à milli et convertir des longueurs, masses et contenances, y compris tonne et quintal.",
+    "body": "<h2>1. Le tableau des préfixes</h2><p>Kilo = 1 000 fois, hecto = 100 fois, déca = 10 fois, déci = un dixième, centi = un centième, milli = un millième.</p><div class=\"course-table-wrap\"><table class=\"course-table\"><caption>Préfixes, de kilo à milli</caption><tbody><tr><th>kilo</th><th>hecto</th><th>déca</th><th>unité</th><th>déci</th><th>centi</th><th>milli</th></tr><tr><td>× 1 000</td><td>× 100</td><td>× 10</td><td>× 1</td><td>÷ 10</td><td>÷ 100</td><td>÷ 1 000</td></tr></tbody></table></div><h2>2. Longueurs, masses et contenances</h2><p>Les unités de référence sont le mètre (m), le gramme (g) et le litre (L).</p><div class=\"lesson-formula\">1 km = 1 000 m<br>1 kg = 1 000 g<br>1 kL = 1 000 L</div><p>À chaque déplacement d’une colonne vers la droite, on multiplie par 10 ; vers la gauche, on divise par 10. On conserve toujours la même grandeur.</p><h2>3. Tonne et quintal</h2><p><b>1 tonne (t) = 1 000 kg</b> et <b>1 quintal (q) = 100 kg</b>. Donc 1 t = 10 q.</p><aside class=\"lesson-callout\">Pour convertir des mètres en centimètres, on multiplie par 100 ; pour convertir des grammes en kilogrammes, on divise par 1 000.</aside><details class=\"lesson-sources\"><summary>Repères du programme</summary><p>Fiche de révision construite à partir des notions du plan de travail fourni. Le programme officiel de mathématiques du cycle 3, publié au Bulletin officiel du 17 avril 2025, s’applique en 6e depuis la rentrée 2025.</p><p><a href=\"https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A\" target=\"_blank\" rel=\"noopener\">Programme officiel – BO du 17 avril 2025</a> · <a href=\"https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>",
+    "questions": [
+      {
+        "text": "Combien de centimètres y a-t-il dans 2,5 m ?",
+        "options": [
+          "25 cm",
+          "250 cm",
+          "2 500 cm"
+        ],
+        "correct": 1,
+        "explanation": "1 m = 100 cm, donc 2,5 × 100 = 250 cm."
+      },
+      {
+        "text": "Convertis 3 400 m en kilomètres.",
+        "options": [
+          "34 km",
+          "3,4 km",
+          "0,34 km"
+        ],
+        "correct": 1,
+        "explanation": "1 km = 1 000 m. 3 400 ÷ 1 000 = 3,4 km."
+      },
+      {
+        "text": "Convertis 750 g en kilogrammes.",
+        "options": [
+          "7,5 kg",
+          "0,75 kg",
+          "75 kg"
+        ],
+        "correct": 1,
+        "explanation": "1 kg = 1 000 g. 750 ÷ 1 000 = 0,75 kg."
+      },
+      {
+        "text": "Combien de grammes représentent 2,4 kg ?",
+        "options": [
+          "240 g",
+          "2 400 g",
+          "24 000 g"
+        ],
+        "correct": 1,
+        "explanation": "Pour passer des kilogrammes aux grammes, on multiplie par 1 000 : 2,4 kg = 2 400 g."
+      },
+      {
+        "text": "Convertis 1,25 L en millilitres.",
+        "options": [
+          "125 mL",
+          "1 250 mL",
+          "12 500 mL"
+        ],
+        "correct": 1,
+        "explanation": "1 L = 1 000 mL, donc 1,25 L = 1 250 mL."
+      },
+      {
+        "text": "Combien de litres représentent 35 cL ?",
+        "options": [
+          "3,5 L",
+          "0,35 L",
+          "35 000 L"
+        ],
+        "correct": 1,
+        "explanation": "1 L = 100 cL, donc 35 cL = 0,35 L."
+      },
+      {
+        "text": "Une cargaison pèse 2 tonnes. Quelle est sa masse en kilogrammes ?",
+        "options": [
+          "200 kg",
+          "2 000 kg",
+          "20 000 kg"
+        ],
+        "correct": 1,
+        "explanation": "Une tonne vaut 1 000 kg : 2 t = 2 000 kg."
+      },
+      {
+        "text": "Combien de kilogrammes représentent 7 quintaux ?",
+        "options": [
+          "70 kg",
+          "700 kg",
+          "7 000 kg"
+        ],
+        "correct": 1,
+        "explanation": "Un quintal vaut 100 kg : 7 × 100 = 700 kg."
+      }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    "id": "notations-geometrie-paralleles-perpendiculaires",
+    "grade": "6e",
+    "subject": "mathematiques",
+    "subjectName": "Mathématiques",
+    "domain": "Espace et géométrie",
+    "icon": "∥ ⟂",
+    "title": "Notations géométriques, parallèles et perpendiculaires",
+    "heading": "Notations géométriques, parallèles et perpendiculaires<br><span>Comprendre et s’entraîner.</span>",
+    "description": "Lire les notations des droites et segments, puis construire des parallèles et des perpendiculaires avec précision.",
+    "objectives": "Noter droites, segments et demi-droites ; utiliser ∈ et ∉ ; distinguer longueur et segment ; construire parallèles et perpendiculaires.",
+    "body": "<h2>1. Droite, segment et demi-droite</h2><ul><li><b>(AB)</b> désigne la droite passant par A et B : elle se prolonge des deux côtés.</li><li><b>[AB]</b> désigne le segment d’extrémités A et B.</li><li><b>[AB)</b> désigne la demi-droite d’origine A passant par B.</li></ul><p>On les prononce « droite AB », « segment AB » et « demi-droite AB ».</p><h2>2. Appartenance et longueur</h2><p><b>A ∈ (d)</b> signifie que A appartient à la droite (d). <b>A ∉ (d)</b> signifie que A n’y appartient pas.</p><p>Les crochets désignent un objet géométrique ; sans crochets, <b>AB</b> désigne la longueur du segment [AB]. Si [AB] mesure 4,5 cm, on écrit <b>AB = 4,5 cm</b>.</p><h2>3. Parallèles et perpendiculaires</h2><p>Deux droites parallèles distinctes ne se coupent pas. Deux droites perpendiculaires se coupent en formant un angle droit.</p><figure class=\"pythagore-figure\"><svg viewBox=\"0 0 320 150\" role=\"img\" aria-labelledby=\"geometry-diagram-title\"><title id=\"geometry-diagram-title\">Exemples de droites parallèles et perpendiculaires</title><g fill=\"none\" stroke=\"#315e60\" stroke-width=\"2.5\"><path d=\"M20 35 H140 M20 75 H140\"/><path d=\"M205 20 V125 M165 75 H290\"/></g><path d=\"M205 75 h18 v18\" fill=\"none\" stroke=\"#ac633f\" stroke-width=\"2.5\"/><g fill=\"#223b3c\" font-size=\"12\"><text x=\"25\" y=\"25\">d</text><text x=\"25\" y=\"68\">e</text><text x=\"230\" y=\"28\">f</text><text x=\"268\" y=\"68\">g</text></g></svg><figcaption>À gauche, d et e sont parallèles. À droite, f et g sont perpendiculaires ; le petit carré marque l’angle droit.</figcaption></figure><h2>4. Construire proprement</h2><p><b>Perpendiculaire :</b> place un côté de l’équerre sur la droite donnée, fais-la glisser jusqu’au point demandé, puis trace le long de l’autre côté. Ajoute le petit carré d’angle droit.</p><p><b>Parallèle :</b> place un côté de l’équerre sur la droite donnée, appuie une règle contre l’autre côté, puis fais glisser l’équerre le long de la règle jusqu’au point demandé. Trace la parallèle.</p><aside class=\"lesson-callout\">Utilise un crayon bien taillé, des traits fins et une règle stable. Prolonge les droites assez loin pour rendre la construction lisible.</aside><details class=\"lesson-sources\"><summary>Repères du programme</summary><p>Fiche de révision construite à partir des notions du plan de travail fourni. Le programme officiel de mathématiques du cycle 3, publié au Bulletin officiel du 17 avril 2025, s’applique en 6e depuis la rentrée 2025.</p><p><a href=\"https://www.education.gouv.fr/bo/2025/Hebdo16/MENE2504620A\" target=\"_blank\" rel=\"noopener\">Programme officiel – BO du 17 avril 2025</a> · <a href=\"https://eduscol.education.gouv.fr/5712/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>",
+    "questions": [
+      {
+        "text": "Quelle notation désigne le segment dont les extrémités sont A et B ?",
+        "options": [
+          "(AB)",
+          "[AB]",
+          "[AB)"
+        ],
+        "correct": 1,
+        "explanation": "[AB] désigne le segment limité par A et B ; (AB) la droite entière et [AB) une demi-droite."
+      },
+      {
+        "text": "Quelle notation désigne la demi-droite d’origine A qui passe par B ?",
+        "options": [
+          "[AB)",
+          "[BA)",
+          "(AB)"
+        ],
+        "correct": 0,
+        "explanation": "Dans [AB), le premier point A est l’origine ; la demi-droite passe par B."
+      },
+      {
+        "text": "Que signifie A ∈ (d) ?",
+        "options": [
+          "A est à l’extérieur de d",
+          "A appartient à d",
+          "A est la longueur de d"
+        ],
+        "correct": 1,
+        "explanation": "Le symbole ∈ signifie « appartient à » : A se trouve sur la droite (d)."
+      },
+      {
+        "text": "[MN] mesure 6,2 cm. Quelle écriture donne sa longueur ?",
+        "options": [
+          "[MN] = 6,2 cm",
+          "(MN) = 6,2 cm",
+          "MN = 6,2 cm"
+        ],
+        "correct": 2,
+        "explanation": "Le segment est [MN], mais sa longueur s’écrit MN, sans crochets."
+      },
+      {
+        "text": "Deux droites qui se coupent en formant un angle droit sont…",
+        "options": [
+          "parallèles",
+          "perpendiculaires",
+          "confondues"
+        ],
+        "correct": 1,
+        "explanation": "Des droites perpendiculaires se coupent en formant un angle droit."
+      },
+      {
+        "text": "Quel instrument permet de vérifier un angle droit et de tracer une perpendiculaire ?",
+        "options": [
+          "Un compas seul",
+          "Une équerre",
+          "Un rapporteur seul"
+        ],
+        "correct": 1,
+        "explanation": "L’équerre possède un angle droit."
+      },
+      {
+        "text": "Deux droites parallèles distinctes…",
+        "options": [
+          "se coupent en un point",
+          "ne se coupent pas",
+          "forment toujours un angle droit"
+        ],
+        "correct": 1,
+        "explanation": "Dans le plan, deux droites parallèles distinctes ne se rencontrent pas."
+      },
+      {
+        "text": "Quel symbole indique que P n’appartient pas à la droite (d) ?",
+        "options": [
+          "P ∈ (d)",
+          "P ∉ (d)",
+          "P = (d)"
+        ],
+        "correct": 1,
+        "explanation": "Le symbole ∉ signifie « n’appartient pas à »."
+      }
+    ]
   });
 })();
