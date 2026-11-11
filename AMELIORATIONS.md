@@ -90,6 +90,14 @@
 - Vérifications : 23 tests Node réussis (sauvegarde aller-retour, import partiel/invalide, erreur de quota, routes historiques, rendu HTML et variantes publique/privée), syntaxe ; parcours navigateur ancien favori → vraie URL, exercice et reprise après rechargement ; page Mes progrès accessible.
 - Limites : domaine et compte Cloudflare non fournis, coordonnées éditoriales et paramètres techniques à compléter. Le contrôle complet du téléchargement/import en navigateur a rencontré une interruption de l’environnement ; les opérations de données sont couvertes par les tests Node. Les cookies et en-têtes réels du futur déploiement Cloudflare restent à contrôler.
 
+
+## 9 novembre 2026 — Première fiche de SVT : nutrition des végétaux
+
+- Ajout en 5e de « Nutrition des végétaux : de la racine à la feuille », route `#college/5e/sciences/nutrition-vegetaux` : prélèvements d’eau et de sels minéraux, sève brute, échanges gazeux, photosynthèse, matière organique, sève élaborée et distinction entre photosynthèse et respiration.
+- Six exercices corrigés pour vérifier les besoins de la plante, les échanges et les transports. Schéma SVG accessible avec description et légende, adapté aux petits écrans.
+- Programme de SVT du cycle 4 de 2020 et ressources Éduscol consultés le 9 novembre 2026. La fiche est présentée comme une introduction de 5e, sans prétendre imposer une progression annuelle nationale.
+- Vérifications locales non exécutées dans cet environnement : `npm run build`, `npm run check` et `npm test` restent à lancer sur la PR ; les sources générées dans `dist/` doivent être actualisées par le script du projet avant publication.
+
 ## Prochaines priorités
 
 1. Diversifier les sciences avec une première fiche de SVT, en vérifiant le programme applicable à la classe retenue.
