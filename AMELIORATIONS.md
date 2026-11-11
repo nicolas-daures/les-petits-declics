@@ -1,3 +1,18 @@
+## 9 novembre 2026 — Révisions de mathématiques de 6e (Plan de travail 1)
+
+- Comparaison du document fourni avec le catalogue de `main` : seul le cours « Fractions : du partage au quotient » existait en mathématiques de 6e. Il abordait déjà le vocabulaire numérateur/dénominateur, la représentation de parts égales, le quotient, les fractions équivalentes et un exemple de décomposition au-delà de l’unité.
+- Complète le cours sur les fractions : comparer une fraction à 1, colorier une fraction et décomposer une fraction supérieure à 1 ; trois exercices supplémentaires.
+- Ajoute six cours couvrant les autres rubriques du plan :
+  - C1 : tables de multiplication dans les deux sens ;
+  - N1-N5 : numération entière et décimale, position des chiffres, chiffre/nombre de, décomposition, écriture en lettres et zéros ;
+  - C2 : multiplication et division par 10, 100, 1 000 et recherche du facteur manquant ;
+  - C3-C4 : vocabulaire des opérations et addition posée de nombres entiers et décimaux ;
+  - GM : conversions de longueurs, masses et contenances, préfixes, tonne et quintal ;
+  - G1, G4-G5 : notations des droites, segments et demi-droites, appartenance, longueur, parallèles et perpendiculaires.
+- Ajoute 44 exercices aux six nouveaux cours ; le cours existant sur les fractions conserve ses quatre questions et gagne des explications et un schéma complémentaires.
+- Références : programme officiel de mathématiques du cycle 3 publié au BO du 17 avril 2025 (applicable en 6e depuis 2025-2026) et ressources d’accompagnement Éduscol. Le périmètre des cours suit le plan de révision transmis ; il ne prétend pas couvrir à lui seul l’ensemble du programme officiel de 6e.
+- Vérification du registre par exécution JavaScript : 7 cours de mathématiques de 6e, 44 nouveaux exercices, aucun identifiant dupliqué et aucun index de réponse invalide. Build, contrôle syntaxique et tests complets à confirmer par la CI de la PR.
+
 # Journal des améliorations
 
 ## 28 octobre 2026 — Accueil collège et première fiche de 6e
