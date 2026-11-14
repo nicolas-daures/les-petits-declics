@@ -32,7 +32,9 @@ Toujours modifier les sources puis régénérer dist/. Ajouter un cours dans src
 ## Publication Cloudflare
 
 Lire docs/CLOUDFLARE.md et renseigner site-config.json.
-Le projet est volontairement en mode privé, non indexable : les coordonnées de l’éditeur et le futur domaine n’ont pas été fournis.
+Le projet est volontairement en mode privé, non indexable : les coordonnées de l’éditeur et les informations nécessaires à la publication publique restent à compléter.
+
+L’adresse de départ retenue est https://les-petits-declics.pages.dev (à confirmer lors de la création du projet Pages et sous réserve de disponibilité du nom).
 
     npm run check:release
     npm run build:public
