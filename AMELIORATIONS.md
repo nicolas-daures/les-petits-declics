@@ -98,6 +98,15 @@
 - Programme de SVT du cycle 4 de 2020 et ressources Éduscol consultés le 9 novembre 2026. La fiche est présentée comme une introduction de 5e, sans prétendre imposer une progression annuelle nationale.
 - Vérifications locales non exécutées dans cet environnement : `npm run build`, `npm run check` et `npm test` restent à lancer sur la PR ; les sources générées dans `dist/` doivent être actualisées par le script du projet avant publication.
 
+## 14 novembre 2026 — Trois nouveaux cours de 3e
+
+- Mathématiques : « Thalès : calculer une longueur » — configuration, rapports de côtés correspondants, calcul d’une longueur et réciproque.
+- Français : « Construire un paragraphe argumenté » — thèse, argument, explication, exemple, connecteurs logiques et relecture.
+- SVT : « Immunité et vaccination : protéger l’organisme » — barrières, immunité innée, lymphocytes, anticorps, mémoire immunitaire et principe de la vaccination.
+- Six exercices originaux corrigés par cours. Identifiants stables : `thales-agrandissement`, `paragraphe-argumente` et `immunite-vaccination`. Les progrès restent indépendants dans le stockage collège existant ; aucune clé historique n’est modifiée.
+- Pages HTML générées sous `/cours/3e/...` et catalogue pré-rendu actualisé. Aucun nouveau filtre ni écran : les trois cours apparaissent dans les matières existantes.
+- Vérifications à exécuter sur la PR : `npm run build`, `npm run check` et `npm test`, puis contrôle des pages sur téléphone et ordinateur. Les cours sont des introductions ciblées, pas une couverture exhaustive des programmes.
+
 ## Prochaines priorités
 
 1. Diversifier les sciences avec une première fiche de SVT, en vérifiant le programme applicable à la classe retenue.
