@@ -19,7 +19,7 @@ Les tests historiques lisent dist/ : exécuter le build avant les tests.
 
 Ne publiez pas vos informations personnelles dans un dépôt GitHub public si vous choisissez la voie non professionnelle anonyme.
 
-- publicUrl : origine HTTPS finale, par exemple https://votre-domaine.fr, sans chemin.
+- publicUrl : origine HTTPS finale. L’adresse de départ choisie est https://les-petits-declics.pages.dev ; elle devra être confirmée lors de la création du projet Pages, car le nom peut déjà être pris.
 - editor.status : non-professionnel-anonyme, non-professionnel ou professionnel.
 - editor.contactEmail : adresse de contact relative au site et à la confidentialité.
 - Pour un éditeur non professionnel anonyme : identityProvidedToHost=true uniquement après transmission effective des éléments d’identité à l’hébergeur. Le contact publié peut être une adresse dédiée au site.
@@ -46,7 +46,7 @@ Les polices ne contactent plus Google ; leurs licences OFL sont dans src/fonts/.
 - Commande de build pour la version publique : npm run build:public.
 - Répertoire de sortie : dist.
 - Version de Node : 22 recommandée, 20 minimum.
-- Domaine personnalisé : associer le domaine renseigné dans publicUrl et vérifier son certificat HTTPS.
+- Domaine par défaut : créer le projet Pages avec le nom `les-petits-declics` si disponible ; Cloudflare attribuera alors https://les-petits-declics.pages.dev. Vérifier l’adresse réellement attribuée avant de la considérer comme active.
 - Enregistrer les paramètres puis vérifier la première publication.
 
 ## Déploiement GitHub : production uniquement depuis main
@@ -60,8 +60,6 @@ Pour reproduire le workflow du dépôt little-moments et éviter qu'une branche 
 5. Vérifier qu'aucun autre workflow GitHub Actions ne lance Wrangler ou un déploiement Cloudflare.
 
 Ainsi, les PR et branches servent aux vérifications uniquement ; un push ou une fusion sur `main` déclenche le déploiement de production Cloudflare Pages. Ne pas activer de déploiement depuis une branche de fonctionnalité. Ces réglages se font dans le tableau de bord Cloudflare et ne peuvent pas être imposés par un commit dans ce dépôt.
-
-
 
 Pour un aperçu privé : npm run build avec mode=private. robots.txt et les balises noindex évitent l’indexation, mais ne constituent jamais une protection d’accès.
 
