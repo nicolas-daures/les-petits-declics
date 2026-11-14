@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Immunité et vaccination : protéger l’organisme · Sciences 3e · Les petits déclics</title><meta name="description" content="Comprendre les barrières, la réponse immunitaire et le principe de la mémoire immunitaire."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Immunité et vaccination : protéger l’organisme · Sciences 3e · Les petits déclics"><meta property="og:description" content="Comprendre les barrières, la réponse immunitaire et le principe de la mémoire immunitaire."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/3e/sciences">← Sciences · 3e</a><div class="lesson-heading"><span class="category-label">3e · SCIENCES · SVT · CORPS HUMAIN ET SANTÉ</span><h1 tabindex="-1">Le système immunitaire,<br><span>une défense qui s’entraîne.</span></h1><p>Objectifs : Distinguer barrières et réponse immunitaire, expliquer le rôle des lymphocytes et décrire le principe général de la vaccination.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><p><b>SVT · 3e · Corps humain et santé</b> — L’organisme possède plusieurs moyens de défense contre les agents pathogènes. Cette fiche présente les grandes étapes de la réponse immunitaire adaptative.</p>
+<h2>1. Des barrières en première ligne</h2>
+<p>La peau et les muqueuses constituent des <b>barrières</b> qui limitent l’entrée de nombreux micro-organismes. Elles sont complétées par des mécanismes chimiques et biologiques, comme certaines sécrétions et le microbiote.</p>
+<h2>2. Une réponse rapide : l’immunité innée</h2>
+<p>Si un agent pathogène franchit les barrières, des cellules de défense peuvent le reconnaître et participer à une réaction inflammatoire. Des phagocytes l’engloutissent et le digèrent : c’est la <b>phagocytose</b>. Cette réponse est rapide et ne cible pas un seul agent de manière spécifique.</p>
+<aside class="lesson-callout">Une inflammation locale peut provoquer rougeur, chaleur, douleur et gonflement. C’est une réaction de défense ; ces signes ne permettent pas à eux seuls d’identifier le micro-organisme responsable.</aside>
+<h2>3. Une réponse ciblée : l’immunité adaptative</h2>
+<p>Certains <b>lymphocytes</b> reconnaissent des éléments caractéristiques d’un agent pathogène, appelés antigènes. Des lymphocytes B peuvent se différencier en cellules qui produisent des <b>anticorps</b>. Ceux-ci se fixent sur leur antigène et facilitent la neutralisation ou l’élimination de l’agent.</p>
+<p>Des lymphocytes T participent à la coordination de la réponse ; certains peuvent détruire des cellules infectées. Les mécanismes sont complémentaires : ils ne se remplacent pas tous les uns les autres.</p>
+<h2>4. La mémoire immunitaire</h2>
+<p>Après une première rencontre, certains lymphocytes deviennent des <b>cellules mémoire</b>. Lors d’une nouvelle exposition au même antigène, la réponse peut être plus rapide et plus importante. C’est le principe de la mémoire immunitaire.</p>
+<h2>5. Le principe de la vaccination</h2>
+<p>Un vaccin présente au système immunitaire un antigène ou une information permettant d’en produire un, sans provoquer la maladie ciblée de la même façon qu’une infection. Il prépare une réponse et favorise la formation de cellules mémoire. Les technologies vaccinales diffèrent, mais l’objectif est de préparer les défenses avant une rencontre avec l’agent pathogène.</p>
+<p>La vaccination contribue aussi à réduire la circulation de certains agents infectieux lorsque la couverture vaccinale est suffisante. Son efficacité et les recommandations dépendent du vaccin et de la maladie concernés.</p>
+<details class="lesson-sources"><summary>Références scientifiques et programme</summary><p>SVT, cycle 4 : fonctionnement du système immunitaire, reconnaissance des agents pathogènes et vaccination. Cette fiche est une synthèse introductive ; elle ne détaille pas toutes les cellules ni toutes les stratégies vaccinales.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme du cycle 4, BO du 30 juillet 2020</a> · <a href="https://www.inserm.fr/dossier/vaccins-et-vaccinations/" target="_blank" rel="noopener">Inserm : vaccins et vaccinations</a> · <a href="https://www.who.int/fr/health-topics/vaccines-and-immunization" target="_blank" rel="noopener">OMS : vaccination et immunisation</a></p><small>Contenu pédagogique général, sans conseil médical individuel.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Quel élément constitue une barrière physique contre l’entrée de nombreux micro-organismes ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="">La peau.</button><button disabled data-question="0" data-choice="1" class="">Les anticorps circulants uniquement.</button><button disabled data-question="0" data-choice="2" class="">Les cellules mémoire.</button></div></article><article class="lesson-question"><h3>2. Quelle cellule peut réaliser la phagocytose ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="">Un globule rouge.</button><button disabled data-question="1" data-choice="1" class="">Un phagocyte.</button><button disabled data-question="1" data-choice="2" class="">Une cellule de peau morte.</button></div></article><article class="lesson-question"><h3>3. Quel est le rôle des anticorps ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="">Transporter le dioxygène.</button><button disabled data-question="2" data-choice="1" class="">Se fixer sur un antigène et contribuer à sa neutralisation.</button><button disabled data-question="2" data-choice="2" class="">Fabriquer les globules rouges.</button></div></article><article class="lesson-question"><h3>4. Pourquoi la réponse immunitaire peut-elle être plus rapide lors d’une nouvelle rencontre avec le même antigène ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="">Parce que des cellules mémoire peuvent persister.</button><button disabled data-question="3" data-choice="1" class="">Parce que la peau devient transparente.</button><button disabled data-question="3" data-choice="2" class="">Parce que les globules rouges changent de forme.</button></div></article><article class="lesson-question"><h3>5. Quel est le principe général d’un vaccin ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="">Déclencher volontairement la maladie grave.</button><button disabled data-question="4" data-choice="1" class="">Préparer le système immunitaire à reconnaître un antigène et à développer une mémoire.</button><button disabled data-question="4" data-choice="2" class="">Remplacer définitivement toutes les défenses naturelles.</button></div></article><article class="lesson-question"><h3>6. Quelle affirmation distingue correctement immunité innée et adaptative ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="">L’innée est rapide et non spécifique ; l’adaptative cible des antigènes et peut laisser une mémoire.</button><button disabled data-question="5" data-choice="1" class="">L’innée apparaît seulement après vaccination.</button><button disabled data-question="5" data-choice="2" class="">L’adaptative ne fait intervenir aucune cellule.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : La peau.</p><p>La peau et les muqueuses forment des barrières qui limitent l’entrée des micro-organismes. Les anticorps et les cellules mémoire interviennent dans d’autres étapes de la défense.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : Un phagocyte.</p><p>Les phagocytes sont des cellules immunitaires capables d’englober puis de digérer des éléments étrangers. Cette action fait partie de l’immunité innée.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : Se fixer sur un antigène et contribuer à sa neutralisation.</p><p>Les anticorps reconnaissent et se fixent sur un antigène spécifique. Cette liaison peut neutraliser l’agent ou faciliter son élimination par d’autres mécanismes.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : Parce que des cellules mémoire peuvent persister.</p><p>Des lymphocytes mémoire restent après la première rencontre. Ils permettent une réponse secondaire généralement plus rapide et plus importante face au même antigène.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : Préparer le système immunitaire à reconnaître un antigène et à développer une mémoire.</p><p>Un vaccin expose le système immunitaire à un antigène ou à une information permettant de le produire, afin de préparer les défenses et la mémoire sans provoquer la maladie ciblée comme une infection.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : L’innée est rapide et non spécifique ; l’adaptative cible des antigènes et peut laisser une mémoire.</p><p>L’immunité innée intervient rapidement sans ciblage spécifique d’un antigène unique. L’immunité adaptative repose notamment sur des lymphocytes spécifiques et peut produire des cellules mémoire.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>
