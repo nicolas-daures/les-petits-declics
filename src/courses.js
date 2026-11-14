@@ -1152,4 +1152,117 @@
       { text: `Quelle question signifie « Quel temps fait-il aujourd'hui ? » ?`, options: [en("What's the weather like today?"), en("Where is the weather today?"), en("What time is the weather?")], correct: 0, explanation: `${en("What's the weather like today?")} est la formulation courante pour demander quel temps il fait aujourd'hui. On peut aussi demander ${en("How's the weather today?")}.` },
     ],
   });
+
+  window.COLLEGE_COURSES.push({
+    id: "thales-agrandissement",
+    grade: "3e",
+    subject: "mathematiques",
+    subjectName: "Mathématiques",
+    domain: "Géométrie · Théorème de Thalès",
+    icon: "△",
+    title: "Thalès : calculer une longueur",
+    heading: "Le théorème de Thalès,<br><span>des rapports pour mesurer.</span>",
+    description: "Reconnaître une configuration de Thalès, écrire les rapports dans le bon ordre et calculer une longueur.",
+    objectives: "Identifier les triangles en configuration de Thalès, utiliser l’égalité des rapports et rédiger un calcul avec son unité.",
+    body: `<p><b>Mathématiques · 3e · Géométrie</b> — Cette fiche présente le théorème de Thalès dans une configuration de triangles emboîtés. Il faut savoir reconnaître des droites parallèles et calculer un quotient.</p>
+<h2>1. Repérer la configuration</h2>
+<p>Dans un triangle <b>ABC</b>, les points <b>M</b> et <b>N</b> appartiennent respectivement aux côtés [AB] et [AC]. Si les droites (MN) et (BC) sont parallèles, les triangles AMN et ABC sont dans une configuration de Thalès.</p>
+<div class="lesson-formula">M ∈ [AB] · N ∈ [AC] · (MN) ∥ (BC)</div>
+<p>Les côtés correspondants sont [AM] et [AB], [AN] et [AC], puis [MN] et [BC]. Il faut conserver cet ordre dans les rapports.</p>
+<h2>2. Écrire l’égalité des rapports</h2>
+<div class="lesson-formula">AM / AB = AN / AC = MN / BC</div>
+<p>Chaque rapport compare deux côtés correspondants : un côté du petit triangle sur le côté correspondant du grand triangle. On peut aussi écrire tous les rapports dans le sens inverse, à condition de rester cohérent.</p>
+<aside class="lesson-callout">Avant de remplacer par des nombres, vérifie le parallélisme et repère les côtés correspondants. Un dessin qui semble parallèle ne constitue pas une preuve.</aside>
+<h2>3. Calculer une longueur</h2>
+<p>Supposons AM = 4 cm, AB = 10 cm et AC = 7,5 cm. On cherche AN :</p>
+<div class="lesson-formula">AM / AB = AN / AC<br>4 / 10 = AN / 7,5<br>AN = (4 × 7,5) / 10 = 3 cm</div>
+<p>Le résultat est cohérent : le petit triangle est une réduction du grand, donc AN est inférieur à AC.</p>
+<h2>4. Utiliser la réciproque avec prudence</h2>
+<p>La <b>réciproque</b> de Thalès permet de démontrer que deux droites sont parallèles lorsque les points sont alignés dans le même ordre et que les rapports de longueurs correspondants sont égaux.</p>
+<p>Par exemple, si AM/AB = AN/AC et si les points sont dans la configuration requise, on peut conclure que (MN) et (BC) sont parallèles. Il faut vérifier les alignements et l’ordre des points : l’égalité de deux nombres isolée ne suffit pas.</p>
+<h2>5. Rédiger une démonstration</h2>
+<p>Une rédaction claire suit trois étapes : annoncer les alignements et le parallélisme connus, citer le théorème, puis écrire l’égalité des rapports et effectuer le calcul. Termine par une phrase réponse avec l’unité.</p>
+<details class="lesson-sources"><summary>Références du programme</summary><p>Mathématiques, cycle 4 : théorème de Thalès et sa réciproque, calcul de longueurs et démonstration. Cette fiche est une introduction ciblée, pas une couverture complète de la géométrie de 3e.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme du cycle 4, BO du 30 juillet 2020</a> · <a href="https://eduscol.education.gouv.fr/6910/reperes-annuels-de-progression-et-attendus-de-fin-d-annee-du-cp-la-troisieme" target="_blank" rel="noopener">Repères annuels et attendus de fin d’année</a></p><small>Programme applicable en 3e en 2026-2027. Exemples et exercices originaux.</small></details>`,
+    questions: [
+      { text: "Dans le triangle ABC, M appartient à [AB], N appartient à [AC] et (MN) est parallèle à (BC). Quelle égalité est correcte ?", options: ["AM / AB = AN / AC", "AM / AC = AN / AB", "AB / AM = AN / BC"], correct: 0, explanation: "Les côtés correspondants sont AM et AB, puis AN et AC. On compare les côtés du petit triangle à ceux du grand triangle dans le même ordre : AM/AB = AN/AC = MN/BC." },
+      { text: "Quelle condition permet d’utiliser le théorème de Thalès dans cette configuration ?", options: ["Le triangle doit être isocèle.", "Les droites (MN) et (BC) doivent être parallèles.", "L’angle A doit être droit."], correct: 1, explanation: "Dans la configuration présentée, M et N sont sur les côtés issus de A et (MN) doit être parallèle à (BC). Ni l’égalité des côtés ni un angle droit ne sont nécessaires." },
+      { text: "On sait que AM = 4 cm, AB = 10 cm et AC = 7,5 cm. Quelle est la longueur AN ?", options: ["4,5 cm", "3 cm", "18,75 cm"], correct: 1, explanation: "AM/AB = AN/AC, donc 4/10 = AN/7,5. Ainsi AN = 7,5 × 4 ÷ 10 = 3 cm." },
+      { text: "Si AM/AB = 0,6 et si les conditions de la réciproque sont réunies, que peut-on conclure lorsque AN/AC = 0,6 ?", options: ["(MN) est parallèle à (BC).", "(MN) est perpendiculaire à (BC).", "Le triangle ABC est rectangle."], correct: 0, explanation: "La réciproque de Thalès permet de conclure au parallélisme lorsque les points sont alignés dans le même ordre et que les rapports correspondants sont égaux." },
+      { text: "Dans une configuration de Thalès, AM/AB = 3/5 et BC = 12 cm. Quelle est la longueur MN ?", options: ["20 cm", "7,2 cm", "9 cm"], correct: 1, explanation: "MN/BC = AM/AB = 3/5. Donc MN = 12 × 3/5 = 36/5 = 7,2 cm." },
+      { text: "Un élève affirme que deux droites sont parallèles uniquement parce que son dessin semble le montrer. Que manque-t-il ?", options: ["Une mesure ou une démonstration fondée sur les données.", "Un dessin plus grand.", "Une couleur différente pour chaque droite."], correct: 0, explanation: "Un schéma n’est pas une preuve. Il faut utiliser les informations de l’énoncé, par exemple des alignements et des rapports égaux pour appliquer la réciproque de Thalès." }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    id: "paragraphe-argumente",
+    grade: "3e",
+    subject: "francais",
+    subjectName: "Français",
+    domain: "Écriture · Argumentation",
+    icon: "¶",
+    title: "Construire un paragraphe argumenté",
+    heading: "Défendre une idée,<br><span>organiser son argumentation.</span>",
+    description: "Formuler une thèse, développer un argument, l’appuyer par un exemple et relier ses idées.",
+    objectives: "Distinguer thèse, argument et exemple ; organiser un paragraphe cohérent avec des connecteurs et une phrase de conclusion.",
+    body: `<p><b>Français · 3e · Écriture</b> — Un paragraphe argumenté cherche à faire comprendre et accepter un point de vue. Il ne suffit pas d’aligner des opinions : chaque idée doit être expliquée et illustrée.</p>
+<h2>1. Distinguer thèse et argument</h2>
+<p>La <b>thèse</b> est l’opinion que l’on défend. Un <b>argument</b> est une raison qui la justifie. Un <b>exemple</b> rend cette raison concrète et vérifiable.</p>
+<div class="lesson-formula">Thèse : La lecture régulière est utile.<br>Argument : Elle enrichit le vocabulaire.<br>Exemple : On rencontre des mots nouveaux dans un roman.</div>
+<h2>2. Développer plutôt que juxtaposer</h2>
+<p>Un argument doit être expliqué. Après « la lecture enrichit le vocabulaire », précise comment : le lecteur rencontre des mots dans leur contexte, observe leur emploi et peut en déduire le sens.</p>
+<aside class="lesson-callout">Un exemple ne remplace pas l’argument. « J’ai lu un roman hier » raconte un fait ; il faut expliquer en quoi ce fait soutient l’idée défendue.</aside>
+<h2>3. Relier les idées</h2>
+<p>Les connecteurs logiques rendent le raisonnement lisible : <b>tout d’abord</b> introduit une première idée ; <b>en effet</b> apporte une explication ; <b>par exemple</b> introduit une illustration ; <b>de plus</b> ajoute un argument ; <b>cependant</b> marque une opposition ; <b>donc</b> annonce une conséquence.</p>
+<p>Choisis le connecteur selon le lien logique réel. « Cependant » ne signifie pas « de plus » : il annonce une nuance ou une opposition.</p>
+<h2>4. Construire un paragraphe</h2>
+<p>Un paragraphe peut suivre cette structure souple :</p>
+<ol><li>Une phrase qui énonce l’idée défendue.</li><li>Un argument formulé clairement.</li><li>Une explication qui montre pourquoi l’argument est valable.</li><li>Un exemple précis.</li><li>Une phrase qui relie l’exemple à la thèse.</li></ol>
+<p>Exemple : « La lecture régulière mérite une place dans la journée. En effet, elle enrichit le vocabulaire en exposant le lecteur à des mots employés dans des contextes variés. Par exemple, un récit historique permet de découvrir des termes liés à une époque. Ainsi, lire aide à mieux comprendre et à mieux s’exprimer. »</p>
+<h2>5. Relire son raisonnement</h2>
+<p>Vérifie que chaque exemple soutient bien l’argument, que les connecteurs expriment le bon rapport logique et que les pronoms ont un référent clair. Évite les répétitions et les affirmations absolues sans justification.</p>
+<details class="lesson-sources"><summary>Références du programme</summary><p>Français, cycle 4 : écriture de textes organisés, justification d’un point de vue, cohérence et progression du propos. Cette fiche propose une méthode de paragraphe ; elle ne remplace pas l’étude des genres et des œuvres au programme.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme du cycle 4, BO du 30 juillet 2020</a> · <a href="https://eduscol.education.gouv.fr/enseignements/secondaire/college" target="_blank" rel="noopener">Ressources officielles pour le collège</a></p><small>Exemples et exercices originaux.</small></details>`,
+    questions: [
+      { text: "Dans « Les sorties scolaires sont utiles car elles permettent d’apprendre autrement », quelle est la thèse ?", options: ["Les sorties scolaires sont utiles.", "Elles permettent d’apprendre autrement.", "Car."], correct: 0, explanation: "La thèse est l’idée défendue : « Les sorties scolaires sont utiles ». La proposition introduite par « car » donne un argument qui justifie cette opinion." },
+      { text: "Quel élément est un argument pour défendre la lecture régulière ?", options: ["J’ai un livre bleu.", "Elle permet de rencontrer des mots nouveaux en contexte.", "Mon livre est posé sur la table."], correct: 1, explanation: "Un argument est une raison qui soutient la thèse. Rencontrer des mots nouveaux en contexte explique en quoi la lecture peut être utile." },
+      { text: "Quel connecteur convient pour introduire un exemple ?", options: ["Cependant", "Par exemple", "Donc"], correct: 1, explanation: "« Par exemple » annonce une illustration concrète. « Cependant » introduit une opposition ou une nuance ; « donc » marque une conséquence." },
+      { text: "Quelle phrase explique réellement l’argument « le sport collectif apprend à coopérer » ?", options: ["Le sport existe depuis longtemps.", "Les joueurs doivent se parler et coordonner leurs actions pour atteindre un objectif commun.", "J’aime beaucoup le sport."], correct: 1, explanation: "Cette phrase développe le mécanisme de coopération : communication, coordination et objectif commun. Les deux autres phrases ne justifient pas l’argument." },
+      { text: "Quel connecteur marque une opposition ou une nuance ?", options: ["De plus", "En effet", "Cependant"], correct: 2, explanation: "« Cependant » introduit une réserve ou une opposition. « De plus » ajoute un élément et « en effet » apporte une explication." },
+      { text: "Quel ordre forme le paragraphe le plus cohérent ?", options: ["Exemple → conclusion → thèse → argument.", "Thèse → argument expliqué → exemple → phrase de bilan.", "Connecteur → exemple sans explication → autre sujet."], correct: 1, explanation: "On annonce d’abord l’idée défendue, puis on la justifie, on l’illustre et on relie l’exemple à la thèse. Cet ordre aide le lecteur à suivre le raisonnement." }
+    ]
+  });
+  window.COLLEGE_COURSES.push({
+    id: "immunite-vaccination",
+    grade: "3e",
+    subject: "sciences",
+    subjectName: "Sciences",
+    domain: "SVT · Corps humain et santé",
+    icon: "＋",
+    title: "Immunité et vaccination : protéger l’organisme",
+    heading: "Le système immunitaire,<br><span>une défense qui s’entraîne.</span>",
+    description: "Comprendre les barrières, la réponse immunitaire et le principe de la mémoire immunitaire.",
+    objectives: "Distinguer barrières et réponse immunitaire, expliquer le rôle des lymphocytes et décrire le principe général de la vaccination.",
+    body: `<p><b>SVT · 3e · Corps humain et santé</b> — L’organisme possède plusieurs moyens de défense contre les agents pathogènes. Cette fiche présente les grandes étapes de la réponse immunitaire adaptative.</p>
+<h2>1. Des barrières en première ligne</h2>
+<p>La peau et les muqueuses constituent des <b>barrières</b> qui limitent l’entrée de nombreux micro-organismes. Elles sont complétées par des mécanismes chimiques et biologiques, comme certaines sécrétions et le microbiote.</p>
+<h2>2. Une réponse rapide : l’immunité innée</h2>
+<p>Si un agent pathogène franchit les barrières, des cellules de défense peuvent le reconnaître et participer à une réaction inflammatoire. Des phagocytes l’engloutissent et le digèrent : c’est la <b>phagocytose</b>. Cette réponse est rapide et ne cible pas un seul agent de manière spécifique.</p>
+<aside class="lesson-callout">Une inflammation locale peut provoquer rougeur, chaleur, douleur et gonflement. C’est une réaction de défense ; ces signes ne permettent pas à eux seuls d’identifier le micro-organisme responsable.</aside>
+<h2>3. Une réponse ciblée : l’immunité adaptative</h2>
+<p>Certains <b>lymphocytes</b> reconnaissent des éléments caractéristiques d’un agent pathogène, appelés antigènes. Des lymphocytes B peuvent se différencier en cellules qui produisent des <b>anticorps</b>. Ceux-ci se fixent sur leur antigène et facilitent la neutralisation ou l’élimination de l’agent.</p>
+<p>Des lymphocytes T participent à la coordination de la réponse ; certains peuvent détruire des cellules infectées. Les mécanismes sont complémentaires : ils ne se remplacent pas tous les uns les autres.</p>
+<h2>4. La mémoire immunitaire</h2>
+<p>Après une première rencontre, certains lymphocytes deviennent des <b>cellules mémoire</b>. Lors d’une nouvelle exposition au même antigène, la réponse peut être plus rapide et plus importante. C’est le principe de la mémoire immunitaire.</p>
+<h2>5. Le principe de la vaccination</h2>
+<p>Un vaccin présente au système immunitaire un antigène ou une information permettant d’en produire un, sans provoquer la maladie ciblée de la même façon qu’une infection. Il prépare une réponse et favorise la formation de cellules mémoire. Les technologies vaccinales diffèrent, mais l’objectif est de préparer les défenses avant une rencontre avec l’agent pathogène.</p>
+<p>La vaccination contribue aussi à réduire la circulation de certains agents infectieux lorsque la couverture vaccinale est suffisante. Son efficacité et les recommandations dépendent du vaccin et de la maladie concernés.</p>
+<details class="lesson-sources"><summary>Références scientifiques et programme</summary><p>SVT, cycle 4 : fonctionnement du système immunitaire, reconnaissance des agents pathogènes et vaccination. Cette fiche est une synthèse introductive ; elle ne détaille pas toutes les cellules ni toutes les stratégies vaccinales.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme du cycle 4, BO du 30 juillet 2020</a> · <a href="https://www.inserm.fr/dossier/vaccins-et-vaccinations/" target="_blank" rel="noopener">Inserm : vaccins et vaccinations</a> · <a href="https://www.who.int/fr/health-topics/vaccines-and-immunization" target="_blank" rel="noopener">OMS : vaccination et immunisation</a></p><small>Contenu pédagogique général, sans conseil médical individuel.</small></details>`,
+    questions: [
+      { text: "Quel élément constitue une barrière physique contre l’entrée de nombreux micro-organismes ?", options: ["La peau.", "Les anticorps circulants uniquement.", "Les cellules mémoire."], correct: 0, explanation: "La peau et les muqueuses forment des barrières qui limitent l’entrée des micro-organismes. Les anticorps et les cellules mémoire interviennent dans d’autres étapes de la défense." },
+      { text: "Quelle cellule peut réaliser la phagocytose ?", options: ["Un globule rouge.", "Un phagocyte.", "Une cellule de peau morte."], correct: 1, explanation: "Les phagocytes sont des cellules immunitaires capables d’englober puis de digérer des éléments étrangers. Cette action fait partie de l’immunité innée." },
+      { text: "Quel est le rôle des anticorps ?", options: ["Transporter le dioxygène.", "Se fixer sur un antigène et contribuer à sa neutralisation.", "Fabriquer les globules rouges."], correct: 1, explanation: "Les anticorps reconnaissent et se fixent sur un antigène spécifique. Cette liaison peut neutraliser l’agent ou faciliter son élimination par d’autres mécanismes." },
+      { text: "Pourquoi la réponse immunitaire peut-elle être plus rapide lors d’une nouvelle rencontre avec le même antigène ?", options: ["Parce que des cellules mémoire peuvent persister.", "Parce que la peau devient transparente.", "Parce que les globules rouges changent de forme."], correct: 0, explanation: "Des lymphocytes mémoire restent après la première rencontre. Ils permettent une réponse secondaire généralement plus rapide et plus importante face au même antigène." },
+      { text: "Quel est le principe général d’un vaccin ?", options: ["Déclencher volontairement la maladie grave.", "Préparer le système immunitaire à reconnaître un antigène et à développer une mémoire.", "Remplacer définitivement toutes les défenses naturelles."], correct: 1, explanation: "Un vaccin expose le système immunitaire à un antigène ou à une information permettant de le produire, afin de préparer les défenses et la mémoire sans provoquer la maladie ciblée comme une infection." },
+      { text: "Quelle affirmation distingue correctement immunité innée et adaptative ?", options: ["L’innée est rapide et non spécifique ; l’adaptative cible des antigènes et peut laisser une mémoire.", "L’innée apparaît seulement après vaccination.", "L’adaptative ne fait intervenir aucune cellule."], correct: 0, explanation: "L’immunité innée intervient rapidement sans ciblage spécifique d’un antigène unique. L’immunité adaptative repose notamment sur des lymphocytes spécifiques et peut produire des cellules mémoire." }
+    ]
+  });
+
 })();

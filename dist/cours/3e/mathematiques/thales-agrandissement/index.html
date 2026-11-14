@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Thalès : calculer une longueur · Mathématiques 3e · Les petits déclics</title><meta name="description" content="Reconnaître une configuration de Thalès, écrire les rapports dans le bon ordre et calculer une longueur."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Thalès : calculer une longueur · Mathématiques 3e · Les petits déclics"><meta property="og:description" content="Reconnaître une configuration de Thalès, écrire les rapports dans le bon ordre et calculer une longueur."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/3e/mathematiques">← Mathématiques · 3e</a><div class="lesson-heading"><span class="category-label">3e · MATHÉMATIQUES · GÉOMÉTRIE · THÉORÈME DE THALÈS</span><h1 tabindex="-1">Le théorème de Thalès,<br><span>des rapports pour mesurer.</span></h1><p>Objectifs : Identifier les triangles en configuration de Thalès, utiliser l’égalité des rapports et rédiger un calcul avec son unité.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><p><b>Mathématiques · 3e · Géométrie</b> — Cette fiche présente le théorème de Thalès dans une configuration de triangles emboîtés. Il faut savoir reconnaître des droites parallèles et calculer un quotient.</p>
+<h2>1. Repérer la configuration</h2>
+<p>Dans un triangle <b>ABC</b>, les points <b>M</b> et <b>N</b> appartiennent respectivement aux côtés [AB] et [AC]. Si les droites (MN) et (BC) sont parallèles, les triangles AMN et ABC sont dans une configuration de Thalès.</p>
+<div class="lesson-formula">M ∈ [AB] · N ∈ [AC] · (MN) ∥ (BC)</div>
+<p>Les côtés correspondants sont [AM] et [AB], [AN] et [AC], puis [MN] et [BC]. Il faut conserver cet ordre dans les rapports.</p>
+<h2>2. Écrire l’égalité des rapports</h2>
+<div class="lesson-formula">AM / AB = AN / AC = MN / BC</div>
+<p>Chaque rapport compare deux côtés correspondants : un côté du petit triangle sur le côté correspondant du grand triangle. On peut aussi écrire tous les rapports dans le sens inverse, à condition de rester cohérent.</p>
+<aside class="lesson-callout">Avant de remplacer par des nombres, vérifie le parallélisme et repère les côtés correspondants. Un dessin qui semble parallèle ne constitue pas une preuve.</aside>
+<h2>3. Calculer une longueur</h2>
+<p>Supposons AM = 4 cm, AB = 10 cm et AC = 7,5 cm. On cherche AN :</p>
+<div class="lesson-formula">AM / AB = AN / AC<br>4 / 10 = AN / 7,5<br>AN = (4 × 7,5) / 10 = 3 cm</div>
+<p>Le résultat est cohérent : le petit triangle est une réduction du grand, donc AN est inférieur à AC.</p>
+<h2>4. Utiliser la réciproque avec prudence</h2>
+<p>La <b>réciproque</b> de Thalès permet de démontrer que deux droites sont parallèles lorsque les points sont alignés dans le même ordre et que les rapports de longueurs correspondants sont égaux.</p>
+<p>Par exemple, si AM/AB = AN/AC et si les points sont dans la configuration requise, on peut conclure que (MN) et (BC) sont parallèles. Il faut vérifier les alignements et l’ordre des points : l’égalité de deux nombres isolée ne suffit pas.</p>
+<h2>5. Rédiger une démonstration</h2>
+<p>Une rédaction claire suit trois étapes : annoncer les alignements et le parallélisme connus, citer le théorème, puis écrire l’égalité des rapports et effectuer le calcul. Termine par une phrase réponse avec l’unité.</p>
+<details class="lesson-sources"><summary>Références du programme</summary><p>Mathématiques, cycle 4 : théorème de Thalès et sa réciproque, calcul de longueurs et démonstration. Cette fiche est une introduction ciblée, pas une couverture complète de la géométrie de 3e.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme du cycle 4, BO du 30 juillet 2020</a> · <a href="https://eduscol.education.gouv.fr/6910/reperes-annuels-de-progression-et-attendus-de-fin-d-annee-du-cp-la-troisieme" target="_blank" rel="noopener">Repères annuels et attendus de fin d’année</a></p><small>Programme applicable en 3e en 2026-2027. Exemples et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Dans le triangle ABC, M appartient à [AB], N appartient à [AC] et (MN) est parallèle à (BC). Quelle égalité est correcte ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="">AM / AB = AN / AC</button><button disabled data-question="0" data-choice="1" class="">AM / AC = AN / AB</button><button disabled data-question="0" data-choice="2" class="">AB / AM = AN / BC</button></div></article><article class="lesson-question"><h3>2. Quelle condition permet d’utiliser le théorème de Thalès dans cette configuration ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="">Le triangle doit être isocèle.</button><button disabled data-question="1" data-choice="1" class="">Les droites (MN) et (BC) doivent être parallèles.</button><button disabled data-question="1" data-choice="2" class="">L’angle A doit être droit.</button></div></article><article class="lesson-question"><h3>3. On sait que AM = 4 cm, AB = 10 cm et AC = 7,5 cm. Quelle est la longueur AN ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="">4,5 cm</button><button disabled data-question="2" data-choice="1" class="">3 cm</button><button disabled data-question="2" data-choice="2" class="">18,75 cm</button></div></article><article class="lesson-question"><h3>4. Si AM/AB = 0,6 et si les conditions de la réciproque sont réunies, que peut-on conclure lorsque AN/AC = 0,6 ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="">(MN) est parallèle à (BC).</button><button disabled data-question="3" data-choice="1" class="">(MN) est perpendiculaire à (BC).</button><button disabled data-question="3" data-choice="2" class="">Le triangle ABC est rectangle.</button></div></article><article class="lesson-question"><h3>5. Dans une configuration de Thalès, AM/AB = 3/5 et BC = 12 cm. Quelle est la longueur MN ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="">20 cm</button><button disabled data-question="4" data-choice="1" class="">7,2 cm</button><button disabled data-question="4" data-choice="2" class="">9 cm</button></div></article><article class="lesson-question"><h3>6. Un élève affirme que deux droites sont parallèles uniquement parce que son dessin semble le montrer. Que manque-t-il ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="">Une mesure ou une démonstration fondée sur les données.</button><button disabled data-question="5" data-choice="1" class="">Un dessin plus grand.</button><button disabled data-question="5" data-choice="2" class="">Une couleur différente pour chaque droite.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : AM / AB = AN / AC</p><p>Les côtés correspondants sont AM et AB, puis AN et AC. On compare les côtés du petit triangle à ceux du grand triangle dans le même ordre : AM/AB = AN/AC = MN/BC.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : Les droites (MN) et (BC) doivent être parallèles.</p><p>Dans la configuration présentée, M et N sont sur les côtés issus de A et (MN) doit être parallèle à (BC). Ni l’égalité des côtés ni un angle droit ne sont nécessaires.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : 3 cm</p><p>AM/AB = AN/AC, donc 4/10 = AN/7,5. Ainsi AN = 7,5 × 4 ÷ 10 = 3 cm.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : (MN) est parallèle à (BC).</p><p>La réciproque de Thalès permet de conclure au parallélisme lorsque les points sont alignés dans le même ordre et que les rapports correspondants sont égaux.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : 7,2 cm</p><p>MN/BC = AM/AB = 3/5. Donc MN = 12 × 3/5 = 36/5 = 7,2 cm.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : Une mesure ou une démonstration fondée sur les données.</p><p>Un schéma n’est pas une preuve. Il faut utiliser les informations de l’énoncé, par exemple des alignements et des rapports égaux pour appliquer la réciproque de Thalès.</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>

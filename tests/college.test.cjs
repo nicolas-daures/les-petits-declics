@@ -294,3 +294,29 @@ test("une séance de sciences terminée se reprend et se réinitialise sans effa
   assert.deepEqual(h.save().courses["present-simple-habitudes"], english);
   assert.deepEqual(h.save().courses.fractions, fractions);
 });
+
+
+test("les trois nouveaux cours de 3e sont disponibles dans leurs matières", () => {
+  const h = harness({}, "#accueil/3e/toutes");
+  const courses = h.window.COLLEGE_COURSES.filter((c) => c.grade === "3e");
+  assert.ok(courses.some((c) => c.id === "thales-agrandissement"));
+  assert.ok(courses.some((c) => c.id === "paragraphe-argumente"));
+  assert.ok(courses.some((c) => c.id === "immunite-vaccination"));
+  for (const id of ["thales-agrandissement", "paragraphe-argumente", "immunite-vaccination"]) {
+    const course = courses.find((c) => c.id === id);
+    assert.equal(course.questions.length, 6);
+    assert.ok(course.questions.every((q) => q.options[q.correct] && q.explanation.length > 30));
+  }
+});
+test("les cours de 3e ont des progressions indépendantes et sont filtrés par matière", () => {
+  const h = harness(
+    { courses: { "aires-urbaines-mobilites": [1, 0, null, null, null, null] } },
+    "#accueil/3e/mathematiques",
+  );
+  assert.match(h.get("#course-results").innerHTML, /Thalès : calculer une longueur/);
+  assert.doesNotMatch(h.get("#course-results").innerHTML, /Construire un paragraphe|Immunité et vaccination/);
+  h.get("#subject-filter").onchange({ target: { value: "francais" } });
+  assert.match(h.get("#course-results").innerHTML, /Construire un paragraphe argumenté/);
+  assert.deepEqual(h.save().courses["aires-urbaines-mobilites"], [1, 0, null, null, null, null]);
+  assert.deepEqual(h.save().courses["paragraphe-argumente"], Array(6).fill(null));
+});
