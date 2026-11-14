@@ -49,6 +49,20 @@ Les polices ne contactent plus Google ; leurs licences OFL sont dans src/fonts/.
 - Domaine personnalisé : associer le domaine renseigné dans publicUrl et vérifier son certificat HTTPS.
 - Enregistrer les paramètres puis vérifier la première publication.
 
+## Déploiement GitHub : production uniquement depuis main
+
+Pour reproduire le workflow du dépôt little-moments et éviter qu'une branche de travail ou une Pull Request ne publie le site :
+
+1. Relier ce dépôt GitHub à un projet Cloudflare Pages distinct.
+2. Dans **Settings → Builds & deployments → Branch control**, définir `main` comme **Production branch**.
+3. Désactiver les **Preview deployments** pour les branches non-production.
+4. Conserver le workflow GitHub Actions `.github/workflows/ci.yml` : il exécute build, contrôles et tests sur les pushes et les Pull Requests, sans déployer.
+5. Vérifier qu'aucun autre workflow GitHub Actions ne lance Wrangler ou un déploiement Cloudflare.
+
+Ainsi, les PR et branches servent aux vérifications uniquement ; un push ou une fusion sur `main` déclenche le déploiement de production Cloudflare Pages. Ne pas activer de déploiement depuis une branche de fonctionnalité. Ces réglages se font dans le tableau de bord Cloudflare et ne peuvent pas être imposés par un commit dans ce dépôt.
+
+
+
 Pour un aperçu privé : npm run build avec mode=private. robots.txt et les balises noindex évitent l’indexation, mais ne constituent jamais une protection d’accès.
 
 L’authentification privée de ChatGPT Sites n’est pas exportée vers Cloudflare Pages.

@@ -38,7 +38,7 @@ Le projet est volontairement en mode privé, non indexable : les coordonnées de
     npm run build:public
 
 Le contrôle liste les renseignements manquants avant toute génération publique.
-Cloudflare Pages : framework None, commande npm run build:public, sortie dist/.
+Cloudflare Pages : framework None, commande npm run build:public, sortie dist/. Configurer `main` comme branche de production et désactiver les déploiements d’aperçu : les Pull Requests restent vérifiées par GitHub Actions, mais ne publient rien sur Cloudflare. Seules les mises à jour de `main` déclenchent la publication.
 Le contrôle vérifie la complétude, pas la véracité juridique des renseignements ni les réglages du compte.
 
 Les cours ont des URL /cours/classe/matiere/identifiant/. Les favoris #college/... continuent de fonctionner.
