@@ -1083,4 +1083,73 @@
       }
     ]
   });
+
+  window.COLLEGE_COURSES.push({
+    id: "anglais-meteo-vocabulaire",
+    grade: "6e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Le quotidien · La météo · A1",
+    icon: "☀",
+    title: "La météo en anglais : vocabulaire et expressions",
+    heading: "What's the weather like?<br><span>Parler de la météo en anglais.</span>",
+    description: "Apprendre à reconnaître les phénomènes météo, décrire le temps et comprendre un petit bulletin météorologique.",
+    objectives: "Mémoriser le vocabulaire essentiel de la météo, distinguer noms et adjectifs, demander et décrire le temps avec des phrases simples.",
+    body: `
+ <p><b>6e · Anglais · A1</b> — Apprends à décrire le temps qu'il fait et à comprendre un bulletin météo simple.</p>
+ <h2>1. Demander quel temps il fait</h2>
+ <div class="lesson-formula" lang="en-GB">What's the weather like today?<br>How's the weather today?</div>
+ <p>Ces deux questions signifient « Quel temps fait-il aujourd'hui ? ». Pour répondre, on commence généralement par <b>${en("It's")}</b> (${en("It is")}):</p>
+ <div class="lesson-formula" lang="en-GB">It's sunny today. — Il fait beau aujourd'hui.<br>It's cloudy. — Le ciel est nuageux.</div>
+ <h2>2. Les adjectifs pour décrire le temps</h2>
+ <p>Ces mots décrivent le temps qu'il fait. La plupart se terminent par <b>-y</b>.</p>
+ <div class="course-table-wrap"><table class="course-table"><caption>Weather adjectives — Les adjectifs météo</caption><tbody>
+ <tr><th scope="col">English</th><th scope="col">Français</th></tr>
+ <tr><td>${en("sunny")}</td><td>ensoleillé</td></tr><tr><td>${en("cloudy")}</td><td>nuageux</td></tr>
+ <tr><td>${en("rainy")}</td><td>pluvieux</td></tr><tr><td>${en("windy")}</td><td>venteux</td></tr>
+ <tr><td>${en("snowy")}</td><td>enneigé</td></tr><tr><td>${en("foggy")}</td><td>brumeux</td></tr>
+ <tr><td>${en("stormy")}</td><td>orageux</td></tr><tr><td>${en("partly cloudy")}</td><td>partiellement nuageux</td></tr>
+ </tbody></table></div>
+ <h2>3. Les températures</h2>
+ <div class="course-table-wrap"><table class="course-table"><caption>Temperature — La température</caption><tbody>
+ <tr><td>${en("freezing")}</td><td>glacial</td></tr><tr><td>${en("cold")}</td><td>froid</td></tr>
+ <tr><td>${en("cool")}</td><td>frais</td></tr><tr><td>${en("warm")}</td><td>doux, chaud</td></tr>
+ <tr><td>${en("hot")}</td><td>chaud</td></tr>
+ </tbody></table></div>
+ <p>Exemples : ${en("It's cold today.")} (Il fait froid aujourd'hui.) · ${en("It's very hot.")} (Il fait très chaud.)</p>
+ <h2>4. Les phénomènes météo : les noms</h2>
+ <p>Un <b>nom</b> désigne le phénomène ; un <b>adjectif</b> décrit le temps.</p>
+ <div class="course-table-wrap"><table class="course-table"><caption>Nouns — Les noms</caption><tbody>
+ <tr><th scope="col">Nom</th><th scope="col">Adjectif</th><th scope="col">Français</th></tr>
+ <tr><td>${en("sun")}</td><td>${en("sunny")}</td><td>soleil / ensoleillé</td></tr>
+ <tr><td>${en("cloud")}</td><td>${en("cloudy")}</td><td>nuage / nuageux</td></tr>
+ <tr><td>${en("rain")}</td><td>${en("rainy")}</td><td>pluie / pluvieux</td></tr>
+ <tr><td>${en("wind")}</td><td>${en("windy")}</td><td>vent / venteux</td></tr>
+ <tr><td>${en("snow")}</td><td>${en("snowy")}</td><td>neige / enneigé</td></tr>
+ <tr><td>${en("fog")}</td><td>${en("foggy")}</td><td>brouillard / brumeux</td></tr>
+ <tr><td>${en("storm")}</td><td>${en("stormy")}</td><td>orage / orageux</td></tr>
+ </tbody></table></div>
+ <p>Autres mots utiles : ${en("thunder")} = tonnerre, ${en("lightning")} = éclair, ${en("rainbow")} = arc-en-ciel.</p>
+ <h2>5. Dire ce qui se passe maintenant</h2>
+ <div class="lesson-formula" lang="en-GB">It's raining. — Il pleut.<br>It's snowing. — Il neige.</div>
+ <p>On ne dit pas ${en("It's rain")} pour « il pleut ». Pour décrire le temps avec un adjectif, on dit ${en("It's rainy")}; pour parler de la pluie qui tombe maintenant, on dit ${en("It's raining")}.</p>
+ <h2>6. Lire un mini bulletin météo</h2>
+ <div class="lesson-reading" aria-label="Mini bulletin météo en anglais"><p lang="en-GB"><b>Good morning!</b> Today in London, it's cloudy and cool. In Cardiff, it's raining. In Edinburgh, it's windy and cold. Have a nice day!</p></div>
+ <p>Pour présenter la météo d'une ville, utilise le modèle <b>${en("In + city, it's + adjective.")}</b> : ${en("In London, it's cloudy.")} signifie « À Londres, le ciel est nuageux ».</p>
+ <aside class="lesson-callout"><b>À retenir :</b> ${en("What's the weather like?")} → ${en("It's sunny / cloudy / windy...")} ; ${en("It's raining")} = il pleut ; ${en("It's snowing")} = il neige.</aside>
+ <details class="lesson-sources"><summary>Références et repères pédagogiques</summary>
+ <p>Leçon de vocabulaire pour le niveau 6e (repères A1), avec une progression de la reconnaissance des mots vers la compréhension d'un bulletin météo. Les exemples et exercices sont originaux.</p>
+ <p><a href="https://scolaires.futuroscope.com/sites/default/files/2025-04/GP_Chasseurs_de_tornades_CHARTE_2024.pdf" target="_blank" rel="noopener">Dossier pédagogique « What's the weather like today? » — Cycle 3, anglais</a> · <a href="https://www.ac-versailles.fr/media/16310/download" target="_blank" rel="noopener">DSDEN 78 — Séquence type anglais, cycle 3</a></p>
+ <small>Repères consultés le 14 novembre 2026. Cette fiche ne couvre pas à elle seule toute la séquence ni l'ensemble du programme d'anglais de 6e.</small></details>`,
+    questions: [
+      { text: `Que signifie ${en("windy")} ?`, options: ["Ensoleillé", "Venteux", "Nuageux"], correct: 1, explanation: `${en("Wind")} signifie « vent » et ${en("windy")} signifie « venteux ». Le suffixe -y transforme ici le nom en adjectif.` },
+      { text: `Comment dit-on « brouillard » en anglais ?`, options: [en("Fog"), en("Frog"), en("Foggy")], correct: 0, explanation: `${en("Fog")} est le nom « brouillard ». ${en("Foggy")} est l'adjectif « brumeux ». Attention à ne pas confondre ${en("fog")} et ${en("frog")} (grenouille).` },
+      { text: `Complète : ${en("It's … today.")} — Le ciel est nuageux.`, options: [en("cloud"), en("cloudy"), en("clouding")], correct: 1, explanation: `${en("Cloudy")} signifie « nuageux ». Après ${en("It's")}, on utilise ici l'adjectif. ${en("Cloud")} est le nom « nuage ».` },
+      { text: `Quel mot signifie « glacial » ?`, options: [en("Warm"), en("Cool"), en("Freezing")], correct: 2, explanation: `${en("Freezing")} signifie « glacial ». On peut retenir l'échelle : ${en("cool")} (frais), ${en("cold")} (froid), ${en("freezing")} (glacial).` },
+      { text: `Comment dit-on « Il pleut » pour décrire ce qui se passe maintenant ?`, options: [en("It's rain."), en("It's raining."), en("It's rainying.")], correct: 1, explanation: `${en("It's raining")} signifie « il pleut ». Pour une action météo en cours, on emploie ${en("raining")}. ${en("Rainy")} est un adjectif : ${en("It's rainy")} signifie « le temps est pluvieux ».` },
+      { text: `Quel couple nom / adjectif est correct ?`, options: [`${en("sun")} = ensoleillé ; ${en("sunny")} = soleil`, `${en("sun")} = soleil ; ${en("sunny")} = ensoleillé`, `${en("sunny")} = pluie ; ${en("sun")} = pluvieux`], correct: 1, explanation: `${en("Sun")} est le nom « soleil » et ${en("sunny")} l'adjectif « ensoleillé ». Même modèle avec ${en("rain / rainy")} et ${en("cloud / cloudy")}.` },
+      { text: `Dans le bulletin, quel temps fait-il à Edinburgh ?`, options: [`${en("It's sunny and hot.")}`, `${en("It's windy and cold.")}`, `${en("It's snowy and warm.")}`], correct: 1, explanation: `Le bulletin indique : ${en("In Edinburgh, it's windy and cold.")}. Cela signifie « À Édimbourg, il y a du vent et il fait froid ».` },
+      { text: `Quelle question signifie « Quel temps fait-il aujourd'hui ? » ?`, options: [en("What's the weather like today?"), en("Where is the weather today?"), en("What time is the weather?")], correct: 0, explanation: `${en("What's the weather like today?")} est la formulation courante pour demander quel temps il fait aujourd'hui. On peut aussi demander ${en("How's the weather today?")}.` },
+    ],
+  });
 })();
