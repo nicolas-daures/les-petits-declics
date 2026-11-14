@@ -1091,7 +1091,7 @@
     subjectName: "Anglais",
     domain: "Le quotidien · La météo · A1",
     icon: "☀",
-    title: "What's the weather like? Le vocabulaire de la météo",
+    title: "La météo en anglais : vocabulaire et expressions",
     heading: "What's the weather like?<br><span>Parler de la météo en anglais.</span>",
     description: "Apprendre à reconnaître les phénomènes météo, décrire le temps et comprendre un petit bulletin météorologique.",
     objectives: "Mémoriser le vocabulaire essentiel de la météo, distinguer noms et adjectifs, demander et décrire le temps avec des phrases simples.",
