@@ -320,3 +320,25 @@ test("les cours de 3e ont des progressions indépendantes et sont filtrés par m
   assert.deepEqual(h.save().courses["aires-urbaines-mobilites"], [1, 0, null, null, null, null]);
   assert.deepEqual(h.save().courses["paragraphe-argumente"], Array(6).fill(null));
 });
+
+test("les cinq nouvelles fiches de français de 3e sont complètes et accessibles", () => {
+  const h = harness({}, "#accueil/3e/francais");
+  const ids = ["phrase-complexe", "accord-participe-passe", "temps-modes-conjugaison", "analyser-texte-litteraire", "redaction-brevet-recriture"];
+  for (const id of ids) {
+    const course = h.window.COLLEGE_COURSES.find((c) => c.id === id);
+    assert.ok(course, id + " doit être présent");
+    assert.equal(course.grade, "3e");
+    assert.equal(course.subject, "francais");
+    assert.equal(course.questions.length, 6);
+    assert.ok(course.body.length > 1000);
+    assert.ok(course.questions.every((q) => q.options[q.correct] && q.explanation.length > 30));
+    assert.ok(h.get("#course-results").innerHTML.includes(course.title));
+  }
+});
+test("les progressions des nouvelles fiches de français restent indépendantes", () => {
+  const saved = { courses: { "phrase-complexe": [1, 0, null, null, null, null], "paragraphe-argumente": [0, 1, 2, 0, 1, 2] } };
+  const h = harness(saved, "#college/3e/francais/phrase-complexe");
+  h.get("#retry-lesson").onclick();
+  assert.deepEqual(h.save().courses["phrase-complexe"], Array(6).fill(null));
+  assert.deepEqual(h.save().courses["paragraphe-argumente"], [0, 1, 2, 0, 1, 2]);
+});

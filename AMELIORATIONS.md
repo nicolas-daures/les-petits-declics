@@ -107,6 +107,16 @@
 - Pages HTML générées sous `/cours/3e/...` et catalogue pré-rendu actualisé. Aucun nouveau filtre ni écran : les trois cours apparaissent dans les matières existantes.
 - Vérifications à exécuter sur la PR : `npm run build`, `npm run check` et `npm test`, puis contrôle des pages sur téléphone et ordinateur. Les cours sont des introductions ciblées, pas une couverture exhaustive des programmes.
 
+
+
+## 15 novembre 2026 — Renforcement du français en 3e
+
+- Cinq fiches ajoutées : phrase complexe (juxtaposition, coordination, subordination et relatives), accords du participe passé (être, avoir, COD antéposé et verbes pronominaux), valeurs des temps et des modes, analyse littéraire (narrateur, points de vue et procédés), rédaction et réécriture type brevet.
+- Chaque fiche propose un cours structuré, des exemples, une méthode, six exercices corrigés et des références officielles. Le programme de français du cycle 4 publié en 2020 reste applicable en 3e en 2026-2027 ; le nouveau programme s’appliquera en 3e à la rentrée 2028-2029.
+- Les cours existants et leurs identifiants sont conservés. Les nouvelles progressions sont indépendantes ; aucune clé de stockage historique n’est modifiée.
+- Catalogue et pages pré-rendues de `dist/` actualisés. Aucun nouveau filtre, écran ou dépendance.
+- Vérifications à effectuer par la CI : `npm run build`, `npm run check`, `npm test`. Ces fiches renforcent les axes majeurs mais ne remplacent pas l’étude des œuvres intégrales ni la pratique régulière de l’écriture.
+
 ## Prochaines priorités
 
 1. Diversifier les sciences avec une première fiche de SVT, en vérifiant le programme applicable à la classe retenue.
