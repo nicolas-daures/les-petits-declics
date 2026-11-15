@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f1" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☀️%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/universes.css" />
+    <link rel="stylesheet" href="/college.css" />
+  <link rel="stylesheet" href="/production.css"><title>Analyser la phrase complexe · Français 3e · Les petits déclics</title><meta name="description" content="Identifier les propositions, comprendre coordination, juxtaposition et subordination, analyser les relatives."><meta name="robots" content="noindex, nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Les petits déclics"><meta property="og:title" content="Analyser la phrase complexe · Français 3e · Les petits déclics"><meta property="og:description" content="Identifier les propositions, comprendre coordination, juxtaposition et subordination, analyser les relatives."><meta name="twitter:card" content="summary_large_image"></head>
+  <body><a class="skip-link" href="#main">Aller au contenu</a>
+    <header>
+      <a class="brand" href="/#accueil" aria-label="Les petits déclics, accueil"
+        ><span class="brand-icon" aria-hidden="true">↗</span
+        ><span class="brand-name"
+          >Les petits déclics<span class="brand-sub"
+            >COMPRENDRE · S’ENTRAÎNER · PROGRESSER</span
+          ></span
+        ></a
+      >
+      <div class="header-right">
+        <a class="home-nav" href="/#accueil">Classes et matières</a
+        ><span class="stars hidden" id="stars" aria-live="polite"></span
+        ><span class="header-motto">De la 6e à la 3e</span
+        ><button class="toggle hidden" id="english-toggle" aria-pressed="true">
+          <span>Aussi en anglais</span
+          ><span class="switch" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="home-page" class="hidden">
+        <section class="college-hero">
+          <div>
+            <div class="eyebrow">LE COLLÈGE, À TON RYTHME</div>
+            <h1>Comprendre aujourd’hui.<br /><span>Avancer demain.</span></h1>
+            <p>
+              Un cours clair, des exemples concrets et des exercices
+              expliqués.<br />Retrouve tes repères, de la 6e à la 3e.
+            </p>
+            <a
+              class="primary next-step-link"
+              href="/cours/6e/mathematiques/fractions/"
+              >Découvrir les fractions en 6e →</a
+            >
+          </div>
+          <aside class="hero-notebook" aria-label="Exemple de fraction">
+            <span>MATHÉMATIQUES · 6e</span>
+            <div class="notebook-equation">3 ÷ 4 = <strong>3/4</strong></div>
+            <div
+              class="fraction-bar"
+              aria-label="3 parts colorées sur 4 parts égales"
+            >
+              <i></i><i></i><i></i><i class="unfilled"></i>
+            </div>
+            <p>Une même idée.<br />Plusieurs façons de la comprendre.</p>
+          </aside>
+        </section>
+        <section class="catalogue" aria-labelledby="catalogue-title">
+          <div class="journey-header">
+            <h2 class="section-title" id="catalogue-title">
+              Ton espace de révision
+            </h2>
+            <span class="small-note"
+              >Les contenus s’enrichissent progressivement.</span
+            >
+          </div>
+          <div class="catalogue-filters">
+            <fieldset>
+              <legend>Ta classe</legend>
+              <div id="grade-filters" class="filter-row"></div>
+            </fieldset>
+            <label class="subject-filter" for="subject-filter"
+              >Ta matière<select id="subject-filter">
+                <option value="toutes">Toutes les matières</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="anglais">Anglais</option>
+                <option value="histoire-geographie">Histoire-géographie</option>
+                <option value="sciences">Sciences</option>
+              </select></label
+            >
+          </div>
+          <div id="course-results" aria-live="polite"></div>
+        </section>
+        <section class="bases-section" aria-labelledby="bases-title">
+          <div class="journey-header">
+            <div>
+              <span class="category-label"
+                >TOUTES LES CLASSES · REPRISE DES FONDAMENTAUX</span
+              >
+              <h2 class="section-title" id="bases-title">
+                Besoin de revoir les bases ?
+              </h2>
+            </div>
+          </div>
+          <p class="bases-intro">
+            Ces activités restent disponibles pour reprendre confiance en calcul
+            et revoir le vocabulaire du temps. Leurs progrès sont conservés.
+          </p>
+          <div class="universe-grid">
+            <a class="universe-card time-card" href="/#temps/mois"
+              ><div class="universe-art time-art" aria-hidden="true">
+                <span class="floating mini-sun">↗</span>
+                <div class="mini-calendar">
+                  <small>MON ANNÉE</small><strong>12</strong
+                  ><span>mois de découvertes</span>
+                </div>
+                <span class="leaf">🍃</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">SE REPÉRER</span>
+                <h3>Le petit tour du temps</h3>
+                <p>
+                  Les jours, les mois, les saisons…<br />Trouve tes repères dans
+                  l’année.
+                </p>
+                <span class="universe-tags"
+                  >Cartes à écouter · Quiz · Ordre</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-time-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card numbers-card" href="/#nombres/comprendre"
+              ><div class="universe-art number-art" aria-hidden="true">
+                <span class="math-spark">✦</span>
+                <div class="number-block block-three">3</div>
+                <span class="math-times">×</span>
+                <div class="number-block block-four">4</div>
+                <span class="number-twinkle">✧</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">COMPRENDRE & CALCULER</span>
+                <h3>La fabrique des nombres</h3>
+                <p>
+                  Des petits groupes aux grandes idées.<br />Apprivoise les
+                  multiplications.
+                </p>
+                <span class="universe-tags"
+                  >Manipuler · S’entraîner · Réviser</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-math-progress"
+                    >🌱 Prêt pour ton premier déclic ?</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+            <a class="universe-card english-card" href="/#anglais/jours"
+              ><div class="universe-art english-art" aria-hidden="true">
+                <div class="bubble bubble-hello">Hello!</div>
+                <div class="bubble bubble-bonjour">Bonjour !</div>
+                <span class="english-star">✦</span>
+              </div>
+              <div class="universe-body">
+                <span class="category-label">ÉCOUTER & DÉCOUVRIR</span>
+                <h3>Un petit mot d’anglais</h3>
+                <p>
+                  Commence avec les jours, les mois<br />et les saisons. Let’s
+                  go!
+                </p>
+                <span class="universe-tags"
+                  >23 mots · Écoute · Petits jeux</span
+                >
+                <div class="universe-bottom">
+                  <span class="mini-progress" id="home-english-progress"
+                    >⭐ 0 / 6 étoiles</span
+                  ><span class="round-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div></a
+            >
+          </div>
+        </section>
+      </section>
+      <section id="college-page" aria-label="Cours et exercices du collège"><a class="back-link" href="/#accueil/3e/francais">← Français · 3e</a><div class="lesson-heading"><span class="category-label">3e · FRANÇAIS · GRAMMAIRE · PHRASE COMPLEXE</span><h1 tabindex="-1">La phrase complexe,<br><span>relier les propositions.</span></h1><p>Objectifs : Délimiter les propositions, reconnaître les liens syntaxiques et identifier l’antécédent et la fonction d’un pronom relatif.</p><span class="lesson-progress">0 / 6 exercices terminés · progrès enregistrés sur ce navigateur</span></div><div class="lesson-layout"><article class="lesson-course"><p><b>Français · 3e · Grammaire</b> — Une phrase complexe contient plusieurs propositions. Pour les analyser, commence par repérer les verbes conjugués.</p><h2>1. Délimiter les propositions</h2><p>Chaque verbe conjugué constitue généralement le noyau d’une proposition. « Le vent souffle et les volets claquent » contient deux propositions. Un infinitif seul ne crée pas une nouvelle proposition indépendante : « Elle veut partir » ne contient qu’un verbe conjugué.</p><h2>2. Juxtaposition et coordination</h2><p>La <b>juxtaposition</b> relie des propositions indépendantes par une virgule, un point-virgule ou deux-points : « La nuit tombe ; les rues se vident. » La <b>coordination</b> utilise un mot de liaison : mais, ou, et, donc, or, ni, car : « La nuit tombe, donc les rues se vident. »</p><h2>3. La subordination</h2><p>Une proposition subordonnée dépend d’une autre proposition. Elle est introduite par un mot subordonnant : « Je pense <b>que tu as raison</b> » ; « Je partirai <b>quand tu arriveras</b> ». La conjonctive peut compléter un verbe ou exprimer une circonstance.</p><h2>4. La proposition relative</h2><p>La relative est introduite par un pronom relatif (qui, que, dont, où, lequel…). Elle complète un nom ou un pronom appelé <b>antécédent</b>.</p><div class="lesson-formula">Le roman <b>que tu lis</b> est passionnant.<br>Antécédent : « roman » · « que » reprend ce nom.</div><p>Le pronom relatif a une fonction dans la relative : « qui » est sujet dans « le garçon qui court » ; « que » est COD dans « le livre que je lis ».</p><h2>5. Méthode d’analyse</h2><ol><li>Souligne les verbes conjugués.</li><li>Délimite les propositions.</li><li>Repère le signe ou le mot qui les relie.</li><li>Indique juxtaposition, coordination ou subordination.</li><li>Pour une relative, retrouve l’antécédent et la fonction du pronom.</li></ol><details class="lesson-sources"><summary>Références du programme</summary><p>Français, cycle 4 : étude de la langue, lecture, écriture et oral. Le programme publié au BO du 30 juillet 2020 reste applicable en 3e en 2026-2027 ; le nouveau programme de français du cycle 4 s’appliquera en 3e à la rentrée 2028-2029.</p><p><a href="https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm" target="_blank" rel="noopener">Programme officiel de français du cycle 4</a> · <a href="https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4" target="_blank" rel="noopener">Ressources Éduscol</a></p><small>Exemples et exercices originaux.</small></details></article><section class="lesson-practice" aria-labelledby="practice-title"><span class="category-label">À TOI DE JOUER</span><h2 id="practice-title">Vérifie ta compréhension</h2><p>Choisis une réponse, puis lis l’explication. Tu peux revenir au cours à tout moment.</p><article class="lesson-question"><h3>1. Combien de propositions contient « Le soleil se couche et les oiseaux se taisent » ?</h3><div class="lesson-choices"><button disabled data-question="0" data-choice="0" class="">Une</button><button disabled data-question="0" data-choice="1" class="">Deux</button><button disabled data-question="0" data-choice="2" class="">Trois</button></div></article><article class="lesson-question"><h3>2. Quel signe peut relier deux propositions par juxtaposition ?</h3><div class="lesson-choices"><button disabled data-question="1" data-choice="0" class="">Une virgule</button><button disabled data-question="1" data-choice="1" class="">La conjonction « mais »</button><button disabled data-question="1" data-choice="2" class="">Le pronom « qui »</button></div></article><article class="lesson-question"><h3>3. Dans « Je reste parce qu’il pleut », quel est le lien ?</h3><div class="lesson-choices"><button disabled data-question="2" data-choice="0" class="">Juxtaposition</button><button disabled data-question="2" data-choice="1" class="">Coordination</button><button disabled data-question="2" data-choice="2" class="">Subordination</button></div></article><article class="lesson-question"><h3>4. Dans « Le film que nous avons vu est drôle », quel est l’antécédent de « que » ?</h3><div class="lesson-choices"><button disabled data-question="3" data-choice="0" class="">Le film</button><button disabled data-question="3" data-choice="1" class="">Nous</button><button disabled data-question="3" data-choice="2" class="">Drôle</button></div></article><article class="lesson-question"><h3>5. Dans « La fille qui chante est ma sœur », quelle est la fonction de « qui » ?</h3><div class="lesson-choices"><button disabled data-question="4" data-choice="0" class="">COD</button><button disabled data-question="4" data-choice="1" class="">Sujet de « chante »</button><button disabled data-question="4" data-choice="2" class="">Complément circonstanciel</button></div></article><article class="lesson-question"><h3>6. Quelle phrase contient une proposition relative ?</h3><div class="lesson-choices"><button disabled data-question="5" data-choice="0" class="">Il pleut, je rentre.</button><button disabled data-question="5" data-choice="1" class="">Je sais que tu viens.</button><button disabled data-question="5" data-choice="2" class="">La maison où je vis est ancienne.</button></div></article><div class="lesson-summary" role="status">0 exercice terminé sur 6.</div></section></div><noscript><section class="lesson-course"><h2>Corrections à consulter</h2><details><summary>Exercice 1 : correction</summary><p>Réponse : Deux</p><p>Les verbes conjugués sont « se couche » et « se taisent » : la phrase contient deux propositions.</p></details><details><summary>Exercice 2 : correction</summary><p>Réponse : Une virgule</p><p>La juxtaposition relie les propositions par un signe de ponctuation, sans mot de liaison.</p></details><details><summary>Exercice 3 : correction</summary><p>Réponse : Subordination</p><p>« Parce qu’il pleut » est une subordonnée conjonctive qui exprime la cause.</p></details><details><summary>Exercice 4 : correction</summary><p>Réponse : Le film</p><p>« Que » reprend le nom « film », son antécédent.</p></details><details><summary>Exercice 5 : correction</summary><p>Réponse : Sujet de « chante »</p><p>« Qui » accomplit l’action de chanter : il est sujet du verbe de la relative.</p></details><details><summary>Exercice 6 : correction</summary><p>Réponse : La maison où je vis est ancienne.</p><p>« Où je vis » est une relative introduite par « où » et complète l’antécédent « maison ».</p></details></section></noscript></section>
+      <section id="time-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow" id="time-kicker">L’UNIVERS DU TEMPS</div>
+              <h1 id="time-title">Le petit tour du temps</h1>
+              <p id="time-description">
+                Des jours qui passent aux saisons qui changent, trouve tes
+                repères.
+              </p>
+            </div>
+            <span
+              class="universe-heading-icon"
+              id="time-icon"
+              aria-hidden="true"
+              >🗓️</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="time-stars"></span
+            ><span class="small-note"
+              >Tes étoiles restent dans cet univers.</span
+            >
+          </div>
+        </div>
+        <div class="topic-grid" role="tablist" aria-label="Choisir un thème">
+          <button
+            class="topic"
+            role="tab"
+            id="topic-months"
+            data-topic="months"
+            aria-selected="true"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🗓️</span
+            ><span><b>Les mois</b><small>12 étapes dans l’année</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-seasons"
+            data-topic="seasons"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌳</span
+            ><span><b>Les saisons</b><small>4 ambiances à explorer</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span></button
+          ><button
+            class="topic"
+            role="tab"
+            id="topic-days"
+            data-topic="days"
+            aria-selected="false"
+            aria-controls="learning"
+          >
+            <span class="topic-icon" aria-hidden="true">🌤️</span
+            ><span
+              ><b>Les jours</b><small>7 jours, et ça recommence !</small></span
+            ><span class="topic-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <section
+          class="workspace"
+          id="learning"
+          role="tabpanel"
+          aria-labelledby="topic-months"
+        >
+          <div class="workspace-top">
+            <div class="modes" role="tablist" aria-label="Choisir une activité">
+              <button
+                class="mode"
+                id="mode-learn"
+                data-mode="learn"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="true"
+              >
+                📖 Découvrir</button
+              ><button
+                class="mode"
+                id="mode-quiz"
+                data-mode="quiz"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                ✨ Petit quiz</button
+              ><button
+                class="mode"
+                id="mode-order"
+                data-mode="order"
+                role="tab"
+                aria-controls="activity"
+                aria-selected="false"
+              >
+                🧩 Dans l’ordre
+              </button>
+            </div>
+            <span class="small-note" id="activity-note"
+              >Je regarde, j’écoute, je retiens.</span
+            >
+          </div>
+          <div
+            class="content"
+            id="activity"
+            role="tabpanel"
+            aria-labelledby="mode-learn"
+          ></div>
+        </section>
+      </section>
+      <section id="numbers-page" class="hidden">
+        <div class="universe-heading">
+          <a href="/#accueil" class="back-link">← Les univers</a>
+          <div class="heading-row">
+            <div>
+              <div class="eyebrow">L’UNIVERS DES NOMBRES</div>
+              <h1>La fabrique <span>des nombres.</span></h1>
+              <p>Les tables de multiplication, un petit groupe à la fois.</p>
+            </div>
+            <span
+              class="universe-heading-icon number-heading-icon"
+              aria-hidden="true"
+              >×</span
+            >
+          </div>
+          <div class="universe-meta">
+            <span class="pill" id="math-stars">⭐ 0 / 10 tables maîtrisées</span
+            ><span class="small-note"
+              >Comprendre d’abord. Aller vite, plus tard.</span
+            >
+          </div>
+        </div>
+        <div
+          class="math-navigation"
+          role="tablist"
+          aria-label="Étapes pour apprendre les multiplications"
+        >
+          <button
+            class="math-step"
+            id="math-tab-understand"
+            role="tab"
+            data-math-mode="comprendre"
+            aria-controls="math-content"
+            aria-selected="true"
+          >
+            <span>1</span>
+            <div>
+              <b>Comprendre</b><small>Je vois comment ça marche</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-practice"
+            role="tab"
+            data-math-mode="entrainement"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>2</span>
+            <div>
+              <b>M’entraîner</b><small>Une table à la fois</small>
+            </div></button
+          ><button
+            class="math-step"
+            id="math-tab-review"
+            role="tab"
+            data-math-mode="revision"
+            aria-controls="math-content"
+            aria-selected="false"
+          >
+            <span>3</span>
+            <div><b>Consolider</b><small>Je mélange mes tables</small></div>
+          </button>
+        </div>
+        <div
+          id="math-content"
+          class="math-workspace"
+          role="tabpanel"
+          aria-labelledby="math-tab-understand"
+        ></div>
+        <section class="table-progress-section">
+          <div class="journey-header">
+            <h2 class="section-title">Mes automatismes</h2>
+            <span class="small-note">Une progression calcul par calcul.</span>
+          </div>
+          <div id="table-garden" class="table-garden"></div>
+          <p class="garden-help">
+            Un calcul est solide après deux bonnes réponses de suite, sans aide,
+            dans deux séances différentes. Une étoile quand les 10 calculs d’une
+            table sont solides.
+          </p>
+        </section>
+      </section>
+      <footer class="footer">
+        <span
+          >Des repères pour comprendre.
+          <b>Des exercices pour progresser.</b></span
+        ><span>Sans publicité · Progrès conservés sur ce navigateur</span>
+      <nav class="legal-links" aria-label="Informations et données"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions-utilisation/">Conditions d’utilisation</a><a href="/mes-progres/">Mes progrès</a></nav></footer>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <script src="/routing.js"></script>
+    <script src="/app.js"></script>
+    <script src="/math-engine.js"></script>
+    <script src="/universes.js"></script>
+    <script src="/courses.js"></script>
+    <script src="/college.js"></script>
+  </body>
+</html>
