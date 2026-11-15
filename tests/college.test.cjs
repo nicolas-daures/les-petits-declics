@@ -342,3 +342,23 @@ test("les progressions des nouvelles fiches de français restent indépendantes"
   assert.deepEqual(h.save().courses["phrase-complexe"], Array(6).fill(null));
   assert.deepEqual(h.save().courses["paragraphe-argumente"], [0, 1, 2, 0, 1, 2]);
 });
+
+test("les nouvelles fiches d'histoire-géographie de 3e sont complètes", () => {
+  const h = harness({}, "#accueil/3e/histoire-geographie");
+  const ids = ["premiere-guerre-totalitarismes","seconde-guerre-vichy-resistance","guerre-froide-decolonisation-europe","france-republique-depuis-1944","espaces-productifs","espaces-faible-densite","amenagement-outremer-france-europe"];
+  for (const id of ids) {
+    const course = h.window.COLLEGE_COURSES.find((c) => c.id === id);
+    assert.ok(course, id + " doit être présent");
+    assert.equal(course.grade, "3e");
+    assert.equal(course.subject, "histoire-geographie");
+    assert.equal(course.questions.length, 6);
+    assert.ok(course.body.length > 1000);
+    assert.ok(course.questions.every((q) => q.options[q.correct] && q.explanation.length > 30));
+    assert.ok(h.get("#course-results").innerHTML.includes(course.title));
+  }
+});
+test("les identifiants des cours restent uniques", () => {
+  const h = harness({}, "#accueil/3e/histoire-geographie");
+  const ids = h.window.COLLEGE_COURSES.map((c) => c.id);
+  assert.equal(new Set(ids).size, ids.length);
+});
