@@ -151,3 +151,18 @@
 - Les contenus ciblent A2 avec des prolongements vers B1. En 2026-2027, le programme de langues vivantes du cycle 4 publié en 2020 reste applicable en 3e : LVA vise au moins A2 dans les cinq activités langagières, avec des occasions d'atteindre B1 dans plusieurs ; LVB vise A2 dans au moins deux activités. Le nouveau programme de 2025 n'entrera en vigueur en 3e qu'à la rentrée 2028-2029. Références consultées le 15 novembre 2026 : Éduscol, https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4 ; https://eduscol.education.gouv.fr/4758/ressources-d-accompagnement-pour-les-langues-vivantes-etrangeres-et-regionales-au-college ; arrêté du 5 mai 2025, https://www.legifrance.gouv.fr/eli/arrete/2025/5/5/MENE2504621A/jo/texte.
 - Les six identifiants sont nouveaux et stables. Les cours d'anglais de 6e et toutes les autres progressions restent inchangés. Aucun filtre, écran, dépendance ou stockage supplémentaire.
 - Catalogue et six pages pré-rendues de `dist/` actualisés. Vérifications à exécuter par la CI : `npm run build`, `npm run check`, `npm test`. Les activités orales et écrites proposées dans les leçons complètent les exercices à choix multiples ; elles ne prétendent pas remplacer l'entraînement régulier aux cinq activités langagières.
+
+
+## 15 novembre 2026 — Couverture des autres matières de 3e
+
+- Mathématiques : arithmétique (divisibilité, nombres premiers, décomposition et fractions) ; théorème de Pythagore et réciproque avec démonstration.
+- Français : genres littéraires et argumentation ; préparation méthodologique de l'oral du brevet.
+- Histoire-géographie : mondialisation et intégration inégale des territoires ; aménagement de la France, mobilités et transitions.
+- SVT : biodiversité et écosystèmes ; climat, ressources et risques.
+- Technologie : réseaux, données personnelles et cybersécurité ; conception, prototypage, tests et cycle de vie.
+- EMC : trois fiches alignées sur le programme de 3e « Faire vivre la démocratie » : règles du jeu démocratique et institutions ; opinion, médias et désinformation ; engagement collectif et citoyenneté. L'EMC est ajouté comme matière distincte au filtre du catalogue.
+- 11 fiches et 66 exercices sont ajoutés. Chaque fiche contient une leçon structurée, une méthode ou un défi et six exercices corrigés avec explications. Les cours précédents et leurs identifiants sont conservés.
+- Références de programme consultées le 15 novembre 2026 : le programme EMC du BO n°24 du 13 juin 2024 s'applique à la 3e à partir de 2026-2027 (https://www.education.gouv.fr/bo/2024/Hebdo24/MENE2413934A). Les nouveaux programmes de français et mathématiques du BO n°10 du 5 mars 2026 ne s'appliqueront en 3e qu'en 2028-2029 (https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A). En sciences, les programmes de physique-chimie et SVT du BO 2020 restent en vigueur ; le programme de technologie du BO n°9 de 2024 s'applique en 3e dès 2026-2027 (https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4 ; https://eduscol.education.gouv.fr/5745/ressources-d-accompagnement-du-programme-de-technologie-au-cycle-4).
+- Le registre source et pré-rendu, le filtre EMC, le catalogue et les pages de cours sont actualisés. Aucune clé de progression existante n'est modifiée et aucune dépendance n'est ajoutée.
+- Ces fiches renforcent les révisions sans prétendre remplacer les activités expérimentales, les lectures intégrales, les débats en classe ou couvrir à elles seules l'intégralité de chaque programme.
+- Vérifications attendues par la CI : npm run build, npm run check et npm test.
