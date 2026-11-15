@@ -9,6 +9,7 @@
     "anglais",
     "histoire-geographie",
     "sciences",
+    "emc",
   ];
   const key = "petits-declics-college-v1";
   let saved = {};
