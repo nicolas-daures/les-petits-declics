@@ -1,3 +1,12 @@
+## 15 novembre 2026 — Complément de mathématiques de 3e
+
+- Conservation du cours existant sur Thalès et ajout de sept fiches : calcul littéral et équations ; fonctions linéaires et affines ; statistiques et probabilités ; trigonométrie ; transformations géométriques ; volumes et sections ; algorithmique et programmation.
+- Chaque fiche comprend une leçon structurée, des exemples, six exercices corrigés et des références institutionnelles.
+- Référentiel : programme de mathématiques du cycle 4 actuellement applicable en 3e pendant l’année scolaire 2026-2027. Le nouveau programme est déployé progressivement et ne s’appliquera en 3e qu’à la rentrée 2028-2029.
+- Progressions indépendantes avec des identifiants stables ; aucun changement de filtre, de stockage ou d’interface.
+- Tests ajoutés pour la présence des huit cours, la validité des réponses, les explications et l’unicité des identifiants. La CI doit confirmer build, contrôle et tests.
+- Ces fiches sont des synthèses de révision et ne remplacent pas les démonstrations, constructions et problèmes de recherche menés en classe.
+
 ## 9 novembre 2026 — Révisions de mathématiques de 6e (Plan de travail 1)
 
 - Comparaison du document fourni avec le catalogue de `main` : seul le cours « Fractions : du partage au quotient » existait en mathématiques de 6e. Il abordait déjà le vocabulaire numérateur/dénominateur, la représentation de parts égales, le quotient, les fractions équivalentes et un exemple de décomposition au-delà de l’unité.
