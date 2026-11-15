@@ -1273,6 +1273,461 @@
 
   // Parcours d'histoire-géographie de 3e : les thèmes d'histoire et de géographie.
   window.COLLEGE_COURSES.push(...[{"id":"premiere-guerre-totalitarismes","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Histoire · 1914-1939","title":"Première Guerre mondiale et totalitarismes","heading":"1914-1939,<br><span>guerre totale et régimes totalitaires.</span>","description":"Comprendre la Grande Guerre, ses conséquences et la montée des totalitarismes.","objectives":"Expliquer les phases de la guerre, définir guerre totale et caractériser les régimes soviétique, fasciste et nazi.","icon":"⚔️","body":"<p><b>Thème 1 · Histoire.</b> De 1914 à 1939, l’Europe est bouleversée par une guerre d’une violence inédite, des révolutions et la montée des dictatures.</p><h2>1. La Première Guerre mondiale</h2><p>L’attentat de Sarajevo du 28 juin 1914 déclenche une crise diplomatique. Le jeu des alliances entraîne une guerre européenne puis mondiale. Après la guerre de mouvement de 1914, le front occidental se stabilise dans les tranchées. En 1917, les États-Unis entrent en guerre et la Russie connaît deux révolutions. L’armistice est signé le 11 novembre 1918.</p><h2>2. Une guerre totale et des violences de masse</h2><p>La guerre est <b>totale</b> car les États mobilisent soldats, économie, industrie, sciences, finances, propagande et civils. Les combattants subissent bombardements et conditions extrêmes ; les civils connaissent pénuries et destructions. Le génocide des Arméniens dans l’Empire ottoman en 1915-1916 est une violence de masse organisée. Le bilan humain et matériel est considérable.</p><h2>3. Révolution russe et URSS</h2><p>Les révolutions de 1917 renversent le tsar puis portent les bolcheviks au pouvoir. L’URSS est créée en 1922. Sous Staline, le parti communiste contrôle l’État et la société : collectivisation forcée, propagande, purges et terreur.</p><h2>4. Les régimes totalitaires</h2><p>En Italie, Mussolini instaure le fascisme. En Allemagne, Hitler arrive au pouvoir en 1933 et impose une dictature nazie fondée sur le racisme, l’antisémitisme et la conquête. Ces régimes ont en commun parti unique, culte du chef, propagande, encadrement de la population et répression, mais leurs idéologies ne sont pas identiques.</p><h2>5. Des démocraties fragilisées</h2><p>La crise de 1929 aggrave les tensions. En France, le Front populaire remporte les élections de 1936 et adopte des réformes sociales, dont les congés payés.</p><aside class=\"lesson-callout\">Pour caractériser un régime totalitaire, croise plusieurs critères : idéologie, parti unique, chef, propagande, encadrement et terreur.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Quel événement déclenche la crise de juillet 1914 ?","options":["L’invasion de la Pologne","L’attentat de Sarajevo","La révolution russe"],"correct":1,"explanation":"L’assassinat de l’archiduc François-Ferdinand à Sarajevo déclenche la crise qui conduit à la guerre."},{"text":"Pourquoi la guerre de 1914-1918 est-elle totale ?","options":["Seuls les soldats sont mobilisés","Les États mobilisent toute la société et l’économie","Elle se déroule sur un seul continent"],"correct":1,"explanation":"Armées, industries, finances, civils, sciences et propagande sont mobilisés."},{"text":"Quelle date marque l’armistice de 1918 ?","options":["11 novembre 1918","8 mai 1945","28 juin 1919"],"correct":0,"explanation":"L’armistice entre en vigueur le 11 novembre 1918 ; le traité de Versailles est signé en 1919."},{"text":"Quel changement politique a lieu en Russie en 1917 ?","options":["Le retour du tsar","Deux révolutions puis le pouvoir bolchevik","La création de l’ONU"],"correct":1,"explanation":"Les révolutions de février et d’octobre mettent fin au tsarisme puis portent les bolcheviks au pouvoir."},{"text":"Quel élément caractérise les régimes totalitaires ?","options":["Le pluralisme politique","Le parti unique, la propagande et la terreur","L’alternance démocratique"],"correct":1,"explanation":"Ils cherchent à contrôler la vie politique et sociale par l’embrigadement et la répression."},{"text":"En quelle année Hitler devient-il chancelier ?","options":["1919","1933","1939"],"correct":1,"explanation":"Hitler est nommé chancelier le 30 janvier 1933."}]},{"id":"seconde-guerre-vichy-resistance","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Histoire · 1939-1945","title":"Seconde Guerre mondiale, Vichy et Résistance","heading":"1939-1945,<br><span>guerre d’anéantissement et libération.</span>","description":"Comprendre le conflit mondial, l’Occupation, la collaboration, la Résistance et la Shoah.","objectives":"Dater les étapes du conflit, expliquer la guerre d’anéantissement et distinguer Vichy, France libre et Résistance.","icon":"✹","body":"<p><b>Thème 1 · Histoire.</b> La Seconde Guerre mondiale oppose l’Axe aux Alliés et atteint une violence extrême contre les combattants et les civils.</p><h2>1. Les grandes étapes</h2><p>L’Allemagne envahit la Pologne le 1er septembre 1939. En 1940, la France est vaincue et signe l’armistice du 22 juin. En 1941, l’Allemagne attaque l’URSS et le Japon attaque Pearl Harbor : les États-Unis entrent en guerre. Les Alliés remportent des victoires à Stalingrad (1942-1943), débarquent en Normandie le 6 juin 1944 et libèrent Paris en août. L’Allemagne capitule le 8 mai 1945 ; le Japon en septembre.</p><h2>2. Une guerre d’anéantissement</h2><p>Les belligérants cherchent à détruire les capacités de l’ennemi. Bombardements massifs, massacres et violences contre les civils marquent le conflit, particulièrement sur le front de l’Est.</p><h2>3. La Shoah</h2><p>Le régime nazi persécute les Juifs dès 1933. Pendant la guerre, ghettos, fusillades de masse puis centres de mise à mort organisent le génocide des Juifs d’Europe, appelé <b>Shoah</b> : environ six millions de personnes sont assassinées. Les nazis persécutent et assassinent aussi les Roms.</p><h2>4. Vichy et la collaboration</h2><p>Après la défaite de 1940, Pétain obtient les pleins pouvoirs et met fin à la République. Vichy collabore avec l’Allemagne nazie, adopte ses propres lois antisémites et participe aux déportations, notamment lors de la rafle du Vél’ d’Hiv en juillet 1942.</p><h2>5. Résister et libérer</h2><p>Le 18 juin 1940, de Gaulle appelle depuis Londres à poursuivre le combat et organise la France libre. En France, les résistants diffusent des journaux clandestins, renseignent les Alliés, sabotent et combattent. Jean Moulin unifie les mouvements au sein du Conseil national de la Résistance en 1943. La Libération rétablit la République.</p><aside class=\"lesson-callout\">Ne confonds pas Vichy, qui collabore, avec la France libre et les mouvements de Résistance. Les comportements des Français ont été divers et ont évolué.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Quel événement marque le début de la guerre en Europe ?","options":["L’invasion de la Pologne","Le débarquement en Normandie","La capitulation du Japon"],"correct":0,"explanation":"L’Allemagne envahit la Pologne le 1er septembre 1939."},{"text":"Quel événement fait entrer les États-Unis dans la guerre en 1941 ?","options":["Stalingrad","Pearl Harbor","Le débarquement"],"correct":1,"explanation":"L’attaque japonaise de Pearl Harbor, le 7 décembre 1941, conduit les États-Unis à entrer en guerre."},{"text":"Que désigne la Shoah ?","options":["La reconstruction européenne","Le génocide des Juifs d’Europe par les nazis","La Résistance française"],"correct":1,"explanation":"La Shoah est le génocide des Juifs d’Europe organisé par l’Allemagne nazie et ses collaborateurs."},{"text":"Quel rôle joue le régime de Vichy ?","options":["Il dirige la France libre","Il collabore avec l’Allemagne nazie","Il organise le débarquement"],"correct":1,"explanation":"Vichy collabore avec l’occupant et participe aux persécutions et déportations."},{"text":"Quel est l’objectif de l’appel du 18 juin 1940 ?","options":["Poursuivre le combat contre l’Allemagne","Annoncer la capitulation japonaise","Créer l’ONU"],"correct":0,"explanation":"Depuis Londres, de Gaulle appelle à continuer la lutte et à rejoindre la France libre."},{"text":"Quelle date marque la capitulation allemande en Europe ?","options":["11 novembre 1918","8 mai 1945","9 novembre 1989"],"correct":1,"explanation":"La capitulation allemande entre en vigueur le 8 mai 1945."}]},{"id":"guerre-froide-decolonisation-europe","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Histoire · Le monde depuis 1945","title":"Guerre froide, décolonisation et construction européenne","heading":"Depuis 1945,<br><span>un monde recomposé.</span>","description":"Comprendre la bipolarisation, les indépendances, la construction européenne et les recompositions après 1989.","objectives":"Définir guerre froide et décolonisation, situer les crises et expliquer la construction européenne.","icon":"🌐","body":"<p><b>Thème 2 · Histoire.</b> Après 1945, le monde se reconstruit, se divise en deux blocs puis connaît de nouvelles puissances et de nouveaux conflits.</p><h2>1. Organiser la paix</h2><p>L’ONU est créée en 1945 pour maintenir la paix et favoriser la coopération. Les États-Unis et l’URSS deviennent les deux superpuissances.</p><h2>2. La guerre froide (environ 1947-1991)</h2><p>Les États-Unis défendent la démocratie libérale et l’économie capitaliste ; l’URSS impose un régime communiste à parti unique et une économie planifiée. Leur rivalité passe par les alliances, la propagande, la course aux armements et à l’espace et des conflits indirects. Le mur de Berlin, construit en 1961, symbolise la division de l’Europe. Repères : blocus de Berlin (1948-1949), guerre de Corée (1950-1953), crise de Cuba (1962), chute du mur (1989), disparition de l’URSS (1991).</p><h2>3. La décolonisation</h2><p>Après 1945, les peuples colonisés revendiquent leur indépendance. L’Inde devient indépendante en 1947. La guerre d’Indochine se termine en 1954. La guerre d’Algérie (1954-1962) conduit à l’indépendance en 1962. Les indépendances sont parfois négociées, parfois obtenues après des guerres.</p><h2>4. Construire l’Europe</h2><p>La CECA est créée en 1951. Les traités de Rome fondent la CEE en 1957. Le traité de Maastricht crée l’Union européenne en 1992. La coopération vise à rendre la guerre moins probable et à développer les échanges.</p><h2>5. Depuis 1991</h2><p>La disparition de l’URSS met fin à la bipolarisation. Les conflits ne disparaissent pas : guerres en ex-Yougoslavie, tensions au Moyen-Orient, terrorisme et rivalités régionales. La mondialisation intensifie les échanges et les interdépendances.</p><aside class=\"lesson-callout\">La guerre froide est une rivalité globale : les superpuissances s’affrontent indirectement, sans guerre directe généralisée entre elles.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Quels sont les deux principaux rivaux de la guerre froide ?","options":["France et Royaume-Uni","États-Unis et URSS","Chine et Japon"],"correct":1,"explanation":"La guerre froide oppose principalement les États-Unis et l’Union soviétique."},{"text":"Quel événement symbolise la division de Berlin ?","options":["La construction du mur en 1961","La création de l’ONU","Le traité de Rome"],"correct":0,"explanation":"Le mur de Berlin est construit en 1961 et symbolise la division de l’Europe."},{"text":"En quelle année l’Inde devient-elle indépendante ?","options":["1918","1947","1962"],"correct":1,"explanation":"L’indépendance de l’Inde britannique est proclamée en août 1947."},{"text":"Quel événement conduit à l’indépendance de l’Algérie ?","options":["Les accords d’Évian en 1962","Le traité de Versailles","Le traité de Maastricht"],"correct":0,"explanation":"Les accords d’Évian de mars 1962 ouvrent la voie à l’indépendance proclamée en juillet."},{"text":"Quel traité fonde la CEE ?","options":["Traité de Rome de 1957","Traité de Versailles de 1919","Traité de Maastricht de 1992"],"correct":0,"explanation":"Les traités de Rome de 1957 fondent la Communauté économique européenne."},{"text":"Quel événement symbolise la fin de la division de Berlin ?","options":["La chute du mur en 1989","La création de l’URSS en 1922","Le débarquement de 1944"],"correct":0,"explanation":"L’ouverture du mur en novembre 1989 symbolise la fin de la division de l’Europe."}]},{"id":"france-republique-depuis-1944","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Histoire · La France depuis 1944","title":"La République française depuis la Libération","heading":"Depuis 1944,<br><span>refonder et transformer la République.</span>","description":"Étudier le rétablissement républicain, la naissance de la Ve République et les évolutions sociales.","objectives":"Expliquer les réformes de la Libération, distinguer IVe et Ve Républiques et repérer les transformations sociales.","icon":"⚖️","body":"<p><b>Thème 3 · Histoire.</b> Depuis la Libération, la France rétablit la République, transforme ses institutions et connaît de profondes évolutions sociales.</p><h2>1. Refonder la République (1944-1947)</h2><p>Le Gouvernement provisoire rétablit les libertés. Le droit de vote est accordé aux femmes en 1944 ; elles votent pour la première fois en 1945. Le programme du Conseil national de la Résistance inspire des réformes : Sécurité sociale (1945), nationalisations et droits sociaux.</p><h2>2. La IVe République (1946-1958)</h2><p>La Constitution de 1946 fonde un régime parlementaire. La France se reconstruit, modernise son économie et participe aux débuts de la construction européenne. L’instabilité gouvernementale et les guerres de décolonisation fragilisent le régime.</p><h2>3. La Ve République</h2><p>En 1958, la crise liée à la guerre d’Algérie entraîne le retour au pouvoir du général de Gaulle. La Constitution renforce le pouvoir exécutif et la fonction présidentielle. En 1962, le président est élu au suffrage universel direct. La Ve République est toujours en vigueur.</p><h2>4. Une société transformée</h2><p>Les Trente Glorieuses (environ 1945-1975) sont marquées par la croissance, l’industrialisation, l’urbanisation et la consommation de masse. L’automobile, l’équipement des logements, la scolarisation prolongée et l’immigration transforment la société. Mai 1968 exprime des contestations étudiantes, ouvrières et sociales. La loi Veil de 1975 autorise l’IVG dans un cadre légal. La crise ouverte en 1973 met fin à la forte croissance continue.</p><aside class=\"lesson-callout\">Repères : 1944 (droit de vote des femmes), 1945 (Sécurité sociale), 1946 (IVe République), 1958 (Ve République), 1962 (élection présidentielle au suffrage universel direct), 1968 (mobilisations), 1975 (loi Veil).</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Quand les Françaises obtiennent-elles le droit de vote ?","options":["1936","1944","1958"],"correct":1,"explanation":"L’ordonnance du 21 avril 1944 accorde le droit de vote et l’éligibilité aux femmes."},{"text":"Quelle réforme sociale est mise en place en 1945 ?","options":["La Sécurité sociale","La CEE","L’ONU"],"correct":0,"explanation":"La Sécurité sociale est créée en 1945 pour protéger contre plusieurs risques sociaux."},{"text":"En quelle année la Ve République est-elle fondée ?","options":["1946","1958","1968"],"correct":1,"explanation":"La Constitution de la Ve République est approuvée en 1958."},{"text":"Quelle réforme est adoptée en 1962 ?","options":["L’élection du président au suffrage universel direct","Le droit de vote des femmes","La création de l’ONU"],"correct":0,"explanation":"En 1962, le mode d’élection du président est modifié par référendum."},{"text":"Que désignent les Trente Glorieuses ?","options":["La forte croissance après 1945","Une guerre de trente ans","La Révolution française"],"correct":0,"explanation":"Les Trente Glorieuses désignent approximativement 1945-1975, période de croissance et de modernisation."},{"text":"Quelle loi de 1975 concerne l’IVG ?","options":["La loi Veil","La loi de 1905","Le traité de Rome"],"correct":0,"explanation":"La loi portée par Simone Veil en 1975 légalise l’IVG dans un cadre légal."}]},{"id":"espaces-productifs","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Géographie · Dynamiques territoriales","title":"Les espaces productifs français","heading":"Produire en France,<br><span>des territoires connectés.</span>","description":"Identifier les espaces agricoles, industriels et de services et comprendre leur insertion dans la mondialisation.","objectives":"Définir espace productif, comparer les secteurs et expliquer les facteurs de localisation.","icon":"🏭","body":"<p><b>Thème 1 · Géographie.</b> Un espace productif est un territoire aménagé pour produire des richesses. Les activités agricoles, industrielles et de services se transforment et s’insèrent dans des réseaux à plusieurs échelles.</p><h2>1. Les espaces agricoles</h2><p>L’agriculture française est diverse : grandes cultures dans les bassins céréaliers, élevage dans les bocages et montagnes, viticulture et maraîchage. Mécanisation, spécialisation, coopératives et échanges internationaux transforment les exploitations. Circuits courts et filières exportatrices coexistent.</p><h2>2. Les espaces industriels</h2><p>L’industrie évolue avec l’automatisation, la recherche, la logistique et la formation. Les technopôles rapprochent entreprises, laboratoires et universités. Certaines anciennes régions industrielles se reconvertissent tout en conservant des savoir-faire.</p><h2>3. Les espaces de services</h2><p>Commerce, santé, éducation, tourisme, finance, transport et numérique sont des services. Ils se concentrent notamment dans les métropoles, les villes et les zones touristiques. Le tourisme peut être saisonnier et exercer une pression sur les milieux.</p><h2>4. Des territoires connectés</h2><p>Ports, aéroports, routes, voies ferrées, réseaux numériques, main-d’œuvre et marchés influencent la localisation des activités. La mondialisation relie les espaces productifs à des chaînes internationales : conception, fabrication et vente peuvent avoir lieu dans des pays différents.</p><aside class=\"lesson-callout\">Pour analyser un espace productif, localise-le, nomme l’activité, cite un aménagement ou un acteur et explique ses connexions.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Qu’est-ce qu’un espace productif ?","options":["Un territoire organisé pour produire des richesses","Un espace exclusivement naturel","Une zone sans activité"],"correct":0,"explanation":"Un espace productif regroupe des activités et aménagements qui produisent biens ou services."},{"text":"Quel exemple est une activité agricole ?","options":["La viticulture","La banque","La construction aéronautique"],"correct":0,"explanation":"La viticulture est une activité agricole spécialisée dans la culture de la vigne."},{"text":"Pourquoi une industrie s’installe-t-elle près d’un laboratoire ?","options":["Pour bénéficier de la recherche et des compétences","Pour éviter l’innovation","Pour supprimer les échanges"],"correct":0,"explanation":"La proximité des laboratoires et formations facilite l’innovation et le recrutement."},{"text":"Quel secteur appartient aux services ?","options":["Le tourisme","La culture céréalière","L’extraction minière"],"correct":0,"explanation":"Le tourisme mobilise hébergement, transport, restauration et loisirs."},{"text":"Quel facteur favorise une entreprise exportatrice ?","options":["L’accès aux réseaux de transport","L’absence de connexion","L’éloignement des marchés"],"correct":0,"explanation":"Les infrastructures facilitent l’approvisionnement et l’expédition des produits."},{"text":"Que signifie l’insertion dans la mondialisation ?","options":["Être relié aux réseaux et marchés internationaux","Ne commercer qu’avec son quartier","Ne dépendre d’aucun échange"],"correct":0,"explanation":"Les entreprises et territoires échangent, investissent et vendent à différentes échelles."}]},{"id":"espaces-faible-densite","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Géographie · Dynamiques territoriales","title":"Les espaces de faible densité","heading":"Campagnes et montagnes,<br><span>des territoires contrastés.</span>","description":"Comprendre la diversité des espaces peu peuplés, leurs ressources, contraintes et dynamiques.","objectives":"Définir densité, identifier contraintes et ressources et expliquer les politiques d’attractivité.","icon":"⌂","body":"<p><b>Thème 1 · Géographie.</b> Les espaces de faible densité comptent peu d’habitants par km². Ils ne sont ni vides ni uniformes : campagnes, montagnes et espaces ruraux ont des trajectoires différentes.</p><h2>1. Définir et localiser</h2><p>La densité rapporte le nombre d’habitants à une superficie. De nombreux espaces ruraux, massifs montagneux et zones éloignées des métropoles ont une faible densité. Le seuil de 30 habitants par km² est parfois utilisé dans certaines analyses, mais n’est pas une frontière universelle.</p><h2>2. Des contraintes variables</h2><p>La distance aux emplois, services et transports peut compliquer le quotidien. Certains territoires connaissent vieillissement, fermeture de commerces ou éloignement des soins. Le relief et le climat peuvent compliquer les déplacements en montagne.</p><h2>3. Des ressources et des dynamiques</h2><p>Agriculture, forêts, paysages, patrimoine, énergies renouvelables et tourisme sont des ressources. Certaines communes attirent de nouveaux habitants ou visiteurs ; d’autres perdent de la population. Les trajectoires sont diverses.</p><h2>4. Améliorer l’accessibilité</h2><p>Les collectivités peuvent soutenir les services publics, maisons de santé, mobilités, couverture numérique et rénovation des centres-bourgs. Les choix doivent tenir compte des besoins, des coûts et des milieux.</p><aside class=\"lesson-callout\">Faible densité ne signifie ni absence d’activités, ni pauvreté, ni déclin inévitable. Croise densité, accessibilité, activités, population et ressources.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Comment calcule-t-on la densité ?","options":["Habitants divisés par la superficie","Superficie divisée par les routes","Naissances divisées par les écoles"],"correct":0,"explanation":"La densité rapporte le nombre d’habitants à une superficie, souvent en habitants par km²."},{"text":"Un espace de faible densité est-il vide ?","options":["Oui, personne n’y vit","Non, il est habité mais peu peuplé par km²","Oui, il n’a aucune activité"],"correct":1,"explanation":"Faible densité signifie peu d’habitants par unité de surface, pas absence d’habitants."},{"text":"Quelle ressource peut attirer des visiteurs ?","options":["Le patrimoine naturel et culturel","L’absence de services","La disparition des activités"],"correct":0,"explanation":"Paysages, patrimoine et activités de plein air peuvent favoriser le tourisme."},{"text":"Quel aménagement peut réduire l’isolement ?","options":["Une meilleure desserte et le numérique","La fermeture des routes","La suppression des services"],"correct":0,"explanation":"Transports et numérique améliorent l’accès aux services, emplois et échanges."},{"text":"Quelle affirmation est exacte ?","options":["Tous perdent des habitants","Les trajectoires sont diverses","Tous vivent du tourisme"],"correct":1,"explanation":"Certains gagnent des habitants ou de nouvelles activités, d’autres connaissent des difficultés."},{"text":"Pourquoi étudier un territoire à plusieurs échelles ?","options":["Pour comprendre ses liens régionaux et nationaux","Pour éviter de le localiser","Parce que la densité est partout identique"],"correct":0,"explanation":"Les dynamiques locales dépendent aussi des connexions régionales et nationales."}]},{"id":"amenagement-outremer-france-europe","grade":"3e","subject":"histoire-geographie","subjectName":"Histoire-géographie","domain":"Géographie · Aménagement et UE","title":"Aménagement, outre-mer et Union européenne","heading":"Aménager et coopérer,<br><span>de la commune à l’Europe.</span>","description":"Comprendre les acteurs de l’aménagement, les spécificités ultramarines et la place de la France dans l’UE.","objectives":"Identifier acteurs et objectifs de l’aménagement, caractériser les outre-mer et expliquer les coopérations européennes.","icon":"🇪🇺","body":"<p><b>Thèmes 2 et 3 · Géographie.</b> L’aménagement organise les espaces pour répondre aux besoins, réduire les inégalités et préserver l’environnement. La France agit à plusieurs échelles, de la commune à l’Union européenne.</p><h2>1. Pourquoi aménager ?</h2><p>Les territoires n’ont pas les mêmes emplois, services, transports ou connexions numériques. Les aménagements cherchent à améliorer l’accessibilité, soutenir les espaces fragiles et accompagner les mutations. Ils peuvent aussi provoquer débats sur les coûts, nuisances et impacts écologiques.</p><h2>2. Des acteurs multiples</h2><p>L’État conduit des politiques nationales ; régions, départements, communes et intercommunalités organisent de nombreux projets. L’Union européenne cofinance certains aménagements. Entreprises, associations et habitants participent également.</p><h2>3. Les territoires ultramarins</h2><p>Les territoires ultramarins français se situent dans les océans Atlantique, Indien et Pacifique et en Amérique du Sud. Guadeloupe, Martinique, Guyane, La Réunion et Mayotte sont des DROM. La Polynésie française et la Nouvelle-Calédonie ont des statuts différents. La Guyane est continentale, et non une île. Les outre-mer disposent d’atouts (biodiversité, ressources maritimes, position stratégique) et de contraintes variables (éloignement, insularité, risques naturels, inégalités d’accès aux services).</p><h2>4. La France et l’Union européenne</h2><p>L’Union européenne compte 27 États membres en 2026. Le marché unique facilite la circulation des marchandises, services, capitaux et personnes. L’euro est utilisé par 21 États membres en 2026. L’UE soutient l’agriculture, la recherche, les transports, la transition énergétique et le développement régional. La coopération transfrontalière organise des projets entre régions voisines de plusieurs pays.</p><h2>5. Des territoires connectés au monde</h2><p>Ports, aéroports, métropoles et corridors ferroviaires relient les territoires. La France métropolitaine possède des façades sur la Manche, l’Atlantique et la Méditerranée ; l’outre-mer donne au pays une présence dans plusieurs océans. Les territoires restent cependant inégalement connectés.</p><aside class=\"lesson-callout\">Pour analyser un aménagement : qui décide et finance ? Quel besoin ? Quels bénéficiaires ? Quels effets sur l’environnement ? Pour l’UE, distingue ses 27 membres de la zone euro.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme d’histoire-géographie du cycle 4, classe de 3e, applicable en 2026-2027. Ces synthèses ne remplacent pas l’étude de documents, de cartes et d’exemples menée en classe.</p><p><a href=\"https://www.education.gouv.fr/les-programmes-du-college-470408\" target=\"_blank\" rel=\"noopener\">Ministère : programmes du collège</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Éduscol : cycle 4</a> · <a href=\"https://eduscol.education.gouv.fr/5730/ressources-d-accompagnement-du-programme-d-histoire-geographie-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources histoire-géographie</a></p></details>","questions":[{"text":"Quel est l’objectif de l’aménagement ?","options":["Organiser les espaces et réduire les inégalités","Concentrer tous les services dans une ville","Supprimer les transports"],"correct":0,"explanation":"L’aménagement vise l’accès aux services, la cohésion territoriale et la protection des milieux."},{"text":"Quel acteur peut cofinancer un projet régional ?","options":["L’Union européenne","Une commune uniquement","Un particulier obligatoirement"],"correct":0,"explanation":"L’UE cofinance des projets grâce à des fonds régionaux et de cohésion."},{"text":"Quel territoire ultramarin est situé en Amérique du Sud ?","options":["La Guyane","La Réunion","La Guadeloupe"],"correct":0,"explanation":"La Guyane se situe sur le continent sud-américain."},{"text":"Quel territoire est un DROM ?","options":["La Martinique","La Polynésie française","La Nouvelle-Calédonie"],"correct":0,"explanation":"La Martinique est un département et une région d’outre-mer ; les deux autres ont des statuts différents."},{"text":"Combien d’États membres compte l’UE en 2026 ?","options":["19","27","32"],"correct":1,"explanation":"L’Union européenne compte 27 États membres depuis le retrait du Royaume-Uni."},{"text":"Tous les membres de l’UE utilisent-ils l’euro ?","options":["Oui, tous","Non, certains conservent leur monnaie","Seuls les pays hors UE"],"correct":1,"explanation":"Plusieurs États membres n’ont pas adopté l’euro."}]}]);
+
+
+  // Anglais 3e : consolidation des compétences du cycle 4 (programme en vigueur en 2026-2027).
+  window.COLLEGE_COURSES.push(
+  {
+    id: "raconter-au-passe-anglais",
+    grade: "3e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Récits et expériences · A2",
+    icon: "Past",
+    title: "Raconter au passé : past simple et past continuous",
+    heading: "Raconter au passé,<br><span>situer les événements.</span>",
+    description: "Distinguer une action terminée d’une action en cours et organiser un récit au passé.",
+    objectives: "Employer le past simple et le past continuous, construire des phrases négatives et des questions, puis relier les événements d’un récit.",
+    body: "<p><b>3e · Anglais · A2, avec des prolongements vers B1</b> — Raconter un souvenir, une rencontre ou un événement demande de choisir le temps qui correspond à ce que l’on veut dire.</p><h2>1. Le past simple : un événement terminé</h2><p>On utilise le <b>past simple</b> pour parler d'une action achevée dans le passé, souvent située par un repère comme <span lang=\"en-GB\">yesterday, last weekend, in 2022</span> ou <span lang=\"en-GB\">two days ago</span>.</p><div class=\"lesson-formula\" lang=\"en-GB\">We visited London last summer.<br>She went to the museum yesterday.</div><p>Pour un verbe régulier, on ajoute généralement <b>-ed</b> : <span lang=\"en-GB\">visit → visited</span>. Les verbes irréguliers ont une forme à apprendre : <span lang=\"en-GB\">go → went, see → saw, buy → bought</span>.</p><h2>2. Former une négation et une question</h2><p>Avec un verbe lexical, on utilise <b>did not (didn't) + base verbale</b>. Après <span lang=\"en-GB\">did</span>, le verbe ne reste pas au passé.</p><div class=\"lesson-formula\" lang=\"en-GB\">I didn't see the film.<br>Did you enjoy the trip?</div><p>On répond par exemple <span lang=\"en-GB\">Yes, I did</span> ou <span lang=\"en-GB\">No, I didn't</span>. Avec <span lang=\"en-GB\">be</span>, on utilise directement <span lang=\"en-GB\">was / were</span> : <span lang=\"en-GB\">Were they tired?</span></p><h2>3. Le past continuous : une action en cours</h2><p>Le <b>past continuous</b> se construit avec <span lang=\"en-GB\">was / were + verbe-ing</span>. Il décrit une action qui était en train de se dérouler à un moment du passé, souvent comme décor d'un récit.</p><div class=\"lesson-formula\" lang=\"en-GB\">At eight o'clock, I was reading.<br>They were walking in the park.</div><h2>4. Associer les deux temps</h2><p>Le past continuous présente l'action en cours ; le past simple peut introduire l'événement qui survient. On rencontre souvent <span lang=\"en-GB\">when</span> et <span lang=\"en-GB\">while</span>.</p><div class=\"lesson-formula\" lang=\"en-GB\">I was cycling when it started to rain.<br>While we were waiting, the bus arrived.</div><p><b>Méthode :</b> demande-toi si tu racontes un événement terminé ou si tu décris ce qui était en train de se passer. Puis vérifie le sujet et la forme du verbe.</p><h2>5. Construire un récit clair</h2><p>Pour organiser les étapes, utilise des connecteurs : <span lang=\"en-GB\">first, then, suddenly, meanwhile, after that, finally</span>. Ils aident le lecteur à suivre la chronologie.</p><p><b>À l'oral :</b> raconte en cinq phrases un moment inattendu. Situe le décor avec le past continuous, puis raconte deux événements au past simple.</p><details class=\"lesson-sources\"><summary>Références et méthode</summary><p>Fiche d'entraînement originale, adossée aux attendus de langues vivantes du cycle 4 et au CECRL. Le récit au passé permet de travailler la compréhension et la production d'un récit simple, puis de l'enrichir.</p><p><a href=\"https://eduscol.education.gouv.fr/6910/reperes-annuels-de-progression-et-attendus-de-fin-d-annee-du-cp-la-troisieme\" target=\"_blank\" rel=\"noopener\">Repères et attendus de fin de 3e · Éduscol</a></p></details>",
+    questions:     [
+      {
+        "text": "Choose the correct form: “Last Saturday, we … a castle.”",
+        "options": [
+          "visit",
+          "visited",
+          "were visit"
+        ],
+        "correct": 1,
+        "explanation": "“Last Saturday” situe l'action dans un passé terminé. Le past simple du verbe régulier “visit” est “visited”."
+      },
+      {
+        "text": "Complete: “I … dinner when the phone rang.”",
+        "options": [
+          "was cooking",
+          "cooked",
+          "am cooking"
+        ],
+        "correct": 0,
+        "explanation": "La préparation du dîner était en cours quand un autre événement est survenu. On utilise was + cooking au past continuous."
+      },
+      {
+        "text": "Choose the correct negative sentence.",
+        "options": [
+          "She didn't went home.",
+          "She doesn't went home.",
+          "She didn't go home."
+        ],
+        "correct": 2,
+        "explanation": "Après did not ou didn't, le verbe revient à sa base verbale : “go”, et non “went”."
+      },
+      {
+        "text": "Complete the question: “… you see the match yesterday?”",
+        "options": [
+          "Do",
+          "Did",
+          "Were"
+        ],
+        "correct": 1,
+        "explanation": "Pour poser une question au past simple avec un verbe lexical, on place “did” avant le sujet et on garde la base verbale “see”."
+      },
+      {
+        "text": "Choose the best connector: “I was walking home … it started to snow.”",
+        "options": [
+          "when",
+          "because of",
+          "finally"
+        ],
+        "correct": 0,
+        "explanation": "“When” introduit ici l'événement ponctuel qui interrompt ou rejoint l'action en cours : “I was walking when it started”."
+      },
+      {
+        "text": "Which sentence describes an action in progress at 7 pm?",
+        "options": [
+          "At 7 pm, they watched TV.",
+          "At 7 pm, they were watching TV.",
+          "At 7 pm, they watch TV."
+        ],
+        "correct": 1,
+        "explanation": "“Were watching” décrit une action en cours à un moment précis du passé. C'est la forme du past continuous."
+      }
+    ]
+  },
+  {
+    id: "present-perfect-experiences",
+    grade: "3e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Expériences · A2 vers B1",
+    icon: "Have",
+    title: "Present perfect : parler de ses expériences",
+    heading: "Le present perfect,<br><span>faire le lien avec maintenant.</span>",
+    description: "Exprimer une expérience, une durée ou un résultat et choisir entre present perfect et past simple.",
+    objectives: "Construire le present perfect avec have ou has et un participe passé, employer ever, never, already, yet, for et since, et le distinguer du past simple.",
+    body: "<p><b>3e · Anglais · A2 vers B1</b> — Le present perfect permet de parler d'un passé qui garde un lien avec le présent : une expérience, une durée ou un résultat.</p><h2>1. Construire le present perfect</h2><p>La structure est <b>have / has + participe passé</b>. On utilise <span lang=\"en-GB\">have</span> avec <span lang=\"en-GB\">I, you, we, they</span> et <span lang=\"en-GB\">has</span> avec <span lang=\"en-GB\">he, she, it</span>.</p><div class=\"lesson-formula\" lang=\"en-GB\">I have visited Scotland.<br>She has lost her keys.</div><p>Les verbes réguliers prennent généralement <span lang=\"en-GB\">-ed</span>. Les verbes irréguliers ont un participe passé spécifique : <span lang=\"en-GB\">go → gone, see → seen, write → written</span>.</p><h2>2. Parler d'une expérience</h2><p><span lang=\"en-GB\">Ever</span> apparaît souvent dans les questions ; <span lang=\"en-GB\">never</span> exprime l'absence d'expérience. Ils ne donnent pas de date précise.</p><div class=\"lesson-formula\" lang=\"en-GB\">Have you ever tried surfing?<br>I have never flown in a plane.</div><h2>3. Already et yet</h2><p><span lang=\"en-GB\">Already</span> indique qu'une action est déjà réalisée. <span lang=\"en-GB\">Yet</span> s'emploie souvent dans les questions et les phrases négatives, généralement en fin de phrase.</p><div class=\"lesson-formula\" lang=\"en-GB\">I've already finished my homework.<br>Have you finished yet?<br>I haven't finished yet.</div><h2>4. For et since : exprimer une durée</h2><p><span lang=\"en-GB\">For</span> introduit une durée ; <span lang=\"en-GB\">since</span> indique le point de départ.</p><div class=\"lesson-formula\" lang=\"en-GB\">We have lived here for three years.<br>He has played tennis since 2021.</div><h2>5. Present perfect ou past simple ?</h2><p>Choisis le <b>past simple</b> quand le moment passé est terminé et précisé : <span lang=\"en-GB\">I visited Dublin in 2023</span>. Choisis le <b>present perfect</b> pour une expérience sans date donnée ou un résultat lié au présent : <span lang=\"en-GB\">I have visited Dublin</span>.</p><aside class=\"lesson-callout\">Évite de mélanger un repère passé terminé comme <span lang=\"en-GB\">yesterday</span> avec le present perfect. Compare toujours le sens, pas seulement le mot français « avoir ».</aside><p><b>Défi :</b> écris trois phrases vraies ou inventées sur tes expériences, puis pose une question avec <span lang=\"en-GB\">Have you ever…?</span>.</p><details class=\"lesson-sources\"><summary>Références</summary><p>Entraînement original aux formes verbales et à l'expression d'expériences et de situations personnelles, en cohérence avec les activités langagières du cycle 4.</p><p><a href=\"https://eduscol.education.gouv.fr/4758/ressources-d-accompagnement-pour-les-langues-vivantes-etrangeres-et-regionales-au-college\" target=\"_blank\" rel=\"noopener\">Ressources d'accompagnement des langues vivantes · Éduscol</a></p></details>",
+    questions:     [
+      {
+        "text": "Complete: “She … never … to Canada.”",
+        "options": [
+          "has / been",
+          "have / be",
+          "did / been"
+        ],
+        "correct": 0,
+        "explanation": "Avec “she”, on utilise “has”. Le participe passé de “be” dans l'expression “have been to” est “been”."
+      },
+      {
+        "text": "Which question asks about an experience without specifying when?",
+        "options": [
+          "Did you go there yesterday?",
+          "Have you ever visited Wales?",
+          "Were you there last week?"
+        ],
+        "correct": 1,
+        "explanation": "“Have you ever…?” demande si une expérience a déjà eu lieu, sans demander une date précise."
+      },
+      {
+        "text": "Complete: “I have known Sam … 2021.”",
+        "options": [
+          "for",
+          "since",
+          "during"
+        ],
+        "correct": 1,
+        "explanation": "“Since” introduit le point de départ de la situation : 2021. “For” serait suivi d'une durée, par exemple “for five years”."
+      },
+      {
+        "text": "Choose the correct sentence with yet.",
+        "options": [
+          "I haven't finished yet.",
+          "I yet haven't finished yesterday.",
+          "I don't have finished yet."
+        ],
+        "correct": 0,
+        "explanation": "“Yet” se place souvent à la fin d'une phrase négative au present perfect : “I haven't finished yet”."
+      },
+      {
+        "text": "Choose the correct tense: “We … the museum in 2022.”",
+        "options": [
+          "have visited",
+          "has visited",
+          "visited"
+        ],
+        "correct": 2,
+        "explanation": "“In 2022” désigne un moment passé terminé et daté. On emploie donc le past simple : “visited”."
+      },
+      {
+        "text": "Complete: “They have lived here … six months.”",
+        "options": [
+          "since",
+          "for",
+          "already"
+        ],
+        "correct": 1,
+        "explanation": "“For” introduit une durée : six mois. “Since” introduirait une date ou un point de départ précis."
+      }
+    ]
+  },
+  {
+    id: "futur-modaux-conditionnels",
+    grade: "3e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Projets et hypothèses · A2",
+    icon: "Will",
+    title: "Futur, modaux et conditionnel : exprimer ses idées",
+    heading: "Parler de demain,<br><span>exprimer possibilités et conseils.</span>",
+    description: "Choisir entre will, going to et le présent continu, puis utiliser les modaux et le premier conditionnel.",
+    objectives: "Exprimer une prédiction, un projet ou un arrangement, nuancer avec can, must, should et may, et construire une phrase au premier conditionnel.",
+    body: "<p><b>3e · Anglais · A2</b> — Pour parler de l'avenir, on ne choisit pas une forme au hasard : le sens de la phrase indique si l'on prédit, prévoit ou organise quelque chose.</p><h2>1. Will : prédiction, décision spontanée</h2><p><span lang=\"en-GB\">Will + base verbale</span> sert notamment à faire une prédiction ou à prendre une décision au moment où l'on parle.</p><div class=\"lesson-formula\" lang=\"en-GB\">I think it will rain tomorrow.<br>I'll help you with your bag.</div><p>La négation est <span lang=\"en-GB\">will not / won't</span>. La question place <span lang=\"en-GB\">will</span> avant le sujet : <span lang=\"en-GB\">Will you come?</span></p><h2>2. Be going to : intention et indice visible</h2><p><span lang=\"en-GB\">Am / is / are going to + base verbale</span> exprime souvent un projet déjà décidé ou une prédiction fondée sur un indice présent.</p><div class=\"lesson-formula\" lang=\"en-GB\">We are going to visit our cousins.<br>Look at those clouds! It's going to rain.</div><h2>3. Le présent continu pour un arrangement</h2><p>Le present continuous peut parler d'un événement futur organisé, souvent avec une date ou une heure.</p><div class=\"lesson-formula\" lang=\"en-GB\">I'm meeting Alex at six tomorrow.</div><h2>4. Les modaux : nuancer son message</h2><p>Un modal est suivi de la base verbale, sans <span lang=\"en-GB\">to</span> (sauf expressions particulières). <span lang=\"en-GB\">Can</span> exprime une capacité ou une permission ; <span lang=\"en-GB\">must</span> une obligation forte ; <span lang=\"en-GB\">should</span> un conseil ; <span lang=\"en-GB\">may</span> une possibilité.</p><div class=\"lesson-formula\" lang=\"en-GB\">You should revise regularly.<br>We must protect the environment.<br>It may be difficult.</div><h2>5. Le premier conditionnel</h2><p>On utilise souvent <span lang=\"en-GB\">if + present simple</span> pour la condition, puis <span lang=\"en-GB\">will + base verbale</span> pour le résultat possible. Ne mets pas <span lang=\"en-GB\">will</span> juste après <span lang=\"en-GB\">if</span> dans cette structure.</p><div class=\"lesson-formula\" lang=\"en-GB\">If it rains, we will stay at home.<br>If you study, you will make progress.</div><p><b>À toi :</b> propose un projet pour le week-end, donne un conseil à un ami et imagine une conséquence avec <span lang=\"en-GB\">If…</span>.</p><details class=\"lesson-sources\"><summary>Références</summary><p>Fiche de grammaire originale destinée à soutenir les fonctions de communication : prévoir, conseiller, exprimer une obligation et formuler une hypothèse simple.</p><p><a href=\"https://eduscol.education.gouv.fr/6910/reperes-annuels-de-progression-et-attendus-de-fin-d-annee-du-cp-la-troisieme\" target=\"_blank\" rel=\"noopener\">Attendus de fin de 3e · Éduscol</a></p></details>",
+    questions:     [
+      {
+        "text": "Choose the best form: “Look at the sky! It … snow.”",
+        "options": [
+          "is going to",
+          "will to",
+          "going"
+        ],
+        "correct": 0,
+        "explanation": "Les nuages ou un autre indice visible permettent une prédiction fondée sur la situation présente : “It is going to snow”."
+      },
+      {
+        "text": "Complete: “I think our team … win the match.”",
+        "options": [
+          "is",
+          "will",
+          "going"
+        ],
+        "correct": 1,
+        "explanation": "“I think” introduit ici une prédiction. On emploie “will + base verbale” : “will win”."
+      },
+      {
+        "text": "Which sentence describes an arranged appointment?",
+        "options": [
+          "I'm seeing the dentist at 4 pm.",
+          "I see dentist yesterday.",
+          "I will to see the dentist."
+        ],
+        "correct": 0,
+        "explanation": "Le présent continu peut exprimer un rendez-vous déjà organisé, surtout avec une indication d'heure : “I'm seeing…”."
+      },
+      {
+        "text": "Choose the best advice.",
+        "options": [
+          "You should get some rest.",
+          "You must to get some rest.",
+          "You should getting some rest."
+        ],
+        "correct": 0,
+        "explanation": "“Should” est suivi directement de la base verbale : “get”. Il sert à donner un conseil."
+      },
+      {
+        "text": "Complete: “If we recycle more, we … less waste.”",
+        "options": [
+          "produced",
+          "will produce",
+          "are produce"
+        ],
+        "correct": 1,
+        "explanation": "Dans le premier conditionnel, la proposition avec “if” est au présent simple et le résultat possible utilise “will + base verbale”."
+      },
+      {
+        "text": "What does “You must wear a helmet” express?",
+        "options": [
+          "A strong obligation",
+          "A past habit",
+          "A possibility"
+        ],
+        "correct": 0,
+        "explanation": "“Must” exprime une obligation forte ou une règle à respecter. Ce n'est pas une simple possibilité."
+      }
+    ]
+  },
+  {
+    id: "voix-passive-discours-indirect",
+    grade: "3e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Structures · A2 vers B1",
+    icon: "Pass",
+    title: "Voix passive, relatives et discours indirect",
+    heading: "Enrichir ses phrases,<br><span>changer de point de vue.</span>",
+    description: "Comprendre la voix passive, relier les idées avec des relatives et rapporter des paroles.",
+    objectives: "Former une phrase passive simple, choisir who, which ou where, et reconnaître les transformations fréquentes du discours indirect.",
+    body: "<p><b>3e · Anglais · A2 vers B1</b> — Ces structures permettent de varier les phrases, de préciser une information et de rapporter ce qu'une personne a dit.</p><h2>1. La voix passive : mettre l'accent sur l'action</h2><p>À la voix active, le sujet réalise l'action. À la voix passive, le sujet la subit ou en reçoit le résultat. La structure de base est <b>be conjugué + participe passé</b>.</p><div class=\"lesson-formula\" lang=\"en-GB\">Active: People speak English here.<br>Passive: English is spoken here.</div><p>Au passé, on conjugue <span lang=\"en-GB\">be</span> au passé : <span lang=\"en-GB\">The bridge was built in 1890</span>. On peut ajouter l'agent avec <span lang=\"en-GB\">by</span> si c'est utile : <span lang=\"en-GB\">The book was written by Orwell</span>.</p><h2>2. Les pronoms relatifs</h2><p>Une proposition relative apporte une précision sur un nom. <span lang=\"en-GB\">Who</span> renvoie à une personne, <span lang=\"en-GB\">which</span> à une chose ou un animal, et <span lang=\"en-GB\">where</span> à un lieu.</p><div class=\"lesson-formula\" lang=\"en-GB\">A scientist is someone who studies science.<br>This is the film which won an award.<br>That's the town where I was born.</div><h2>3. Le discours indirect</h2><p>Le discours direct reproduit les paroles exactes. Le discours indirect les rapporte sans guillemets. Après un verbe introducteur au passé comme <span lang=\"en-GB\">said</span>, le temps recule souvent d'un cran dans les exercices de concordance.</p><div class=\"lesson-formula\" lang=\"en-GB\">Direct: “I am tired.”<br>Reported: She said (that) she was tired.</div><p>Les pronoms et les repères de temps ou de lieu peuvent aussi changer selon la situation : <span lang=\"en-GB\">today → that day, tomorrow → the next day</span>.</p><h2>4. Rapporter une question</h2><p>Dans une question indirecte, on retrouve l'ordre d'une phrase affirmative : sujet puis verbe. On ne garde pas l'inversion de la question directe.</p><div class=\"lesson-formula\" lang=\"en-GB\">Direct: “Where do you live?”<br>Reported: He asked me where I lived.</div><aside class=\"lesson-callout\">Pour analyser une phrase, repère d'abord le sujet, le verbe et le temps. Ensuite, identifie la structure demandée : passive, relative ou discours indirect.</aside><p><b>Défi :</b> transforme une phrase active en passive, puis rapporte une question posée par un camarade.</p><details class=\"lesson-sources\"><summary>Références</summary><p>Structures travaillées comme outils de compréhension et de production dans le cadre des activités langagières du cycle 4.</p><p><a href=\"https://eduscol.education.gouv.fr/4758/ressources-d-accompagnement-pour-les-langues-vivantes-etrangeres-et-regionales-au-college\" target=\"_blank\" rel=\"noopener\">Ressources langues vivantes · Éduscol</a></p></details>",
+    questions:     [
+      {
+        "text": "Choose the correct passive form: “The school … in 1950.”",
+        "options": [
+          "built",
+          "was built",
+          "is build"
+        ],
+        "correct": 1,
+        "explanation": "La phrase passive au passé se construit avec “was” (be au passé) et le participe passé “built”."
+      },
+      {
+        "text": "Choose the correct relative pronoun: “A pilot is a person … flies a plane.”",
+        "options": [
+          "which",
+          "where",
+          "who"
+        ],
+        "correct": 2,
+        "explanation": "“Who” introduit une relative qui apporte une information sur une personne. “Which” renvoie plutôt à une chose."
+      },
+      {
+        "text": "Report: “I am happy,” she said.",
+        "options": [
+          "She said she is happy.",
+          "She said she was happy.",
+          "She said I was happy."
+        ],
+        "correct": 1,
+        "explanation": "Avec “said” au passé, “am” devient généralement “was” au discours indirect. Le pronom “I” devient “she”."
+      },
+      {
+        "text": "Which sentence has the correct word order in an indirect question?",
+        "options": [
+          "He asked where did I live.",
+          "He asked where I lived.",
+          "He asked where do I lived."
+        ],
+        "correct": 1,
+        "explanation": "Dans une question indirecte, on utilise l'ordre sujet + verbe, sans inversion : “where I lived”."
+      },
+      {
+        "text": "Complete: “This is the town … my grandparents live.”",
+        "options": [
+          "who",
+          "where",
+          "which"
+        ],
+        "correct": 1,
+        "explanation": "“Where” renvoie à un lieu et introduit une information sur l'endroit où les grands-parents vivent."
+      },
+      {
+        "text": "Choose the correct passive sentence.",
+        "options": [
+          "The letters were sent yesterday.",
+          "The letters sent were yesterday.",
+          "The letters was send yesterday."
+        ],
+        "correct": 0,
+        "explanation": "“Letters” est pluriel : on utilise “were”. Le participe passé de “send” est “sent”."
+      }
+    ]
+  },
+  {
+    id: "comprendre-medias-opinion",
+    grade: "3e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Médias et esprit critique · A2 vers B1",
+    icon: "Read",
+    title: "Comprendre les médias et exprimer son opinion",
+    heading: "Lire entre les lignes,<br><span>argumenter en anglais.</span>",
+    description: "Identifier l'idée principale, distinguer faits et opinions et justifier un point de vue avec des connecteurs.",
+    objectives: "Repérer le sujet, la source et l'intention d'un document, distinguer fait et opinion, inférer le sens d'un mot et organiser une réponse argumentée.",
+    body: "<p><b>3e · Anglais · A2 vers B1</b> — Lire un article, une affiche ou un message ne consiste pas à traduire chaque mot. Il faut comprendre l'essentiel, repérer le point de vue et vérifier les indices.</p><h2>1. Repérer le contexte</h2><p>Avant de lire en détail, observe le titre, la date, l'auteur, la source, les images et le type de document. Demande-toi : <span lang=\"en-GB\">Who? What? Where? When? Why?</span></p><h2>2. Trouver l'idée principale</h2><p>Lis le titre et la première phrase, puis cherche les mots répétés et les connecteurs. Résume le document en une phrase simple, sans recopier tout le texte.</p><div class=\"lesson-reading\"><p lang=\"en-GB\"><b>School garden project</b><br>Students at Green Hill School have created a garden. They grow vegetables and share them with the local community. The project also helps pupils learn about biodiversity.</p></div><p>Idée principale possible : des élèves créent un jardin scolaire qui sert à apprendre et à partager des légumes.</p><h2>3. Distinguer fait et opinion</h2><p>Un <b>fait</b> peut être vérifié à partir d'éléments. Une <b>opinion</b> exprime un jugement ou une préférence. Des indices comme <span lang=\"en-GB\">I think, in my opinion, wonderful, boring</span> signalent souvent un point de vue.</p><div class=\"lesson-formula\" lang=\"en-GB\">Fact: The club meets every Friday.<br>Opinion: The club is fantastic.</div><h2>4. Comprendre un mot inconnu</h2><p>Ne bloque pas sur chaque mot. Observe les mots voisins, la catégorie grammaticale, les exemples et le thème. Formule une hypothèse, puis vérifie si elle fonctionne dans la phrase.</p><h2>5. Donner son avis et le justifier</h2><p>Une réponse convaincante suit une structure simple : opinion, raison, exemple, conclusion. Utilise <span lang=\"en-GB\">because</span> pour expliquer, <span lang=\"en-GB\">for example</span> pour illustrer, <span lang=\"en-GB\">however</span> pour nuancer et <span lang=\"en-GB\">therefore</span> pour conclure.</p><div class=\"lesson-formula\" lang=\"en-GB\">I believe school gardens are useful because students learn about nature. For example, they can grow vegetables together.</div><p><b>Activité :</b> choisis un sujet familier (school uniforms, social media ou sport). Écris ton opinion, deux raisons et un exemple. À l'oral, écoute un avis différent et reformule-le avant de répondre.</p><details class=\"lesson-sources\"><summary>Références</summary><p>Activités originales de compréhension de l'écrit, de médiation et d'expression en lien avec les compétences du CECRL au cycle 4.</p><p><a href=\"https://eduscol.education.gouv.fr/6910/reperes-annuels-de-progression-et-attendus-de-fin-d-annee-du-cp-la-troisieme\" target=\"_blank\" rel=\"noopener\">Repères annuels et attendus de fin de 3e · Éduscol</a></p></details>",
+    questions:     [
+      {
+        "text": "Before reading an article, which information helps you identify its context?",
+        "options": [
+          "Only the longest word",
+          "The title, date and source",
+          "The number of paragraphs only"
+        ],
+        "correct": 1,
+        "explanation": "Le titre, la date et la source donnent des indices sur le sujet, l'époque et l'origine du document avant même la lecture détaillée."
+      },
+      {
+        "text": "Which sentence is an opinion?",
+        "options": [
+          "The club meets on Fridays.",
+          "The school has 500 pupils.",
+          "I think the project is brilliant."
+        ],
+        "correct": 2,
+        "explanation": "“I think” annonce un jugement personnel. Les deux autres phrases présentent des informations qui peuvent être vérifiées."
+      },
+      {
+        "text": "What is the main idea of the school garden text?",
+        "options": [
+          "Students create a garden to learn and share food.",
+          "The school closes every Friday.",
+          "Students stop studying science."
+        ],
+        "correct": 0,
+        "explanation": "Le texte relie le jardin à la culture de légumes, au partage avec la communauté et à l'apprentissage de la biodiversité."
+      },
+      {
+        "text": "Choose the best connector: “I like the idea … it helps students learn.”",
+        "options": [
+          "because",
+          "however",
+          "although of"
+        ],
+        "correct": 0,
+        "explanation": "“Because” introduit la raison qui justifie l'opinion : l'idée plaît parce qu'elle aide les élèves à apprendre."
+      },
+      {
+        "text": "What should you do when you meet an unknown word?",
+        "options": [
+          "Stop reading immediately",
+          "Use the context and nearby words",
+          "Guess without checking"
+        ],
+        "correct": 1,
+        "explanation": "Le contexte, le thème et les mots voisins permettent de formuler une hypothèse sur le sens, puis de vérifier qu'elle convient."
+      },
+      {
+        "text": "Which structure makes an opinion easier to understand?",
+        "options": [
+          "Opinion + reason + example",
+          "A list of unrelated words",
+          "Only a conclusion"
+        ],
+        "correct": 0,
+        "explanation": "Une opinion est plus claire lorsqu'elle est justifiée et illustrée : donne ton avis, explique pourquoi, puis ajoute un exemple concret."
+      }
+    ]
+  },
+  {
+    id: "ecrire-parler-interagir",
+    grade: "3e",
+    subject: "anglais",
+    subjectName: "Anglais",
+    domain: "Communication · A2 et vers B1",
+    icon: "Talk",
+    title: "Écrire, parler et interagir : réussir une communication",
+    heading: "Communiquer avec confiance,<br><span>à l'écrit comme à l'oral.</span>",
+    description: "Préparer un message, raconter une expérience, dialoguer et reformuler une information pour quelqu'un.",
+    objectives: "Organiser un texte court, adapter le registre au destinataire, relancer un échange, exprimer accord ou désaccord et reformuler l'essentiel d'un document.",
+    body: "<p><b>3e · Anglais · A2, avec des défis vers B1</b> — Savoir communiquer, ce n'est pas seulement connaître des règles. Il faut choisir les informations utiles, les organiser et réagir à son interlocuteur.</p><h2>1. Organiser un texte</h2><p>Pour un courriel ou un court article, pense au destinataire et à l'objectif. Organise ton message en trois étapes : introduction, développement, conclusion. Utilise des paragraphes et des connecteurs.</p><div class=\"lesson-formula\" lang=\"en-GB\">Hi Alex,<br>Thanks for your message. Last weekend…<br>What about you?<br>See you soon,<br>Sam</div><h2>2. Adapter le registre</h2><p>Un message à un ami peut commencer par <span lang=\"en-GB\">Hi</span> et finir par <span lang=\"en-GB\">See you</span>. Un message plus formel peut commencer par <span lang=\"en-GB\">Dear…</span> et finir par <span lang=\"en-GB\">Kind regards</span>. Évite les abréviations familières dans un courrier officiel.</p><h2>3. Préparer une prise de parole</h2><p>Avant de parler, note quelques mots-clés plutôt qu'un texte entier à lire. Annonce ton sujet, développe deux ou trois idées, donne un exemple et termine clairement. Entraîne-toi à parler assez lentement et à articuler.</p><h2>4. Faire vivre un dialogue</h2><p>Pour interagir, pose des questions ouvertes et montre que tu écoutes. Tu peux demander une précision, exprimer ton accord ou nuancer.</p><div class=\"lesson-formula\" lang=\"en-GB\">Could you explain what you mean?<br>I see your point, but…<br>What do you think about…?<br>That's a good idea because…</div><h2>5. Reformuler : la médiation</h2><p>La médiation consiste à transmettre l'essentiel d'une information à quelqu'un qui en a besoin. Il ne s'agit pas de traduire mot à mot : sélectionne les idées importantes et explique-les avec des mots simples.</p><p>Exemple : après avoir lu une affiche sur un club, tu peux dire à un camarade quand il se réunit, où il se trouve et comment s'inscrire.</p><h2>6. Se relire et s'auto-corriger</h2><p>Vérifie le sujet et le verbe, les temps, les articles, les pluriels, les majuscules et la ponctuation. Relis aussi le sens : chaque phrase doit aider ton destinataire à comprendre.</p><aside class=\"lesson-callout\">Stratégie : si un mot te manque, reformule. Utilise une expression plus simple, un exemple ou une description. Communiquer efficacement vaut mieux que rester bloqué.</aside><p><b>Défi oral :</b> présente une activité que tu recommandes en une minute, puis réponds à deux questions. <b>Défi écrit :</b> écris un courriel de 80 à 100 mots à un correspondant pour raconter une expérience et lui poser deux questions.</p><details class=\"lesson-sources\"><summary>Références</summary><p>Fiche d'entraînement aux cinq activités langagières et à la médiation, en cohérence avec le CECRL et les attendus de fin de cycle 4.</p><p><a href=\"https://eduscol.education.gouv.fr/4758/ressources-d-accompagnement-pour-les-langues-vivantes-etrangeres-et-regionales-au-college\" target=\"_blank\" rel=\"noopener\">Ressources langues vivantes · Éduscol</a></p></details>",
+    questions:     [
+      {
+        "text": "What is the best way to organise a short email?",
+        "options": [
+          "Introduction, main message, conclusion",
+          "One very long sentence",
+          "A list without explanations"
+        ],
+        "correct": 0,
+        "explanation": "Une structure en trois étapes aide le destinataire : saluer et présenter le sujet, développer le message, puis conclure."
+      },
+      {
+        "text": "Which ending is more suitable for a formal email?",
+        "options": [
+          "See ya!",
+          "Kind regards,",
+          "Yo!"
+        ],
+        "correct": 1,
+        "explanation": "“Kind regards” est une formule de politesse adaptée à un message formel ou semi-formel. “See ya” et “Yo” sont familiers."
+      },
+      {
+        "text": "You do not understand a point. What can you say?",
+        "options": [
+          "Could you explain what you mean?",
+          "I don't listen.",
+          "Never mind, go away."
+        ],
+        "correct": 0,
+        "explanation": "Cette question demande poliment une explication et permet de poursuivre l'échange sans faire semblant d'avoir compris."
+      },
+      {
+        "text": "What is mediation?",
+        "options": [
+          "Translating every word literally",
+          "Sharing the key information in a clear way",
+          "Repeating the text without understanding"
+        ],
+        "correct": 1,
+        "explanation": "La médiation consiste à sélectionner et reformuler les informations utiles pour un destinataire, sans forcément traduire mot à mot."
+      },
+      {
+        "text": "Which plan is best for a one-minute presentation?",
+        "options": [
+          "Topic, two ideas, an example, conclusion",
+          "Read a full page as fast as possible",
+          "Give unrelated details"
+        ],
+        "correct": 0,
+        "explanation": "Un plan court aide à parler de façon structurée : annonce le thème, développe quelques idées, illustre et conclus."
+      },
+      {
+        "text": "What should you do if you forget a word while speaking?",
+        "options": [
+          "Stop and give up",
+          "Use a simpler word or describe it",
+          "Switch to an unrelated topic"
+        ],
+        "correct": 1,
+        "explanation": "La reformulation est une stratégie de communication : explique le mot autrement, donne un exemple ou décris l'objet."
+      }
+    ]
+  }
+  );
 })();
 window.COLLEGE_COURSES.push(...[{"id":"calcul-litteral-equations","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Nombres et calculs","icon":"x²","title":"Calcul littéral et équations : développer, factoriser, résoudre","heading":"Calcul littéral et équations : développer, factoriser, résoudre","description":"Développer, factoriser, utiliser les identités remarquables et résoudre une équation.","objectives":"Développer, factoriser, utiliser les identités remarquables et résoudre une équation.","body":"<h2>Réduire et développer</h2><p>On regroupe les termes de même nature : 3x+5x-2=8x-2. Par distributivité, 3(x+4)=3x+12. Avec deux parenthèses : (x+2)(x+5)=x²+7x+10.</p><h2>Factoriser</h2><p>Transformer une somme en produit en repérant un facteur commun : 5x+15=5(x+3).</p><h2>Identités remarquables</h2><div class=\"lesson-formula\">(a+b)²=a²+2ab+b²<br>(a-b)²=a²-2ab+b²<br>(a-b)(a+b)=a²-b²</div><h2>Équations</h2><p>Effectuer la même opération sur les deux membres : 3x+5=17, donc 3x=12 puis x=4. Vérifier en remplaçant x dans l’égalité initiale.</p><aside class=\"lesson-callout\">Développer transforme un produit en somme ; factoriser fait l’inverse. Pour résoudre, on isole l’inconnue sans rompre l’égalité.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Réduis 4x+3x-2","options":["7x-2","7x-2x","12x-2"],"correct":0,"explanation":"4x et 3x sont de même nature : leur somme est 7x. Le terme constant reste séparé."},{"text":"Développe 5(x-3)","options":["5x-3","5x-15","5x+15"],"correct":1,"explanation":"On distribue 5 : 5×x + 5×(-3) = 5x-15."},{"text":"Factorise 6x+18","options":["6(x+3)","6(x+18)","3(6x+18)"],"correct":0,"explanation":"Le facteur commun est 6 : 6x+18=6(x+3)."},{"text":"Développe (x+4)²","options":["x²+16","x²+8x+16","x²+4x+16"],"correct":1,"explanation":"Avec (a+b)²=a²+2ab+b², on obtient x²+8x+16."},{"text":"Résous 2x+7=19","options":["x=13","x=6","x=12"],"correct":1,"explanation":"On soustrait 7 puis on divise par 2 : 2x=12, donc x=6."},{"text":"Factorise x²-25","options":["(x-5)²","(x-5)(x+5)","(x-25)(x+1)"],"correct":1,"explanation":"Identité a²-b²=(a-b)(a+b), avec a=x et b=5."}]},{"id":"fonctions-lineaires-affines","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Organisation et gestion de données","icon":"f(x)","title":"Fonctions linéaires et affines : lire et calculer","heading":"Fonctions linéaires et affines : lire et calculer","description":"Reconnaître les fonctions linéaires et affines, calculer images et antécédents et lire un graphique.","objectives":"Reconnaître les fonctions linéaires et affines, calculer images et antécédents et lire un graphique.","body":"<h2>Image et antécédent</h2><p>Une fonction f associe à x un unique nombre f(x). Si f(x)=3x+2, alors f(4)=14 : 14 est l’image de 4. Chercher un antécédent de 11 revient à résoudre 3x+2=11, donc x=3.</p><h2>Fonction linéaire</h2><p>f(x)=ax modélise une situation de proportionnalité. Sa représentation est une droite passant par l’origine ; a est le coefficient directeur.</p><h2>Fonction affine</h2><p>f(x)=ax+b. Sa représentation est une droite et b est l’ordonnée à l’origine. Si b est non nul, la situation n’est pas proportionnelle.</p><h2>Lire un graphique</h2><p>Pour lire une image, on part de l’abscisse x jusqu’à la droite puis on lit l’ordonnée. Pour un antécédent, on part de l’ordonnée.</p><aside class=\"lesson-callout\">Si f(2)=7, 7 est l’image de 2 et 2 est un antécédent de 7.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Si f(x)=2x+3, image de 4 ?","options":["11","14","9"],"correct":0,"explanation":"On remplace x par 4 : f(4)=2×4+3=8+3=11."},{"text":"Si f(x)=5x, image de -2 ?","options":["10","-10","3"],"correct":1,"explanation":"On remplace x par -2 : f(-2)=5×(-2)=-10."},{"text":"Pour f(x)=3x+1, antécédent de 10 ?","options":["3","9","27"],"correct":0,"explanation":"On résout 3x+1=10 : on soustrait 1 puis on divise par 3, donc x=3."},{"text":"Quelle expression est linéaire ?","options":["f(x)=4x","f(x)=4x+2","f(x)=x²"],"correct":0,"explanation":"Une fonction linéaire est de la forme f(x)=ax."},{"text":"La droite d’une fonction linéaire passe toujours…","options":["Par (0 ; 0)","Par (1 ; 0)","Par (0 ; 1)"],"correct":0,"explanation":"f(0)=a×0=0 : l’origine appartient à la droite."},{"text":"Dans f(x)=-2x+5, ordonnée à l’origine ?","options":["-2","5","3"],"correct":1,"explanation":"Dans ax+b, b est l’ordonnée à l’origine : ici 5."}]},{"id":"statistiques-probabilites","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Organisation et gestion de données","icon":"%","title":"Statistiques et probabilités : analyser des données","heading":"Statistiques et probabilités : analyser des données","description":"Calculer moyenne, médiane et étendue, puis déterminer des probabilités simples.","objectives":"Calculer moyenne, médiane et étendue, puis déterminer des probabilités simples.","body":"<h2>Effectif et fréquence</h2><p>L’effectif compte les valeurs. La fréquence est l’effectif d’une catégorie divisé par l’effectif total ; en pourcentage, on multiplie par 100.</p><h2>Moyenne</h2><p>On additionne les valeurs puis on divise par leur nombre. Avec des effectifs, on calcule une moyenne pondérée.</p><h2>Médiane et étendue</h2><p>On range la série. La médiane partage les valeurs en deux groupes de même effectif ; si l’effectif est pair, on moyenne les deux valeurs centrales. L’étendue vaut maximum moins minimum.</p><h2>Probabilités</h2><p>En équiprobabilité, P(A)=nombre d’issues favorables/nombre total d’issues. Une probabilité est comprise entre 0 et 1.</p><aside class=\"lesson-callout\">La moyenne utilise toutes les valeurs ; la médiane dépend de leur position.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Moyenne de 6, 8 et 10 ?","options":["8","24","9"],"correct":0,"explanation":"On additionne les trois valeurs puis on divise par 3 : 24/3=8."},{"text":"Médiane de 2, 4, 7, 9, 12 ?","options":["4","7","9"],"correct":1,"explanation":"Cinq valeurs sont rangées : la troisième, 7, est au centre."},{"text":"Étendue de 3, 5, 8, 11 ?","options":["8","11","14"],"correct":0,"explanation":"Étendue=maximum-minimum=11-3=8."},{"text":"Sur 25 élèves, 10 viennent à vélo. Fréquence ?","options":["10 %","25 %","40 %"],"correct":2,"explanation":"La fréquence est 10 divisé par 25, soit 0,4. En pourcentage, cela donne 40 %."},{"text":"Dé équilibré : probabilité d’obtenir 5 ?","options":["1/6","1/5","5/6"],"correct":0,"explanation":"Une issue favorable sur six issues équiprobables : 1/6."},{"text":"Dé équilibré : probabilité d’obtenir un nombre pair ?","options":["1/6","1/2","2/3"],"correct":1,"explanation":"Issues paires 2, 4 et 6 : 3/6=1/2."}]},{"id":"trigonometrie-triangle-rectangle","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Espace et géométrie","icon":"sin","title":"Trigonométrie : calculer un angle ou une longueur","heading":"Trigonométrie : calculer un angle ou une longueur","description":"Choisir sinus, cosinus ou tangente pour calculer une longueur ou un angle.","objectives":"Choisir sinus, cosinus ou tangente pour calculer une longueur ou un angle.","body":"<h2>Repérer les côtés</h2><p>L’hypoténuse est opposée à l’angle droit. Par rapport à l’angle aigu choisi, on distingue côté opposé et côté adjacent.</p><h2>Les trois relations</h2><div class=\"lesson-formula\">sin(angle)=opposé/hypoténuse<br>cos(angle)=adjacent/hypoténuse<br>tan(angle)=opposé/adjacent</div><h2>Calculer</h2><p>Si l’hypoténuse mesure 10 cm et l’angle 30°, le côté opposé vaut 10×sin(30°)=5 cm. Si opposé=3 et hypoténuse=6, l’angle vaut sin⁻¹(0,5)=30°. Régler la calculatrice en degrés.</p><aside class=\"lesson-callout\">Opposé et adjacent dépendent de l’angle choisi. La trigonométrie s’utilise dans un triangle rectangle.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Quel côté est opposé à l’angle droit ?","options":["Le côté adjacent","L’hypoténuse","Le côté opposé à l’angle aigu"],"correct":1,"explanation":"L’hypoténuse est le côté opposé à l’angle droit."},{"text":"Quelle relation utilise opposé et hypoténuse ?","options":["sinus","cosinus","tangente"],"correct":0,"explanation":"sin(angle)=côté opposé/hypoténuse."},{"text":"sin(30°)=0,5 et hypoténuse=8 cm. Côté opposé ?","options":["16 cm","4 cm","8,5 cm"],"correct":1,"explanation":"Opposé=hypoténuse×sinus=8×0,5=4 cm."},{"text":"Quelle relation utilise adjacent et hypoténuse ?","options":["tangente","sinus","cosinus"],"correct":2,"explanation":"cos(angle)=côté adjacent/hypoténuse."},{"text":"Opposé=3 et adjacent=4. Quel rapport ?","options":["tan(angle)=3/4","sin(angle)=3/4","cos(angle)=3/4"],"correct":0,"explanation":"La tangente est opposé/adjacent : 3/4."},{"text":"Pour sin(30°), quel mode choisir ?","options":["Radians","Degrés","Pourcentage"],"correct":1,"explanation":"L’angle est en degrés : régler la calculatrice en mode DEG."}]},{"id":"transformations-geometriques","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Espace et géométrie","icon":"↻","title":"Transformations géométriques : homothétie et rotations","heading":"Transformations géométriques : homothétie et rotations","description":"Reconnaître translations, rotations, symétries et homothéties et utiliser leurs propriétés.","objectives":"Reconnaître translations, rotations, symétries et homothéties et utiliser leurs propriétés.","body":"<h2>Translation et rotation</h2><p>Une translation déplace tous les points du même vecteur. Une rotation tourne autour d’un centre selon un angle et un sens donnés.</p><h2>Symétries</h2><p>La symétrie axiale est un reflet par rapport à une droite ; la symétrie centrale est un demi-tour autour d’un point. Elles conservent longueurs et angles.</p><h2>Homothétie</h2><p>De centre O et de rapport k, elle envoie M sur M' aligné avec O et M, avec OM'=|k|×OM. Si k est négatif, l’image est de l’autre côté du centre.</p><h2>Agrandir et réduire</h2><p>Si |k|&gt;1, c’est un agrandissement ; entre 0 et 1, une réduction. Les longueurs sont multipliées par |k| et les aires par k².</p><aside class=\"lesson-callout\">Une homothétie conserve les angles mais pas les longueurs. Translation, rotation et symétries conservent les longueurs.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Une translation déplace chaque point…","options":["Du même vecteur","Autour d’un centre","En changeant sa taille"],"correct":0,"explanation":"Tous les points subissent le même déplacement défini par le vecteur."},{"text":"Une rotation est définie par…","options":["Un axe et une distance","Un centre, un angle et un sens","Un rapport uniquement"],"correct":1,"explanation":"Une rotation tourne autour d’un centre avec un angle et un sens donnés."},{"text":"Quel reflet est défini par une droite ?","options":["Symétrie axiale","Symétrie centrale","Translation"],"correct":0,"explanation":"La symétrie axiale est le reflet par rapport à un axe."},{"text":"Une homothétie de rapport 3 est…","options":["Une réduction","Un agrandissement","Une rotation"],"correct":1,"explanation":"La valeur absolue du rapport est supérieure à 1 : les longueurs triplent."},{"text":"Une homothétie de rapport 2 multiplie l’aire par…","options":["2","4","8"],"correct":1,"explanation":"Les aires sont multipliées par k² : 2²=4."},{"text":"Rapport d’homothétie -0,5 : facteur des longueurs ?","options":["-0,5","0,5","-1"],"correct":1,"explanation":"Une longueur est multipliée par |k|=0,5 ; le signe indique le côté du centre."}]},{"id":"volumes-sections-solides","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Grandeurs et mesures, espace et géométrie","icon":"▱","title":"Volumes et sections : calculer dans l’espace","heading":"Volumes et sections : calculer dans l’espace","description":"Calculer les volumes de solides usuels, comprendre les sections et les effets d’un agrandissement.","objectives":"Calculer les volumes de solides usuels, comprendre les sections et les effets d’un agrandissement.","body":"<h2>Prisme et cylindre</h2><p>Volume d’un prisme droit : aire de base × hauteur. Pour un cylindre : V=πr²h.</p><h2>Pyramide et cône</h2><p>Volume d’une pyramide : (aire de base × hauteur)/3. Pour un cône : V=πr²h/3.</p><h2>Boule</h2><p>V=(4/3)πr³. Le rayon est la moitié du diamètre.</p><h2>Sections et agrandissement</h2><p>Une section est la figure obtenue lorsqu’un plan coupe un solide. Un plan parallèle aux bases d’un cylindre donne un disque de même rayon. Si les longueurs sont multipliées par k, les aires le sont par k² et les volumes par k³.</p><aside class=\"lesson-callout\">Garde les unités cohérentes : cm³ pour un volume calculé en centimètres, m³ en mètres.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Prisme : base 12 cm² et hauteur 5 cm. Volume ?","options":["17 cm³","60 cm³","30 cm³"],"correct":1,"explanation":"V=aire de base×hauteur=12×5=60 cm³."},{"text":"Cylindre : rayon 2 cm et hauteur 3 cm. Volume ?","options":["6π cm³","12π cm³","24π cm³"],"correct":1,"explanation":"On applique V=πr²h : π×2²×3=12π cm³."},{"text":"Formule du volume d’une pyramide ?","options":["Aire base×hauteur","(Aire base×hauteur)/3","Aire base+hauteur"],"correct":1,"explanation":"Le volume d’une pyramide est le tiers du prisme de même base et hauteur."},{"text":"Rayon d’une boule de diamètre 10 cm ?","options":["10 cm","20 cm","5 cm"],"correct":2,"explanation":"Le rayon vaut la moitié du diamètre : 10/2=5 cm."},{"text":"Longueurs multipliées par 3. Volumes multipliés par…","options":["3","9","27"],"correct":2,"explanation":"Les volumes sont multipliés par le cube du rapport : 3³=27."},{"text":"Section d’un cylindre parallèle aux bases ?","options":["Un disque","Un rectangle","Un triangle"],"correct":0,"explanation":"La section est un disque de même rayon que les bases."}]},{"id":"algorithmique-python","grade":"3e","subject":"mathematiques","subjectName":"Mathématiques","domain":"Algorithmique et programmation","icon":"{ }","title":"Algorithmique et programmation : construire un programme","heading":"Algorithmique et programmation : construire un programme","description":"Lire un algorithme, utiliser variables, conditions et boucles et suivre un programme simple en Python.","objectives":"Lire un algorithme, utiliser variables, conditions et boucles et suivre un programme simple en Python.","body":"<h2>Algorithme et variables</h2><p>Un algorithme est une suite finie d’instructions. Une variable stocke une valeur : en Python, x=4 affecte 4 à x ; x=x+1 augmente sa valeur de 1.</p><h2>Conditions</h2><p>if x&gt;0: exécute un bloc si x est positif ; else: décrit le cas contraire. L’indentation délimite les blocs.</p><h2>Boucles</h2><p>for répète un nombre déterminé de fois. while répète tant qu’une condition est vraie ; il faut prévoir qu’elle puisse devenir fausse.</p><h2>Suivre un programme</h2><p>On exécute les instructions dans l’ordre et on note les valeurs successives des variables dans un tableau de suivi. range(4) produit 0, 1, 2 et 3.</p><aside class=\"lesson-callout\">En Python, la borne finale de range n’est pas incluse.</aside><details class=\"lesson-sources\"><summary>Références du programme</summary><p>Programme de mathématiques du cycle 4, applicable en 3e en 2026-2027.</p><p><a href=\"https://www.education.gouv.fr/bo/2020/Special1/MENE2003091A.htm\" target=\"_blank\" rel=\"noopener\">Programme officiel</a> · <a href=\"https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4\" target=\"_blank\" rel=\"noopener\">Ressources Éduscol</a></p></details>","questions":[{"text":"Que fait x = 7 ?","options":["Compare x à 7","Affecte 7 à x","Ajoute 7 à x"],"correct":1,"explanation":"Le signe = réalise une affectation : x reçoit la valeur 7."},{"text":"x vaut 4. Après x=x+3, que vaut x ?","options":["4","7","12"],"correct":1,"explanation":"On ajoute 3 à l’ancienne valeur 4 : la nouvelle valeur est 7."},{"text":"Que signifie if x > 0 ?","options":["Répéter tant que x est positif","Exécuter si x est positif","Affecter 0 à x"],"correct":1,"explanation":"if introduit une condition : le bloc s’exécute si x>0."},{"text":"Combien de valeurs produit range(5) ?","options":["4","5","6"],"correct":1,"explanation":"range(5) produit 0,1,2,3,4, soit cinq valeurs."},{"text":"Quelle boucle répète tant qu’une condition est vraie ?","options":["if","while","return"],"correct":1,"explanation":"while exécute son bloc tant que la condition reste vraie."},{"text":"s=0 puis trois fois s=s+2. Valeur finale ?","options":["3","5","6"],"correct":2,"explanation":"On ajoute 2 trois fois : 0→2→4→6."}]}]);
 

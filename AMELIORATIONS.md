@@ -142,3 +142,12 @@
 3. Introduire une activité de réécriture en français pour compléter les choix multiples, avec une correction argumentée.
 4. Conserver l’enrichissement par petites fiches complètes et les identifiants stables. Ne pas présenter le catalogue actuel comme couvrant tous les programmes.
 5. Garder la direction visuelle actuelle et la compatibilité des liens et des clés de progression.
+
+
+## 15 novembre 2026 — Renforcement de l'anglais en 3e
+
+- Six fiches ajoutées : récit au passé (past simple / past continuous), expériences (present perfect / past simple), futur et conditionnels avec modaux, voix passive et relatives avec discours indirect, compréhension des médias et argumentation, communication écrite/orale et médiation.
+- Chaque fiche contient un cours structuré, des exemples en anglais balisés `lang="en-GB"`, six exercices corrigés avec explications, ainsi qu'une activité de production ou d'interaction pour dépasser le seul QCM.
+- Les contenus ciblent A2 avec des prolongements vers B1. En 2026-2027, le programme de langues vivantes du cycle 4 publié en 2020 reste applicable en 3e : LVA vise au moins A2 dans les cinq activités langagières, avec des occasions d'atteindre B1 dans plusieurs ; LVB vise A2 dans au moins deux activités. Le nouveau programme de 2025 n'entrera en vigueur en 3e qu'à la rentrée 2028-2029. Références consultées le 15 novembre 2026 : Éduscol, https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4 ; https://eduscol.education.gouv.fr/4758/ressources-d-accompagnement-pour-les-langues-vivantes-etrangeres-et-regionales-au-college ; arrêté du 5 mai 2025, https://www.legifrance.gouv.fr/eli/arrete/2025/5/5/MENE2504621A/jo/texte.
+- Les six identifiants sont nouveaux et stables. Les cours d'anglais de 6e et toutes les autres progressions restent inchangés. Aucun filtre, écran, dépendance ou stockage supplémentaire.
+- Catalogue et six pages pré-rendues de `dist/` actualisés. Vérifications à exécuter par la CI : `npm run build`, `npm run check`, `npm test`. Les activités orales et écrites proposées dans les leçons complètent les exercices à choix multiples ; elles ne prétendent pas remplacer l'entraînement régulier aux cinq activités langagières.
