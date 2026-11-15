@@ -362,3 +362,6 @@ test("les identifiants des cours restent uniques", () => {
   const ids = h.window.COLLEGE_COURSES.map((c) => c.id);
   assert.equal(new Set(ids).size, ids.length);
 });
+
+
+test("les cours de mathématiques de 3e couvrent les domaines essentiels",()=>{const h=harness({},"#accueil/3e/mathematiques");const ms=h.window.COLLEGE_COURSES.filter(c=>c.grade==="3e"&&c.subject==="mathematiques");for(const id of ["thales-agrandissement","calcul-litteral-equations","fonctions-lineaires-affines","statistiques-probabilites","trigonometrie-triangle-rectangle","transformations-geometriques","volumes-sections-solides","algorithmique-python"]){const c=ms.find(x=>x.id===id);assert.ok(c,"cours manquant : "+id);if(id!=="thales-agrandissement")assert.equal(c.questions.length,6);for(const q of c.questions){assert.ok(q.options[q.correct]);assert.ok(q.explanation.length>30);}}assert.equal(new Set(ms.map(c=>c.id)).size,ms.length);});
