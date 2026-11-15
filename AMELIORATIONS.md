@@ -1,3 +1,12 @@
+## 15 novembre 2026 — Complément de sciences de 3e
+
+- Conservation du cours existant sur l'immunité et la vaccination.
+- Ajout de 8 fiches couvrant les trois disciplines : trois en physique-chimie (transformations, mouvements et forces, électricité/énergie/signaux), trois en SVT (tectonique, génétique/évolution, système nerveux/effort) et deux en technologie (analyse des systèmes, énergie/matériaux/programmation).
+- Chaque fiche comprend une leçon structurée et six exercices corrigés avec explications : 48 exercices supplémentaires.
+- Référentiels 2026-2027 : physique-chimie et SVT selon le programme du cycle 4 publié en 2020 ; technologie selon le programme du cycle 4 publié au BO du 29 février 2024, applicable en 3e à la rentrée 2026.
+- Catalogue, pages HTML pré-rendues, tests et synchronisation source/dist actualisés. Aucun nouveau filtre ni écran.
+- Ces synthèses ne remplacent pas les expériences, observations, mesures, démarches d'investigation, réalisations et projets conduits en classe.
+
 ## 15 novembre 2026 — Complément de mathématiques de 3e
 
 - Conservation du cours existant sur Thalès et ajout de sept fiches : calcul littéral et équations ; fonctions linéaires et affines ; statistiques et probabilités ; trigonométrie ; transformations géométriques ; volumes et sections ; algorithmique et programmation.
